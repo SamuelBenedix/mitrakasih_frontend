@@ -3,8 +3,9 @@
 import Container from "@/components/atoms/container";
 import Image from "next/image";
 import { app } from "@/config/app";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
+import Navigation from "@/components/molecules/navigation";
 
 export default function Header() {
   const [show, setShow] = useState<boolean>(false);
@@ -12,7 +13,7 @@ export default function Header() {
 
   useEffect(() => {
     const controlNavbar = () => {
-      if (window.scrollY > lastScrollY || window.scrollY === 0) {
+      if (window.scrollY > lastScrollY || window.scrollY < 200) {
         setShow(false);
       } else {
         setShow(true);
@@ -30,8 +31,8 @@ export default function Header() {
     <header>
       <div
         className={cn(
-          "flex flex-row justify-between items-end px-10 fixed top-0 inset-x-0 z-10 transition-all duration-700",
-          show ? "h-[8rem] bg-white" : "h-0",
+          "flex flex-row justify-between items-end px-10 fixed top-0 inset-x-0 z-20 transition-all duration-700",
+          show ? "h-[8rem] bg-white shadow" : "h-0",
         )}
       >
         <div>
@@ -42,8 +43,10 @@ export default function Header() {
             height={100}
           />
         </div>
-        <div className="mb-4">
-          <p className="text-3xl text-primary-800">#ExperienceJIS</p>
+        <div className="mb-4 flex">
+          {app.navigations.map((navigation) => (
+            <Navigation key={navigation.label} link={navigation} />
+          ))}
         </div>
       </div>
     </header>

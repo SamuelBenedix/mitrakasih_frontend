@@ -1,0 +1,32 @@
+.slide-container {
+    transition: all .7s ease-in-out;
+    transform: translateY(6rem);
+}
+
+.slick-current .slide-container {
+    transform: translateY(0rem);
+}
+
+.slide-shadow {
+    transition: all .7s ease-in-out;
+    opacity: 0;
+}
+
+.slick-current .slide-shadow {
+    opacity: 1;
+}
+
+.slide-description {
+    transition: all 1s ease-in-out;
+    opacity: 0;
+    transform: translateY(4rem);
+}
+
+.slick-current .slide-description {
+    transform: translateY(0rem);
+    opacity: 1;
+}
+
+.slick-slide {
+    width: 86rem;
+}

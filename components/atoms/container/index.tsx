@@ -7,5 +7,5 @@ interface Props {
 export default function Container(props: Props) {
   const { children } = props;
 
-  return <div className="max-w-[1220px] mx-auto">{children}</div>;
+  return <div className="max-w-[1620px] mx-auto">{children}</div>;
 }

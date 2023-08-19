@@ -1,4 +1,6 @@
 import "@/styles/globals.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import type { Metadata } from "next";
 import React from "react";
 import { app } from "@/config/app";
@@ -22,7 +24,7 @@ export default function RootLayout(props: Props) {
     <html lang={app.lang}>
       <body>
         <Providers>
-          <div className="flex flex-col min-h-screen overflow-x-hidden">
+          <div className="antialiased flex flex-col min-h-screen overflow-x-hidden">
             <Header />
             <main className="grow">{children}</main>
             <Footer />

@@ -24,4 +24,61 @@ export const app = {
     youtube: "",
     linkedIn: "",
   },
+
+  navigations: [
+    {
+      label: "About",
+      links: [
+        {
+          label: "Campuses",
+          href: "#",
+        },
+        {
+          label: "Mission and Vision",
+          href: "#",
+        },
+        {
+          label: "School Leadership",
+          href: "#",
+        },
+      ],
+    },
+
+    {
+      label: "Admission",
+      links: [
+        {
+          label: "Admission Guidelines",
+          href: "#",
+        },
+      ],
+    },
+
+    {
+      label: "Academics",
+      links: [
+        {
+          label: "Early Years",
+          href: "#",
+        },
+        {
+          label: "Elementary Schools",
+          href: "#",
+        },
+        {
+          label: "Middle School",
+          href: "#",
+        },
+        {
+          label: "High School",
+          href: "#",
+        },
+      ],
+    },
+
+    {
+      label: "Activities",
+      href: "#",
+    },
+  ],
 };
