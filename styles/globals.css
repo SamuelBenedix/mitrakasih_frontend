@@ -5,3 +5,13 @@
 body {
     @apply text-gray-700
 }
+
+/*Slick slider*/
+.tab-panel-slider {
+    /*@apply ml-20*/
+}
+
+.tab-panel-slider .slick-track {
+    @apply m-0
+}
+

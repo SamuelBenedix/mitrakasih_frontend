@@ -4,8 +4,10 @@ import Container from "@/components/atoms/container";
 import Image from "next/image";
 import { app } from "@/config/app";
 import React, { useEffect, useState } from "react";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/utils/utils";
 import Navigation from "@/components/molecules/navigation";
+import Link from "next/link";
+import { paths } from "@/config/paths";
 
 export default function Header() {
   const [show, setShow] = useState<boolean>(false);
@@ -36,12 +38,14 @@ export default function Header() {
         )}
       >
         <div>
-          <Image
-            src={app.images.logo}
-            alt={app.title}
-            width={100}
-            height={100}
-          />
+          <Link href={paths.home}>
+            <Image
+              src={app.images.logo}
+              alt={app.title}
+              width={100}
+              height={100}
+            />
+          </Link>
         </div>
         <div className="mb-4 flex">
           {app.navigations.map((navigation) => (

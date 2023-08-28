@@ -7,7 +7,7 @@ export const content = {
           title: "Visit JIS",
           image: "https://source.unsplash.com/random/2000x2000",
           description:
-            "The best way to learn about our school is to experience it for yourself! Schedule a tour with our Admissions Office today.",
+            "The best way to learn home-about our school is to experience it for yourself! Schedule a tour with our Admissions Office today.",
           linkLabel: "Schedule a Tour Today",
           linkHref: "#",
         },
@@ -15,7 +15,7 @@ export const content = {
           title: "Visit JIS",
           image: "https://source.unsplash.com/random/2000x2000",
           description:
-            "The best way to learn about our school is to experience it for yourself! Schedule a tour with our Admissions Office today.",
+            "The best way to learn home-about our school is to experience it for yourself! Schedule a tour with our Admissions Office today.",
           linkLabel: "Schedule a Tour Today",
           linkHref: "#",
         },
@@ -23,7 +23,7 @@ export const content = {
           title: "Visit JIS",
           image: "https://source.unsplash.com/random/2000x2000",
           description:
-            "The best way to learn about our school is to experience it for yourself! Schedule a tour with our Admissions Office today.",
+            "The best way to learn home-about our school is to experience it for yourself! Schedule a tour with our Admissions Office today.",
           linkLabel: "Schedule a Tour Today",
           linkHref: "#",
         },
@@ -36,7 +36,7 @@ export const content = {
           title: "Visit JIS",
           image: "https://source.unsplash.com/random/2000x2000",
           description:
-            "The best way to learn about our school is to experience it for yourself! Schedule a tour with our Admissions Office today.",
+            "The best way to learn home-about our school is to experience it for yourself! Schedule a tour with our Admissions Office today.",
           linkLabel: "Schedule a Tour Today",
           linkHref: "#",
         },
@@ -44,7 +44,7 @@ export const content = {
           title: "Visit JIS",
           image: "https://source.unsplash.com/random/2000x2000",
           description:
-            "The best way to learn about our school is to experience it for yourself! Schedule a tour with our Admissions Office today.",
+            "The best way to learn home-about our school is to experience it for yourself! Schedule a tour with our Admissions Office today.",
           linkLabel: "Schedule a Tour Today",
           linkHref: "#",
         },
@@ -52,7 +52,7 @@ export const content = {
           title: "Visit JIS",
           image: "https://source.unsplash.com/random/2000x2000",
           description:
-            "The best way to learn about our school is to experience it for yourself! Schedule a tour with our Admissions Office today.",
+            "The best way to learn home-about our school is to experience it for yourself! Schedule a tour with our Admissions Office today.",
           linkLabel: "Schedule a Tour Today",
           linkHref: "#",
         },
@@ -60,7 +60,7 @@ export const content = {
           title: "Visit JIS",
           image: "https://source.unsplash.com/random/2000x2000",
           description:
-            "The best way to learn about our school is to experience it for yourself! Schedule a tour with our Admissions Office today.",
+            "The best way to learn home-about our school is to experience it for yourself! Schedule a tour with our Admissions Office today.",
           linkLabel: "Schedule a Tour Today",
           linkHref: "#",
         },
@@ -73,7 +73,7 @@ export const content = {
           title: "Visit JIS",
           image: "https://source.unsplash.com/random/2000x2000",
           description:
-            "The best way to learn about our school is to experience it for yourself! Schedule a tour with our Admissions Office today.",
+            "The best way to learn home-about our school is to experience it for yourself! Schedule a tour with our Admissions Office today.",
           linkLabel: "Schedule a Tour Today",
           linkHref: "#",
         },
@@ -81,7 +81,7 @@ export const content = {
           title: "Visit JIS",
           image: "https://source.unsplash.com/random/2000x2000",
           description:
-            "The best way to learn about our school is to experience it for yourself! Schedule a tour with our Admissions Office today.",
+            "The best way to learn home-about our school is to experience it for yourself! Schedule a tour with our Admissions Office today.",
           linkLabel: "Schedule a Tour Today",
           linkHref: "#",
         },
@@ -89,7 +89,7 @@ export const content = {
           title: "Visit JIS",
           image: "https://source.unsplash.com/random/2000x2000",
           description:
-            "The best way to learn about our school is to experience it for yourself! Schedule a tour with our Admissions Office today.",
+            "The best way to learn home-about our school is to experience it for yourself! Schedule a tour with our Admissions Office today.",
           linkLabel: "Schedule a Tour Today",
           linkHref: "#",
         },
@@ -97,7 +97,7 @@ export const content = {
           title: "Visit JIS",
           image: "https://source.unsplash.com/random/2000x2000",
           description:
-            "The best way to learn about our school is to experience it for yourself! Schedule a tour with our Admissions Office today.",
+            "The best way to learn home-about our school is to experience it for yourself! Schedule a tour with our Admissions Office today.",
           linkLabel: "Schedule a Tour Today",
           linkHref: "#",
         },
@@ -105,7 +105,7 @@ export const content = {
           title: "Visit JIS",
           image: "https://source.unsplash.com/random/2000x2000",
           description:
-            "The best way to learn about our school is to experience it for yourself! Schedule a tour with our Admissions Office today.",
+            "The best way to learn home-about our school is to experience it for yourself! Schedule a tour with our Admissions Office today.",
           linkLabel: "Schedule a Tour Today",
           linkHref: "#",
         },
@@ -113,7 +113,7 @@ export const content = {
           title: "Visit JIS",
           image: "https://source.unsplash.com/random/2000x2000",
           description:
-            "The best way to learn about our school is to experience it for yourself! Schedule a tour with our Admissions Office today.",
+            "The best way to learn home-about our school is to experience it for yourself! Schedule a tour with our Admissions Office today.",
           linkLabel: "Schedule a Tour Today",
           linkHref: "#",
         },
@@ -121,7 +121,7 @@ export const content = {
           title: "Visit JIS",
           image: "https://source.unsplash.com/random/2000x2000",
           description:
-            "The best way to learn about our school is to experience it for yourself! Schedule a tour with our Admissions Office today.",
+            "The best way to learn home-about our school is to experience it for yourself! Schedule a tour with our Admissions Office today.",
           linkLabel: "Schedule a Tour Today",
           linkHref: "#",
         },
@@ -134,7 +134,7 @@ export const content = {
           title: "Visit JIS",
           image: "https://source.unsplash.com/random/2000x2000",
           description:
-            "The best way to learn about our school is to experience it for yourself! Schedule a tour with our Admissions Office today.",
+            "The best way to learn home-about our school is to experience it for yourself! Schedule a tour with our Admissions Office today.",
           linkLabel: "Schedule a Tour Today",
           linkHref: "#",
         },
@@ -142,7 +142,7 @@ export const content = {
           title: "Visit JIS",
           image: "https://source.unsplash.com/random/2000x2000",
           description:
-            "The best way to learn about our school is to experience it for yourself! Schedule a tour with our Admissions Office today.",
+            "The best way to learn home-about our school is to experience it for yourself! Schedule a tour with our Admissions Office today.",
           linkLabel: "Schedule a Tour Today",
           linkHref: "#",
         },

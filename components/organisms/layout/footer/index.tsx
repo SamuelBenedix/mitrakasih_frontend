@@ -1,6 +1,6 @@
 import Container from "@/components/atoms/container";
 import styles from "./styles.module.css";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/utils/utils";
 import {
   IconPhone,
   IconMapPinFilled,
@@ -16,7 +16,7 @@ import { app } from "@/config/app";
 export default function Footer() {
   return (
     <footer className={cn(styles.footer, "mt-20 py-10 text-white")}>
-      <Container>
+      <Container size="md">
         <div className="space-y-8">
           <div className="max-w-md">
             <p className="text-2xl font-bold">

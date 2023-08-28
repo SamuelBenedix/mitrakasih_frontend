@@ -1,3 +1,5 @@
+import { paths } from "@/config/paths";
+
 export const app = {
   title: "Mitra Kasih",
 
@@ -28,57 +30,60 @@ export const app = {
   navigations: [
     {
       label: "About",
+      href: paths.about,
       links: [
         {
           label: "Campuses",
-          href: "#",
+          href: paths.about_campus,
         },
         {
           label: "Mission and Vision",
-          href: "#",
+          href: paths.about_mission_vision,
         },
         {
           label: "School Leadership",
-          href: "#",
+          href: paths.about_school_leadership,
         },
       ],
     },
 
     {
-      label: "Admission",
+      label: "Admissions",
+      href: paths.admission,
       links: [
         {
           label: "Admission Guidelines",
-          href: "#",
+          href: paths.admission_guidelines,
         },
       ],
     },
 
     {
       label: "Academics",
+      href: paths.academics,
       links: [
         {
           label: "Early Years",
-          href: "#",
+          href: paths.academics_early_years,
         },
         {
           label: "Elementary Schools",
-          href: "#",
+          href: paths.academics_elementary_school,
         },
         {
           label: "Middle School",
-          href: "#",
+          href: paths.academics_middle_school,
         },
         {
           label: "High School",
-          href: "#",
+          href: paths.academics_high_school,
         },
       ],
     },
 
     {
       label: "Activities",
-      href: "#",
+      href: paths.activities,
     },
   ],
 };

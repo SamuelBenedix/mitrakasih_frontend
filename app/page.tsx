@@ -1,25 +1,32 @@
 import ContainerBase from "@/components/atoms/container-base";
-import HomeHero from "@/components/organisms/home/hero";
-import HomeAbout from "@/components/organisms/home/about";
-import HomeGallery from "@/components/organisms/home/gallery";
-import HomeForm from "@/components/organisms/home/form";
-import HomeGallery2 from "@/components/organisms/home/gallery-2";
-import HomeSection3 from "@/components/organisms/home/section-3";
-import HomeGallery3 from "@/components/organisms/home/gallery-3";
-import React from "react";
-import HomeCarousel from "@/components/organisms/home/carousel";
+import HomeHero from "@/components/organisms/home/home-hero";
+import HomeAbout from "@/components/organisms/home/home-about";
+import HomeTabPanelFirst from "@/components/organisms/home/home-tab-panel-first";
+import HomeCampusSlideshow from "@/components/organisms/home/home-campus-slideshow";
+import HomeTabPanelSecond from "@/components/organisms/home/home-tab-panel-second";
+import HomeCollege from "@/components/organisms/home/home-college";
+import HomeCommunityVoices from "@/components/organisms/home/home-community-voices";
 
-export default function HomePage() {
+interface Props {}
+
+/**
+ * React page
+ *
+ * @param props
+ * @returns
+ */
+export default function HomePage(props: Props) {
+  const {} = props;
+
   return (
     <ContainerBase>
       <HomeHero />
       <HomeAbout />
-      <HomeGallery />
-      <HomeCarousel />
-      <HomeGallery2 />
-      <HomeSection3 />
-      <HomeForm />
-      <HomeGallery3 />
+      <HomeTabPanelFirst />
+      <HomeCampusSlideshow />
+      <HomeTabPanelSecond />
+      <HomeCollege />
+      <HomeCommunityVoices />
     </ContainerBase>
   );
 }

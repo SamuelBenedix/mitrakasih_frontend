@@ -1,0 +1,19 @@
+.slide-image {
+    transition: all 1s ease-in-out;
+    transform: scale(1.2);
+}
+
+.slick-current .slide-image {
+    transform: scale(1);
+}
+
+.slide-section-header {
+    transition: all 1s ease-in-out;
+    opacity: 0;
+    transform: translateY(6rem);
+}
+
+.slick-current .slide-section-header {
+    transform: translateY(0rem);
+    opacity: 1;
+}

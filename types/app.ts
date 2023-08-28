@@ -5,6 +5,7 @@ export interface Nav {
 
 export interface Navs {
   label: string;
+  href: string;
   links: Nav[];
 }
 
