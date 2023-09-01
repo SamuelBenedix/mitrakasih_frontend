@@ -39,9 +39,9 @@ export default function HomeAbout(props: Props) {
         <div className="flex flex-col items-center max-w-2xl">
           <Image src="/images/logo.png" alt="" height={180} width={180} />
           <p className="text-primary-800 text-center text-3xl leading-[3rem]">
-            At JIS, we prepare students from across the globe to be best in what
-            they aspire for and at the same time, be best for the world they
-            live in.
+            At Mitra Kasih, we prepare students from across the globe to be best
+            in what they aspire for and at the same time, be best for the world
+            they live in.
           </p>
         </div>
       </Container>

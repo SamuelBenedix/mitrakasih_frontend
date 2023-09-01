@@ -4,7 +4,7 @@ export const hero_dummies = [
   {
     title: "Where We Learn",
     description:
-      "The facilities at JIS were designed with one goal: creating the best learning environment for our students.",
+      "The facilities at Mitra Kasih were designed with one goal: creating the best learning environment for our students.",
     linkLabel: "Learn More",
     linkHref: "#",
     image: getRandomImageUrl(),
@@ -13,7 +13,7 @@ export const hero_dummies = [
   {
     title: "Learning is What We Do",
     description:
-      "At JIS, we prepare students from across the globe to be the best in what they aspire for while being Best for the World they live in.",
+      "At Mitra Kasih, we prepare students from across the globe to be the best in what they aspire for while being Best for the World they live in.",
     linkLabel: "Learn More",
     linkHref: "#",
     image: getRandomImageUrl(),
@@ -22,7 +22,7 @@ export const hero_dummies = [
   {
     title: "Best for the World",
     description:
-      "We learn in Indonesia to be Best for the World. Find out how you can join the JIS community today!",
+      "We learn in Indonesia to be Best for the World. Find out how you can join the Mitra Kasih community today!",
     linkLabel: "Learn More",
     linkHref: "#",
     image: getRandomImageUrl(),
@@ -30,13 +30,13 @@ export const hero_dummies = [
 ];
 
 export const about_dummies =
-  "At JIS, we prepare students from across the globe to be best in what they aspire for and at the same time, be best for the world they live in.";
+  "At Mitra Kasih, we prepare students from across the globe to be best in what they aspire for and at the same time, be best for the world they live in.";
 
 export const tab_panel_first_dummies = {
   title: "Where We Learn",
 
   description:
-    "The facilities at JIS were designed with one goal: creating the best learning environment for our students.",
+    "The facilities at Mitra Kasih were designed with one goal: creating the best learning environment for our students.",
 
   linkLabel: "Learn More",
 
@@ -47,7 +47,7 @@ export const tab_panel_first_dummies = {
       label: "Admissions",
       body: [
         {
-          title: "Visit JIS",
+          title: "Visit Mitra Kasih",
           description:
             "The best way to learn about our school is to experience it for yourself! Schedule a tour with our Admissions Office today.",
           linkLabel: "Schedule a Tour Today",
@@ -58,7 +58,7 @@ export const tab_panel_first_dummies = {
         {
           title: "Say Hello! Inquire With Us Today",
           description:
-            "Speak with a member of our Admissioins Ofice and take the first step to joining JIS!",
+            "Speak with a member of our Admissioins Ofice and take the first step to joining Mitra Kasih!",
           linkLabel: "Take the first step",
           linkHref: "",
           image: getRandomImageUrl(),
@@ -67,7 +67,7 @@ export const tab_panel_first_dummies = {
         {
           title: "Apply Today",
           description:
-            "Do you already know that JIS is the right school for your family? Apply today!",
+            "Do you already know that Mitra Kasih is the right school for your family? Apply today!",
           linkLabel: "Start of Complete your Application",
           linkHref: "",
           image: getRandomImageUrl(),
@@ -85,7 +85,7 @@ export const tab_panel_first_dummies = {
         {
           title: "School Fees",
           description:
-            "A JIS education prepares your child for endless possibility and experiences.",
+            "A Mitra Kasih education prepares your child for endless possibility and experiences.",
           linkLabel: "Learn More",
           linkHref: "",
           image: getRandomImageUrl(),
@@ -140,7 +140,7 @@ export const tab_panel_first_dummies = {
         {
           title: "Early Years",
           description:
-            "It's never too early for students to begin exploring their interests and develop a love for learning. The JiS Early Years program, for students ages 3-6, is the perfect place to start.",
+            "It's never too early for students to begin exploring their interests and develop a love for learning. The Mitra Kasih Early Years program, for students ages 3-6, is the perfect place to start.",
           linkLabel: "Learn More",
           linkHref: "",
           image: getRandomImageUrl(),
@@ -149,7 +149,7 @@ export const tab_panel_first_dummies = {
         {
           title: "Elemntary School",
           description:
-            "The JIS Elemntary School program (Grades 1-5) immerses children in an atmosphere of care, exploration, and growth while they are introduced to the wonders of mathematics, reading, and writing.",
+            "The Mitra Kasih Elemntary School program (Grades 1-5) immerses children in an atmosphere of care, exploration, and growth while they are introduced to the wonders of mathematics, reading, and writing.",
           linkLabel: "Learn More",
           linkHref: "",
           image: getRandomImageUrl(),
@@ -158,7 +158,7 @@ export const tab_panel_first_dummies = {
         {
           title: "Middle School",
           description:
-            "Students in the JIS Middle School (Grades 6-8) begin to build powerful connections between theri learning and real life. They are encouraged to explore new interests and develop new passions.",
+            "Students in the Mitra Kasih Middle School (Grades 6-8) begin to build powerful connections between theri learning and real life. They are encouraged to explore new interests and develop new passions.",
           linkLabel: "Learn More",
           linkHref: "",
           image: getRandomImageUrl(),
@@ -167,25 +167,25 @@ export const tab_panel_first_dummies = {
         {
           title: "High School",
           description:
-            "As one of the few schools that offer both the International Baccalaurate (IB) and Advances Placement (AP) diploma/courses, the JIS High School (Grades 9-12) program is centered on choice and supporting students to achive their very best.",
+            "As one of the few schools that offer both the International Baccalaurate (IB) and Advances Placement (AP) diploma/courses, the Mitra Kasih High School (Grades 9-12) program is centered on choice and supporting students to achive their very best.",
           linkLabel: "Learn More",
           linkHref: "",
           image: getRandomImageUrl(),
         },
 
         {
-          title: "JIS Learning Center",
+          title: "Mitra Kasih Learning Center",
           description:
-            "As an etension of our current Student Support Service, the JIS Learning Center provides additional support for students with moderate to significant learning needs and global developmental delays.",
+            "As an etension of our current Student Support Service, the Mitra Kasih Learning Center provides additional support for students with moderate to significant learning needs and global developmental delays.",
           linkLabel: "Learn More",
           linkHref: "",
           image: getRandomImageUrl(),
         },
 
         {
-          title: "JIS Studio",
+          title: "Mitra Kasih Studio",
           description:
-            "Middle School students have the chance to engage in an experiential learning pathway that focuses on teamwork and problem solving through longterm projects called JIS Studio.",
+            "Middle School students have the chance to engage in an experiential learning pathway that focuses on teamwork and problem solving through longterm projects called Mitra Kasih Studio.",
           linkLabel: "Learn More",
           linkHref: "",
           image: getRandomImageUrl(),
@@ -217,7 +217,7 @@ export const tab_panel_first_dummies = {
         {
           title: "Service Clubs",
           description:
-            "A highlight for many JIS students is their participation in one of the many service clubs that are available.",
+            "A highlight for many Mitra Kasih students is their participation in one of the many service clubs that are available.",
           linkLabel: "Learn More",
           linkHref: "",
           image: getRandomImageUrl(),
@@ -226,16 +226,16 @@ export const tab_panel_first_dummies = {
         {
           title: "Service Partners",
           description:
-            "JIS is only one part of he incredible community in Jakarta that is dedicated to service. We partner with several organizations to help create positive change.",
+            "Mitra Kasih is only one part of he incredible community in Jakarta that is dedicated to service. We partner with several organizations to help create positive change.",
           linkLabel: "Learn More",
           linkHref: "",
           image: getRandomImageUrl(),
         },
 
         {
-          title: "JIS Peduli",
+          title: "Mitra Kasih Peduli",
           description:
-            "JIS Peduli is the service arm of Jakarta Intercultural School. It helps to support and fund service projects developed by students and JIS service initiatives.",
+            "Mitra Kasih Peduli is the service arm of Jakarta Intercultural School. It helps to support and fund service projects developed by students and Mitra Kasih service initiatives.",
           linkLabel: "Learn More",
           linkHref: "",
           image: getRandomImageUrl(),
@@ -269,10 +269,10 @@ export const campus_slideshow_dummies = [
 ];
 
 export const tab_panel_second_dummies = {
-  title: "Life at JIS",
+  title: "Life at Mitra Kasih",
 
   description:
-    "Students at JIS love to learn, have fun, and discover new passions on our beautiful, spacious, and state-of-the-art campuses.",
+    "Students at Mitra Kasih love to learn, have fun, and discover new passions on our beautiful, spacious, and state-of-the-art campus.",
 
   linkLabel: "Learn More",
 
@@ -286,8 +286,8 @@ export const tab_panel_second_dummies = {
           title: "Hectares",
           number: "20",
           description:
-            "JIS has four schools across three lush, open campuses in South Jakarta. There is plenty of outdoor space on campus for JIS students to learn!",
-          linkLabel: "See our campuses",
+            "Mitra Kasih has four schools across three lush, open campus in South Jakarta. There is plenty of outdoor space on campus for Mitra Kasih students to learn!",
+          linkLabel: "See our campus",
           linkHref: "",
           image: getRandomImageUrl(),
         },
@@ -295,7 +295,7 @@ export const tab_panel_second_dummies = {
           title: "Founded",
           number: "1951",
           description:
-            "For over 70 years JIS has been delivering a high-quality international education to students in South Jakarta.",
+            "For over 70 years Mitra Kasih has been delivering a high-quality international education to students in South Jakarta.",
           linkLabel: "Learn More",
           linkHref: "",
           image: getRandomImageUrl(),
@@ -304,8 +304,8 @@ export const tab_panel_second_dummies = {
           title: "Students",
           number: "2000+",
           description:
-            "With students representing over 60 different nationalities, JIS is truly an internaitonal school.",
-          linkLabel: "Learn More About JIS",
+            "With students representing over 60 different nationalities, Mitra Kasih is truly an internaitonal school.",
+          linkLabel: "Learn More About Mitra Kasih",
           linkHref: "",
           image: getRandomImageUrl(),
         },
@@ -313,7 +313,7 @@ export const tab_panel_second_dummies = {
           title: "Clubs and Activities",
           number: "300+",
           description:
-            "Students from Elemntary School to High School have hundreds of clubs and activities to choose from when shapng their JIS experience",
+            "Students from Elemntary School to High School have hundreds of clubs and activities to choose from when shapng their Mitra Kasih experience",
           linkLabel: "Learn More",
           linkHref: "",
           image: getRandomImageUrl(),
@@ -327,35 +327,35 @@ export const community_voices_dummies = {
   title: "Community Voices",
 
   description:
-    "JIS is a diverse community that includes not only out students and faculty and staff, but parents and alumni too. Listen to what our community has to say about their JIS experience.",
+    "Mitra Kasih is a diverse community that includes not only out students and faculty and staff, but parents and alumni too. Listen to what our community has to say about their Mitra Kasih experience.",
 
-  linkLabel: "Learn more about the JIS Community",
+  linkLabel: "Learn more about the Mitra Kasih Community",
 
   linkHref: "#",
 
   body: [
     {
       title: "Elementary School Student",
-      description: "What would you tell new students joining JIS?",
+      description: "What would you tell new students joining Mitra Kasih?",
       image: getRandomImageUrl(),
     },
 
     {
       title: "Middle School Students",
-      description: "Wat was your first day of school at JIS like?",
+      description: "Wat was your first day of school at Mitra Kasih like?",
       image: getRandomImageUrl(),
     },
 
     {
       title: "High School Student",
       description:
-        "What does JIS' mission to be Best for the World mean to you?",
+        "What does Mitra Kasih' mission to be Best for the World mean to you?",
       image: getRandomImageUrl(),
     },
 
     {
       title: "Faculty",
-      description: "What would you tell people abot the JIS community?",
+      description: "What would you tell people abot the Mitra Kasih community?",
       image: getRandomImageUrl(),
     },
   ],

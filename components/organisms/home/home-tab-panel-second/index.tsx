@@ -14,6 +14,7 @@ import {
 import * as Tabs from "@radix-ui/react-tabs";
 import HomeSectionHeader from "../../../molecules/section-header";
 import Slider from "react-slick";
+import Figure from "@/components/molecules/figure";
 
 interface Props {}
 
@@ -65,35 +66,15 @@ export default function HomeTabPanelSecond(props: Props) {
                 <Tabs.Content key={dummy.label} value={dummy.label}>
                   <Slider {...settings}>
                     {dummy.body.map((item) => (
-                      <figure
+                      <Figure
                         key={item.title}
-                        className="relative group overflow-hidden"
-                      >
-                        <Image
-                          src={item.image}
-                          alt=""
-                          width="600"
-                          height="600"
-                          className="object-cover h-[28rem] group-hover:scale-125 transition-all duration-1000"
-                        />
-                        <div className="absolute bg-gradient-to-t from-black/60 to-transparent h-[40%] bottom-0 inset-x-0" />
-                        <figcaption className="absolute bottom-0 translate-y-10 group-hover:translate-y-0 ease-out-quart inset-x-0 py-8 px-6 text-white group-hover:bg-black/20 group-hover:h-full h-1/2 transition-all duration-1000 flex flex-col group-hover:backdrop-blur justify-end">
-                          <h3 className="font-bold text-2xl mb-12 group-hover:mb-4 flex flex-col">
-                            <span className="text-6xl">{item.number}</span>
-                            <span className="text-xl">{item.title}</span>
-                          </h3>
-                          <div className="opacity-0 h-0 group-hover:h-auto ease-out-quart group-hover:opacity-100 transition-all duration-1000">
-                            <p className="mb-4">{item.description}</p>
-                            <Link
-                              href={item.linkHref}
-                              className="font-medium flex space-x-2 items-center"
-                            >
-                              <span>{item.linkLabel}</span>
-                              <IconArrowNarrowRight />
-                            </Link>
-                          </div>
-                        </figcaption>
-                      </figure>
+                        title={item.title}
+                        image={item.image}
+                        linkLabel={item.linkLabel}
+                        linkHref={item.linkHref}
+                        description={item.description}
+                        numberValue={item.number}
+                      />
                     ))}
                   </Slider>
                 </Tabs.Content>

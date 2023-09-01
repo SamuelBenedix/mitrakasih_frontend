@@ -10,6 +10,8 @@ export const app = {
   images: {
     logo: "/images/logo.png",
 
+    logoWhite: "/images/logo_white.png",
+
     school: "/images/school.png",
   },
 
@@ -84,6 +86,11 @@ export const app = {
     {
       label: "Activities",
       href: paths.activities,
+    },
+
+    {
+      label: "News",
+      href: paths.news,
     },
   ],
 };

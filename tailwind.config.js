@@ -23,6 +23,13 @@ module.exports = {
         "bounce-leaf-blue": "bounce-leaf-blue 5s linear infinite",
         "bounce-leaf-green": "bounce-leaf-green 5s linear infinite",
         "bounce-arrow": "bounce-arrow 0.8s linear",
+        "radix-slide-down":
+          "radix-slide-down 300ms cubic-bezier(0.87, 0, 0.13, 1)",
+        "radix-slide-up": "radix-slide-up 300ms cubic-bezier(0.87, 0, 0.13, 1)",
+        "radix-left-border-slide-down":
+          "radix-left-border-slide-down 300ms cubic-bezier(0.87, 0, 0.13, 1)",
+        "radix-left-border-slide-up":
+          "radix-left-border-slide-up 300ms cubic-bezier(0.87, 0, 0.13, 1)",
       },
       keyframes: {
         "bounce-leaf-yellow": {
@@ -44,6 +51,22 @@ module.exports = {
         "bounce-arrow": {
           "0%, 50%, 100%": { transform: "translateX(0)" },
           "25%, 75%": { transform: "translateX(0.5rem)" },
+        },
+        "radix-slide-down": {
+          from: { height: 0 },
+          to: { height: "var(--radix-accordion-content-height)" },
+        },
+        "radix-slide-up": {
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: 0 },
+        },
+        "radix-left-border-slide-down": {
+          from: { height: 0 },
+          to: { height: "100%" },
+        },
+        "radix-left-border-slide-up": {
+          from: { height: "100%" },
+          to: { height: 0 },
         },
       },
     },

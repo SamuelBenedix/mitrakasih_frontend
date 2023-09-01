@@ -64,7 +64,7 @@ export default function Footer() {
                 href={app.links.workAtJis}
                 className="font-medium hover:underline"
               >
-                Work at JIS
+                Work at Mitra Kasih
               </Link>
               <Link
                 href={app.links.privacyPolicy}

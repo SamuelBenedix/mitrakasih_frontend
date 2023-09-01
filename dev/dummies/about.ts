@@ -23,7 +23,7 @@ export const intro_dummies = {
     {
       title: "Say Hello! Inquire With Us Today",
       description:
-        "Speak with a member of our Admissioins Ofice and take the first step to joining JIS!",
+        "Speak with a member of our Admissioins Ofice and take the first step to joining Mitra Kasih!",
       linkLabel: "Take the first step",
       linkHref: "",
       image: getRandomImageUrl(),
@@ -32,7 +32,7 @@ export const intro_dummies = {
     {
       title: "Apply Today",
       description:
-        "Do you already know that JIS is the right school for your family? Apply today!",
+        "Do you already know that Mitra Kasih is the right school for your family? Apply today!",
       linkLabel: "Start of Complete your Application",
       linkHref: "",
       image: getRandomImageUrl(),
@@ -50,7 +50,7 @@ export const intro_dummies = {
     {
       title: "School Fees",
       description:
-        "A JIS education prepares your child for endless possibility and experiences.",
+        "A Mitra Kasih education prepares your child for endless possibility and experiences.",
       linkLabel: "Learn More",
       linkHref: "",
       image: getRandomImageUrl(),
@@ -59,7 +59,7 @@ export const intro_dummies = {
     {
       title: "School Fees",
       description:
-        "A JIS education prepares your child for endless possibility and experiences.",
+        "A Mitra Kasih education prepares your child for endless possibility and experiences.",
       linkLabel: "Learn More",
       linkHref: "",
       image: getRandomImageUrl(),
@@ -68,7 +68,7 @@ export const intro_dummies = {
     {
       title: "School Fees",
       description:
-        "A JIS education prepares your child for endless possibility and experiences.",
+        "A Mitra Kasih education prepares your child for endless possibility and experiences.",
       linkLabel: "Learn More",
       linkHref: "",
       image: getRandomImageUrl(),
@@ -77,7 +77,7 @@ export const intro_dummies = {
     {
       title: "School Fees",
       description:
-        "A JIS education prepares your child for endless possibility and experiences.",
+        "A Mitra Kasih education prepares your child for endless possibility and experiences.",
       linkLabel: "Learn More",
       linkHref: "",
       image: getRandomImageUrl(),

@@ -2,6 +2,10 @@ import ContainerBase from "@/components/atoms/container-base";
 import PageHero from "@/components/organisms/layout/page-hero";
 import { getNavigation } from "@/lib/utils/utils";
 import { getRandomImageUrl } from "@/dev/getRandomImageUrl";
+import AdmissionIntro from "@/components/organisms/admissions/admission-intro";
+import AdmissionCampusTours from "@/components/organisms/admissions/admission-campus-tours";
+import AdmissionExploringCampus from "@/components/organisms/admissions/admission-exploring-campus";
+import AdmissionGraduates from "@/components/organisms/admissions/admission-graduates";
 
 interface Props {}
 
@@ -22,13 +26,15 @@ export default function AdmissionPage(props: Props) {
           name: "Admissions",
         }}
         header={{
-          title: "Our Campuses",
-          description:
-            "Our campuses provide students a safe place to learn, play, engage with their surroundings, and explore their interests.",
           image: getRandomImageUrl(),
         }}
       />
-      <div className="h-screen"></div>
+      <div className="min-h-screen">
+        <AdmissionIntro />
+        <AdmissionCampusTours />
+        <AdmissionExploringCampus />
+        <AdmissionGraduates />
+      </div>
     </ContainerBase>
   );
 }

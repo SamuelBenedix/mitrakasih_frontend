@@ -1,7 +1,9 @@
 import ContainerBase from "@/components/atoms/container-base";
 import PageHero from "@/components/organisms/layout/page-hero";
 import { getNavigation } from "@/lib/utils/utils";
-import { getRandomImageUrl } from "@/dev/getRandomImageUrl";
+import AboutMissionVisionIntro from "@/components/organisms/about-mission-vision/about-mission-vision-intro";
+import AboutMissionVisionQualityLearners from "@/components/organisms/about-mission-vision/about-mission-vision-quality-learners";
+import AboutMissionVisionStrivingList from "@/components/organisms/about-mission-vision/about-mission-vision-striving-list";
 
 interface Props {}
 
@@ -19,7 +21,12 @@ export default function AboutSchoolLeadershipPage(props: Props) {
       <PageHero
         navBar={{ navigations: getNavigation("About"), name: "About" }}
       />
-      <div className="h-screen"></div>
+
+      <div className="space-y-40 min-h-screen">
+        <AboutMissionVisionIntro />
+        <AboutMissionVisionQualityLearners />
+        <AboutMissionVisionStrivingList />
+      </div>
     </ContainerBase>
   );
 }

@@ -19,8 +19,8 @@ type Props = {
     name: string;
   };
   header?: {
-    title: string;
-    description: string;
+    title?: string;
+    description?: string;
     image: string;
   };
 };
@@ -42,7 +42,7 @@ export default function PageHero(props: Props) {
           <div className="z-10">
             <Link href={paths.home}>
               <Image
-                src={app.images.logo}
+                src={header ? app.images.logo : app.images.logoWhite}
                 alt={app.title}
                 width={100}
                 height={100}
@@ -71,12 +71,16 @@ export default function PageHero(props: Props) {
             className="object-cover w-full h-full"
           />
 
+          <div className="absolute bg-gradient-to-t from-black/60 to-transparent h-[90%] bottom-0 inset-x-0" />
+
           <figcaption className="absolute bottom-0 inset-x-0 md:mx-40 slide-section-header">
-            <HomeSectionHeader
-              title={header.title}
-              description={header.description}
-              color="white"
-            />
+            {header.title && header.description && (
+              <HomeSectionHeader
+                title={header.title}
+                description={header.description}
+                color="white"
+              />
+            )}
           </figcaption>
         </div>
       )}

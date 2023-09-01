@@ -45,7 +45,7 @@ export default function HomeHero(props: Props) {
         >
           <div className="z-10">
             <Image
-              src={app.images.logo}
+              src={app.images.logoWhite}
               alt={app.title}
               width={100}
               height={100}
@@ -88,7 +88,9 @@ export default function HomeHero(props: Props) {
               />
             </div>
 
-            <div className="absolute bg-gradient-to-t from-black/60 to-transparent h-[90%] bottom-0 inset-x-0" />
+            <div className="absolute bg-gradient-to-b from-black/60 to-transparent h-[30%] top-0 inset-x-0" />
+
+            <div className="absolute bg-gradient-to-t from-black/90 to-transparent h-[90%] bottom-0 inset-x-0" />
 
             <figcaption className="absolute bottom-0 inset-x-0 md:mx-40 slide-section-header">
               <HomeSectionHeader

@@ -8,13 +8,13 @@ interface Props extends LinkProps {
   className?: string;
 }
 
-export default function PageLink(props: Props) {
+export default function CommonLink(props: Props) {
   const { children, className, ...rest } = props;
 
   return (
     <Link
       className={cn(
-        "group col-span-1 flex flex-row space-x-2 w-40 font-medium items-center text-primary-800",
+        "group col-span-1 flex flex-row space-x-2 font-medium items-center text-primary-800",
         className,
       )}
       {...rest}

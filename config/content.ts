@@ -4,7 +4,7 @@ export const content = {
       title: "Admission",
       children: [
         {
-          title: "Visit JIS",
+          title: "Visit Mitra Kasih",
           image: "https://source.unsplash.com/random/2000x2000",
           description:
             "The best way to learn home-about our school is to experience it for yourself! Schedule a tour with our Admissions Office today.",
@@ -12,7 +12,7 @@ export const content = {
           linkHref: "#",
         },
         {
-          title: "Visit JIS",
+          title: "Visit Mitra Kasih",
           image: "https://source.unsplash.com/random/2000x2000",
           description:
             "The best way to learn home-about our school is to experience it for yourself! Schedule a tour with our Admissions Office today.",
@@ -20,7 +20,7 @@ export const content = {
           linkHref: "#",
         },
         {
-          title: "Visit JIS",
+          title: "Visit Mitra Kasih",
           image: "https://source.unsplash.com/random/2000x2000",
           description:
             "The best way to learn home-about our school is to experience it for yourself! Schedule a tour with our Admissions Office today.",
@@ -33,7 +33,7 @@ export const content = {
       title: "Campusses",
       children: [
         {
-          title: "Visit JIS",
+          title: "Visit Mitra Kasih",
           image: "https://source.unsplash.com/random/2000x2000",
           description:
             "The best way to learn home-about our school is to experience it for yourself! Schedule a tour with our Admissions Office today.",
@@ -41,7 +41,7 @@ export const content = {
           linkHref: "#",
         },
         {
-          title: "Visit JIS",
+          title: "Visit Mitra Kasih",
           image: "https://source.unsplash.com/random/2000x2000",
           description:
             "The best way to learn home-about our school is to experience it for yourself! Schedule a tour with our Admissions Office today.",

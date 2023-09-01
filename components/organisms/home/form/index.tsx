@@ -102,9 +102,10 @@ export default function HomeForm(props: Props) {
                 <div className="flex items-start space-x-2">
                   <input type="checkbox" />
                   <label className="text-lg">
-                    By submitting this form, I give my consent to JIS to process
-                    my personal information & sensitive personal information for
-                    the purpose(s) described in the Privacy Policy.
+                    By submitting this form, I give my consent to Mitra Kasih to
+                    process my personal information & sensitive personal
+                    information for the purpose(s) described in the Privacy
+                    Policy.
                   </label>
                 </div>
               </div>
