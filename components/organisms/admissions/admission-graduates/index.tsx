@@ -13,7 +13,7 @@ export default function AdmissionGraduates(props: Props) {
   return (
     <section className="mt-32">
       <Container size="md">
-        <PageTitle heading="h2">Where JIS Students Go</PageTitle>
+        <PageTitle heading="h2">Where Mitra Kasih Students Go</PageTitle>
         <div className="grid grid-cols-2 gap-8 mt-8">
           {graduates.map((item) => (
             <Figure key={item.title} title={item.title} image={item.image} />

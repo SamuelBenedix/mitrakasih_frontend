@@ -12,13 +12,15 @@ export default function ActivitiesAcademySports(props: Props) {
   return (
     <section className="mt-32">
       <Container size="md">
-        <PageTitle heading="h2">JIS Academy & Community Sports</PageTitle>
+        <PageTitle heading="h2">
+          Mitra Kasih Academy & Community Sports
+        </PageTitle>
 
         <article className="mt-8 space-y-4">
           <PageParagraph>
             For students, and parents, looking to take part in extra fun, many
-            additional activities can be found through JIS Academy and Community
-            Sports.
+            additional activities can be found through Mitra Kasih Academy and
+            Community Sports.
           </PageParagraph>
 
           <PageParagraph>

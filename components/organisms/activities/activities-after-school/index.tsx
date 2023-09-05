@@ -22,10 +22,11 @@ export default function ActivitiesAfterSchool(props: Props) {
 
         <article className="mt-8 space-y-4">
           <PageParagraph>
-            Most JIS students stay on campus and participate in one of the many
-            activities that happen at school. After-School Activities (ASA) at
-            JIS are geared toward promoting socialization, confidence, life
-            skills, teamwork, strategic thinking, social service, and fun.
+            Most Mitra Kasih students stay on campus and participate in one of
+            the many activities that happen at school. After-School Activities
+            (ASA) at Mitra Kasih are geared toward promoting socialization,
+            confidence, life skills, teamwork, strategic thinking, social
+            service, and fun.
           </PageParagraph>
 
           <PageParagraph>

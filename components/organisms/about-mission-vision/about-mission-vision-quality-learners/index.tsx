@@ -25,9 +25,9 @@ export default function AboutMissionVisionQualityLearners(props: Props) {
         <article className="mt-8">
           <PageParagraph>
             Learning is a lifelong process that transforms us through rigorous
-            engagement in meaningful experiences. At JIS, quality learning
-            happens when students are resourceful, resilient, relating, and
-            reflective. We call these the 4 Rs.
+            engagement in meaningful experiences. At Mitra Kasih, quality
+            learning happens when students are resourceful, resilient, relating,
+            and reflective. We call these the 4 Rs.
           </PageParagraph>
         </article>
 

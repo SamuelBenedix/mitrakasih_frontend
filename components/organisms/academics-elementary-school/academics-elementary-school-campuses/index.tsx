@@ -15,12 +15,13 @@ export default function AcademicsElementarySchoolCampuses(props: Props) {
 
         <article className="mt-8 space-y-4">
           <PageParagraph>
-            We have two JIS campuses that offer the Early Years and Kindergarten
-            Program: Pattimura Elementary (PEL) and Pondok Indah Elementary
-            (PIE). The program, faculty expertise, and learning experience at
-            both campuses are the same. Curriculum and lesson planning are
-            coordinated between the two campuses to ensure every JIS student is
-            challenged academically and supported socially.
+            We have two Mitra Kasih campuses that offer the Early Years and
+            Kindergarten Program: Pattimura Elementary (PEL) and Pondok Indah
+            Elementary (PIE). The program, faculty expertise, and learning
+            experience at both campuses are the same. Curriculum and lesson
+            planning are coordinated between the two campuses to ensure every
+            Mitra Kasih student is challenged academically and supported
+            socially.
           </PageParagraph>
 
           <PageParagraph>

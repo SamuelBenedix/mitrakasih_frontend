@@ -1,7 +1,7 @@
 export const page_title = "Mission and Vision";
 
 export const page_quote =
-  "Our Mission and Vision guide everything that we do from how we learn to the dispositions that JIS students gain while at our school.";
+  "Our Mission and Vision guide everything that we do from how we learn to the dispositions that Mitra Kasih students gain while at our school.";
 
 export const mission_vision = [
   "We are passionate, inquisitive and creative – learning in Indonesia to be best for the world. ",

@@ -31,9 +31,9 @@ export default function AdmissionCampusTours(props: Props) {
             <li>
               <PageParagraph>
                 This is a great opportunity for you to get all of your questions
-                about JIS, Jakarta, and our community answered. These questions
-                help us get to know you so we can personalize your experience in
-                joining our community.
+                about Mitra Kasih, Jakarta, and our community answered. These
+                questions help us get to know you so we can personalize your
+                experience in joining our community.
               </PageParagraph>
             </li>
           </ul>
@@ -41,7 +41,9 @@ export default function AdmissionCampusTours(props: Props) {
 
         <div className="grid grid-cols-2 gap-x-8 mt-8">
           <Button>Schedule A Virtual Meeting Today</Button>
-          <Button>Contact JIS Admissions to Book an On-Campus Tour</Button>
+          <Button>
+            Contact Mitra Kasih Admissions to Book an On-Campus Tour
+          </Button>
         </div>
       </Container>
     </section>

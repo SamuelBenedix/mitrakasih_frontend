@@ -16,40 +16,41 @@ export default function AcademicsIntro(props: Props) {
       <Container size="md">
         <PageTitle>Academics</PageTitle>
         <PageQuote>
-          From Early Years to High School, JIS offers a premier learning
+          From Early Years to High School, Mitra Kasih offers a premier learning
           environment that is accredited by the Western Association of Schools
           and Colleges, and the Council of International Schools.
         </PageQuote>
 
         <article className="columns-2 gap-12 space-y-8">
           <PageParagraph>
-            The JIS Early Years academic program is based on The Creative
-            Curriculum® for preschool, a comprehensive early childhood
+            The Mitra Kasih Early Years academic program is based on The
+            Creative Curriculum® for preschool, a comprehensive early childhood
             educational system that has been shown to promote cognitive,
             physical, social/emotional, and language development of children.
           </PageParagraph>
 
           <PageParagraph>
-            Like JIS as a whole, the JIS Elementary School curriculum adopts
-            programs which demonstrate the best international standards,
-            practices and results for student learning. We place strong emphasis
-            on language arts and mathematics. To ensure a balanced curriculum,
-            we provide programs in science and technology, social studies,
-            modern language, fine arts and physical development.
+            Like Mitra Kasih as a whole, the Mitra Kasih Elementary School
+            curriculum adopts programs which demonstrate the best international
+            standards, practices and results for student learning. We place
+            strong emphasis on language arts and mathematics. To ensure a
+            balanced curriculum, we provide programs in science and technology,
+            social studies, modern language, fine arts and physical development.
           </PageParagraph>
 
           <PageParagraph>
-            The JIS Middle School curriculum emphasizes research-based teaching
-            and learning practices through age-appropriate intellectual,
-            physical, cultural and social experiences. There are a variety of
-            classes and opportunities for students that introduce them to new
-            areas of learning where they can start to develop passions.
+            The Mitra Kasih Middle School curriculum emphasizes research-based
+            teaching and learning practices through age-appropriate
+            intellectual, physical, cultural and social experiences. There are a
+            variety of classes and opportunities for students that introduce
+            them to new areas of learning where they can start to develop
+            passions.
           </PageParagraph>
 
           <PageParagraph>
-            Based on international standards, the JIS High School academic
-            program is designed to prepare students for a university that fits
-            them best. It includes options to take the International
+            Based on international standards, the Mitra Kasih High School
+            academic program is designed to prepare students for a university
+            that fits them best. It includes options to take the International
             Baccalaureate (IB) and Advanced Placement (AP) diploma/courses. The
             more options students have to find the right path for them, the more
             success they will have now and in the future.

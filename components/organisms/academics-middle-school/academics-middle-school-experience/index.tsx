@@ -16,9 +16,9 @@ export default function AcademicsMiddleSchoolExperience(props: Props) {
         <ul className="list-disc space-y-2 mt-8">
           <li>
             <PageParagraph>
-              We value the home-school connection. We see you, JIS parents, as
-              partners in your student&apos;s education. Your input is valuable
-              and we work together to support learning.
+              We value the home-school connection. We see you, Mitra Kasih
+              parents, as partners in your student&apos;s education. Your input
+              is valuable and we work together to support learning.
             </PageParagraph>
           </li>
 
@@ -53,11 +53,11 @@ export default function AcademicsMiddleSchoolExperience(props: Props) {
 
           <PageParagraph>
             Young children learn best through direct experiences with the world
-            rather than through abstract and formal academic practices. The JIS
-            Early Years and Kindergarten Program is supported by qualified,
-            expert educators who guide young children in their acquisition of
-            knowledge and their development of content, skills, and attitudes,
-            preparing them for elementary school.
+            rather than through abstract and formal academic practices. The
+            Mitra Kasih Early Years and Kindergarten Program is supported by
+            qualified, expert educators who guide young children in their
+            acquisition of knowledge and their development of content, skills,
+            and attitudes, preparing them for elementary school.
           </PageParagraph>
         </article>
       </Container>
