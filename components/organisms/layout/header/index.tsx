@@ -42,8 +42,8 @@ export default function Header() {
             <Image
               src={app.images.logo}
               alt={app.title}
-              width={100}
-              height={100}
+              width={120}
+              height={120}
             />
           </Link>
         </div>

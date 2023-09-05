@@ -1,11 +1,13 @@
 export interface Nav {
   label: string;
   href: string;
+  target?: string;
 }
 
 export interface Navs {
   label: string;
   href: string;
+  target?: string;
   links: Nav[];
 }
 

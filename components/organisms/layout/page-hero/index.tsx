@@ -44,8 +44,8 @@ export default function PageHero(props: Props) {
               <Image
                 src={header ? app.images.logo : app.images.logoWhite}
                 alt={app.title}
-                width={100}
-                height={100}
+                width={120}
+                height={120}
               />
             </Link>
           </div>
