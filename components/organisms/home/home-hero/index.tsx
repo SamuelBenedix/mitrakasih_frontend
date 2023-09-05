@@ -36,19 +36,19 @@ export default function HomeHero(props: Props) {
   };
 
   return (
-    <section>
+    <section className="bg-black">
       <header>
         <div
           className={cn(
-            "flex h-[8rem] flex-row justify-between items-end px-10 absolute inset-x-0 top-0 text-white",
+            "flex h-[8rem] flex-row justify-between items-end px-10 absolute z-10 bg-white inset-x-0 top-0 text-white",
           )}
         >
           <div className="z-10">
             <Image
-              src={app.images.logoWhite}
+              src={app.images.logo}
               alt={app.title}
-              width={100}
-              height={100}
+              width={120}
+              height={120}
             />
           </div>
           <div className="mb-4 flex">
@@ -56,7 +56,7 @@ export default function HomeHero(props: Props) {
               <Navigation
                 key={navigation.label}
                 link={navigation}
-                color="white"
+                // color="white"
               />
             ))}
           </div>

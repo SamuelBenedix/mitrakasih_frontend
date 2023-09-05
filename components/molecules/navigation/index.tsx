@@ -21,6 +21,7 @@ export default function Navigation(props: Props) {
       <div className="z-10 group relative py-2 cursor-pointer px-6">
         <Link
           href={link.href}
+          target={link.target}
           className={cn(
             color === "primary" ? "text-primary-800" : "text-white",
             "font-semibold",
@@ -38,7 +39,11 @@ export default function Navigation(props: Props) {
           <ul className="flex flex-col w-full divide-y px-8 py-4 text-white">
             {link.links.map((sublink) => (
               <li key={sublink.label} className="py-4 w-full">
-                <Link href={sublink.href} className="block hover:font-semibold">
+                <Link
+                  href={sublink.href}
+                  target={sublink.target}
+                  className="block hover:font-semibold"
+                >
                   {sublink.label}
                 </Link>
               </li>

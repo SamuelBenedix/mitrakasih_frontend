@@ -57,6 +57,15 @@ export const app = {
           label: "Admission Guidelines",
           href: paths.admission_guidelines,
         },
+        {
+          label: "Isi Form Pendaftaran",
+          href: "https://sd.mitrakasih.sch.id/public/register/student",
+          target: "_blank",
+        },
+        {
+          label: "Pengumuman Siswa yang Didaftar",
+          href: "#",
+        },
       ],
     },
 
