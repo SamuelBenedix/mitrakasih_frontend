@@ -24,7 +24,7 @@ export default function ActivitiesLeadership(props: Props) {
 
           <PageParagraph>
             Student leadership can happen through organizing events on the
-            Middle School's Bali Stage to running for a spot in the Central
+            Middle School&apos;s Bali Stage to running for a spot in the Central
             Student Council in High School. At JIS, we know how important it is
             for students to learn how they can be leaders for tomorrow.
           </PageParagraph>

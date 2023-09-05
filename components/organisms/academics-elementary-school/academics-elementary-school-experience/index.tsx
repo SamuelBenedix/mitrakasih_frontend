@@ -17,8 +17,8 @@ export default function AcademicsElementarySchoolExperience(props: Props) {
           <li>
             <PageParagraph>
               We value the home-school connection. We see you, JIS parents, as
-              partners in your student's education. Your input is valuable and
-              we work together to support learning.
+              partners in your student&apos;s education. Your input is valuable
+              and we work together to support learning.
             </PageParagraph>
           </li>
 

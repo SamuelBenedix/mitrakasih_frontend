@@ -78,7 +78,7 @@ export default function AdmissionGuidelinesPolicy(props: Props) {
                 <PageParagraph>
                   Admission priority is given to applicants based on the area of
                   residence. In addition, if a grade level or student support
-                  service has reached capacity at the student's preferred
+                  service has reached capacity at the student&apos;s preferred
                   campus, the student will be assigned to the alternate campus.
                   The school reserves the right to determine these placements.
                 </PageParagraph>

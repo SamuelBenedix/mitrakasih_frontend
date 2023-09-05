@@ -19,8 +19,8 @@ export default function AcademicsElementarySchoolIntro(props: Props) {
         </PageQuote>
         <article>
           <PageParagraph>
-            It isn't long before a love of learning starts to grow within each
-            student. When children are respected for who they are and their
+            It isn&apos;t long before a love of learning starts to grow within
+            each student. When children are respected for who they are and their
             learning journeys are valued, they will excel at school and at home.
             This is the time when they first start to build friendships on their
             own, and begin to develop passions and interests — and their
