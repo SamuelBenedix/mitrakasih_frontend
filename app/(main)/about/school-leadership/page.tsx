@@ -38,8 +38,8 @@ export default function AboutMissionVisionPage(props: Props) {
                 Jakarta Intercultural School is led by a team of experienced
                 administrators under the direction of the Board of Management
                 and governed by a Board of Trustees. They work together to
-                ensure that every JIS student gains a high-quality, fulfilling,
-                consistent, and appropriate education.
+                ensure that every Mitra Kasih student gains a high-quality,
+                fulfilling, consistent, and appropriate education.
               </PageParagraph>
             </article>
           </Container>

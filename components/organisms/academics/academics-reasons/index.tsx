@@ -28,8 +28,8 @@ export default function AcademicsReasons(props: Props) {
       <Container>
         <div className="flex justify-end">
           <HomeSectionHeader
-            title="Reasons To Learn At JIS"
-            description="JIS students learn how to be the best version of themselves and how to be best for the world they live in."
+            title="Reasons To Learn At Mitra Kasih"
+            description="Mitra Kasih students learn how to be the best version of themselves and how to be best for the world they live in."
           />
         </div>
 

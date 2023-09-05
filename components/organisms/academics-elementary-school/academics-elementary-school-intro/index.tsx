@@ -14,8 +14,8 @@ export default function AcademicsElementarySchoolIntro(props: Props) {
       <Container size="md">
         <PageTitle>Early Years</PageTitle>
         <PageQuote>
-          The JIS Early Years and Kindergarten Program is an atmosphere of
-          wonder, care, exploration and growth.
+          The Mitra Kasih Early Years and Kindergarten Program is an atmosphere
+          of wonder, care, exploration and growth.
         </PageQuote>
         <article>
           <PageParagraph>

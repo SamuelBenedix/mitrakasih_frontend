@@ -16,8 +16,8 @@ export default function AdmissionExploringCampus(props: Props) {
         <PageTitle heading="h2">Explore Our Campuses</PageTitle>
         <article className="mt-10">
           <PageParagraph>
-            Visit JIS virtually today! Click on one of our campuses below and
-            take a self-guided 360° virtual tour.
+            Visit Mitra Kasih virtually today! Click on one of our campuses
+            below and take a self-guided 360° virtual tour.
           </PageParagraph>
         </article>
 

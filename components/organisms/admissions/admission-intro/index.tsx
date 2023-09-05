@@ -25,8 +25,8 @@ export default function AdmissionIntro(props: Props) {
             your particular situation.
           </PageParagraph>
           <PageQuote>
-            Together let’s explore how JIS can meet your needs and start your
-            child on the journey to being “best for the world”.
+            Together let’s explore how Mitra Kasih can meet your needs and start
+            your child on the journey to being “best for the world”.
           </PageQuote>
         </article>
       </Container>

@@ -38,12 +38,12 @@ export default function AboutCampusesLibraries(props: Props) {
 
           <div className="bg-primary-800 p-10 mt-16">
             <PageParagraph className="text-white">
-              The libraries at JIS are a haven for the avid reader, curious
-              explorer, budding adventurer, aspiring scientist — every member of
-              our diverse Dragon community. They serve a multitude of purposes,
-              all geared toward fostering an immersive learning experience
-              further enhanced by the power of literature, information, and
-              technology.
+              The libraries at Mitra Kasih are a haven for the avid reader,
+              curious explorer, budding adventurer, aspiring scientist — every
+              member of our diverse Dragon community. They serve a multitude of
+              purposes, all geared toward fostering an immersive learning
+              experience further enhanced by the power of literature,
+              information, and technology.
             </PageParagraph>
           </div>
         </div>
@@ -58,12 +58,12 @@ export default function AboutCampusesLibraries(props: Props) {
 
           <div className="bg-primary-800 p-10 mt-16">
             <PageParagraph className="text-white">
-              The libraries at JIS are a haven for the avid reader, curious
-              explorer, budding adventurer, aspiring scientist — every member of
-              our diverse Dragon community. They serve a multitude of purposes,
-              all geared toward fostering an immersive learning experience
-              further enhanced by the power of literature, information, and
-              technology.
+              The libraries at Mitra Kasih are a haven for the avid reader,
+              curious explorer, budding adventurer, aspiring scientist — every
+              member of our diverse Dragon community. They serve a multitude of
+              purposes, all geared toward fostering an immersive learning
+              experience further enhanced by the power of literature,
+              information, and technology.
             </PageParagraph>
           </div>
         </div>
@@ -78,12 +78,12 @@ export default function AboutCampusesLibraries(props: Props) {
 
           <div className="bg-primary-800 p-10 mt-16">
             <PageParagraph className="text-white">
-              The libraries at JIS are a haven for the avid reader, curious
-              explorer, budding adventurer, aspiring scientist — every member of
-              our diverse Dragon community. They serve a multitude of purposes,
-              all geared toward fostering an immersive learning experience
-              further enhanced by the power of literature, information, and
-              technology.
+              The libraries at Mitra Kasih are a haven for the avid reader,
+              curious explorer, budding adventurer, aspiring scientist — every
+              member of our diverse Dragon community. They serve a multitude of
+              purposes, all geared toward fostering an immersive learning
+              experience further enhanced by the power of literature,
+              information, and technology.
             </PageParagraph>
           </div>
         </div>
@@ -98,12 +98,12 @@ export default function AboutCampusesLibraries(props: Props) {
 
           <div className="bg-primary-800 p-10 mt-16">
             <PageParagraph className="text-white">
-              The libraries at JIS are a haven for the avid reader, curious
-              explorer, budding adventurer, aspiring scientist — every member of
-              our diverse Dragon community. They serve a multitude of purposes,
-              all geared toward fostering an immersive learning experience
-              further enhanced by the power of literature, information, and
-              technology.
+              The libraries at Mitra Kasih are a haven for the avid reader,
+              curious explorer, budding adventurer, aspiring scientist — every
+              member of our diverse Dragon community. They serve a multitude of
+              purposes, all geared toward fostering an immersive learning
+              experience further enhanced by the power of literature,
+              information, and technology.
             </PageParagraph>
           </div>
         </div>
@@ -118,12 +118,12 @@ export default function AboutCampusesLibraries(props: Props) {
 
           <div className="bg-primary-800 p-10 mt-16">
             <PageParagraph className="text-white">
-              The libraries at JIS are a haven for the avid reader, curious
-              explorer, budding adventurer, aspiring scientist — every member of
-              our diverse Dragon community. They serve a multitude of purposes,
-              all geared toward fostering an immersive learning experience
-              further enhanced by the power of literature, information, and
-              technology.
+              The libraries at Mitra Kasih are a haven for the avid reader,
+              curious explorer, budding adventurer, aspiring scientist — every
+              member of our diverse Dragon community. They serve a multitude of
+              purposes, all geared toward fostering an immersive learning
+              experience further enhanced by the power of literature,
+              information, and technology.
             </PageParagraph>
           </div>
         </div>
@@ -138,12 +138,12 @@ export default function AboutCampusesLibraries(props: Props) {
 
           <div className="bg-primary-800 p-10 mt-16">
             <PageParagraph className="text-white">
-              The libraries at JIS are a haven for the avid reader, curious
-              explorer, budding adventurer, aspiring scientist — every member of
-              our diverse Dragon community. They serve a multitude of purposes,
-              all geared toward fostering an immersive learning experience
-              further enhanced by the power of literature, information, and
-              technology.
+              The libraries at Mitra Kasih are a haven for the avid reader,
+              curious explorer, budding adventurer, aspiring scientist — every
+              member of our diverse Dragon community. They serve a multitude of
+              purposes, all geared toward fostering an immersive learning
+              experience further enhanced by the power of literature,
+              information, and technology.
             </PageParagraph>
           </div>
         </div>
@@ -158,12 +158,12 @@ export default function AboutCampusesLibraries(props: Props) {
 
           <div className="bg-primary-800 p-10 mt-16">
             <PageParagraph className="text-white">
-              The libraries at JIS are a haven for the avid reader, curious
-              explorer, budding adventurer, aspiring scientist — every member of
-              our diverse Dragon community. They serve a multitude of purposes,
-              all geared toward fostering an immersive learning experience
-              further enhanced by the power of literature, information, and
-              technology.
+              The libraries at Mitra Kasih are a haven for the avid reader,
+              curious explorer, budding adventurer, aspiring scientist — every
+              member of our diverse Dragon community. They serve a multitude of
+              purposes, all geared toward fostering an immersive learning
+              experience further enhanced by the power of literature,
+              information, and technology.
             </PageParagraph>
           </div>
         </div>
@@ -178,12 +178,12 @@ export default function AboutCampusesLibraries(props: Props) {
 
           <div className="bg-primary-800 p-10 mt-16">
             <PageParagraph className="text-white">
-              The libraries at JIS are a haven for the avid reader, curious
-              explorer, budding adventurer, aspiring scientist — every member of
-              our diverse Dragon community. They serve a multitude of purposes,
-              all geared toward fostering an immersive learning experience
-              further enhanced by the power of literature, information, and
-              technology.
+              The libraries at Mitra Kasih are a haven for the avid reader,
+              curious explorer, budding adventurer, aspiring scientist — every
+              member of our diverse Dragon community. They serve a multitude of
+              purposes, all geared toward fostering an immersive learning
+              experience further enhanced by the power of literature,
+              information, and technology.
             </PageParagraph>
           </div>
         </div>

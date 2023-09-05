@@ -26,7 +26,9 @@ export default function AboutMissionVisionStrivingList(props: Props) {
         <PageTitle heading="h2">
           Shared Learning and Pedagogical Approaches
         </PageTitle>
-        <PageParagraph className="mt-8">At JIS we strive to:</PageParagraph>
+        <PageParagraph className="mt-8">
+          At Mitra Kasih we strive to:
+        </PageParagraph>
         <ul className="columns-2 list-disc gap-x-20 mt-8">
           {striving_list.map((item) => (
             <li key={item}>

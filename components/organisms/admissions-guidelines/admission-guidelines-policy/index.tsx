@@ -42,8 +42,8 @@ export default function AdmissionGuidelinesPolicy(props: Props) {
               <article className="grid grid-cols-2 gap-12">
                 <div>
                   <PageParagraph>
-                    Please check the appropriate JIS grade level by downloading
-                    the
+                    Please check the appropriate Mitra Kasih grade level by
+                    downloading the
                   </PageParagraph>
                 </div>
                 <div></div>
@@ -69,8 +69,8 @@ export default function AdmissionGuidelinesPolicy(props: Props) {
             <AccordionContent>
               <article className="space-y-8">
                 <PageParagraph>
-                  JIS has two Elementary campuses: Pattimura (PEL) and Pondok
-                  Indah (PIE). PEL is closer to embassies and the Central
+                  Mitra Kasih has two Elementary campuses: Pattimura (PEL) and
+                  Pondok Indah (PIE). PEL is closer to embassies and the Central
                   Business District while PIE is in a residential area in South
                   Jakarta. Travel time between the campuses is approximately 20
                   minutes.

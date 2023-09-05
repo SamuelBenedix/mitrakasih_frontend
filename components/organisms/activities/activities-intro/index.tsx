@@ -16,8 +16,9 @@ export default function ActivitiesIntro(props: Props) {
 
         <Quote>
           Students have the choice to engage in clubs and activities that
-          further enhance their learning journey at JIS, from TEDxJIS and
-          student leadership to Service Learning and co-curricular programs.
+          further enhance their learning journey at Mitra Kasih, from TEDxMitra
+          Kasih and student leadership to Service Learning and co-curricular
+          programs.
         </Quote>
 
         <article className="mt-8 space-y-4">
