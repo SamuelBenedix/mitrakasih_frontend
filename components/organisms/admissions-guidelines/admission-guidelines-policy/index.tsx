@@ -28,8 +28,8 @@ export default function AdmissionGuidelinesPolicy(props: Props) {
 
         <article className="mt-10">
           <PageParagraph>
-            Jakarta Intercultural School welcomes learners who can benefit from
-            and contribute to a high-quality elementary to secondary university
+            Mitra Kasih School welcomes learners who can benefit from and
+            contribute to a high-quality elementary to secondary university
             preparatory curriculum.
           </PageParagraph>
         </article>
@@ -37,7 +37,7 @@ export default function AdmissionGuidelinesPolicy(props: Props) {
         <Accordion type="multiple" className="mt-8">
           {/* ==================== Grade Placement Policies ==================== */}
           <AccordionItem value="1" className="w-full">
-            <AccordionTrigger>Grade Placement Policies</AccordionTrigger>
+            <AccordionTrigger>Early Years</AccordionTrigger>
             <AccordionContent>
               <article className="grid grid-cols-2 gap-12">
                 <div>
@@ -53,7 +53,7 @@ export default function AdmissionGuidelinesPolicy(props: Props) {
 
           {/* ==================== Early Years Policy ==================== */}
           <AccordionItem value="2" className="w-full">
-            <AccordionTrigger>Early Years Policy</AccordionTrigger>
+            <AccordionTrigger>Elementary School</AccordionTrigger>
             <AccordionContent>
               <PageParagraph>
                 Yes. It adheres to the WAI-ARIA design pattern.
@@ -63,9 +63,7 @@ export default function AdmissionGuidelinesPolicy(props: Props) {
 
           {/* ==================== Elementary Campus Placement Policy ==================== */}
           <AccordionItem value="3" className="w-full">
-            <AccordionTrigger>
-              Elementary Campus Placement Policy
-            </AccordionTrigger>
+            <AccordionTrigger>Middle School</AccordionTrigger>
             <AccordionContent>
               <article className="space-y-8">
                 <PageParagraph>
@@ -88,33 +86,7 @@ export default function AdmissionGuidelinesPolicy(props: Props) {
 
           {/* ==================== High School Admission Policies ==================== */}
           <AccordionItem value="4" className="w-full">
-            <AccordionTrigger>High School Admission Policies</AccordionTrigger>
-            <AccordionContent>
-              Yes. It adheres to the WAI-ARIA design pattern.
-            </AccordionContent>
-          </AccordionItem>
-
-          {/* ==================== Indonesian Ministry of Education Course Requirements ==================== */}
-          <AccordionItem value="5" className="w-full">
-            <AccordionTrigger>
-              Indonesian Ministry of Education Course Requirements
-            </AccordionTrigger>
-            <AccordionContent>
-              Yes. It adheres to the WAI-ARIA design pattern.
-            </AccordionContent>
-          </AccordionItem>
-
-          {/* ==================== Inclusion Statement ==================== */}
-          <AccordionItem value="6" className="w-full">
-            <AccordionTrigger>Inclusion Statement</AccordionTrigger>
-            <AccordionContent>
-              Yes. It adheres to the WAI-ARIA design pattern.
-            </AccordionContent>
-          </AccordionItem>
-
-          {/* ==================== Admissions Priority Policy ==================== */}
-          <AccordionItem value="7" className="w-full">
-            <AccordionTrigger>Admissions Priority Policy</AccordionTrigger>
+            <AccordionTrigger>High School</AccordionTrigger>
             <AccordionContent>
               Yes. It adheres to the WAI-ARIA design pattern.
             </AccordionContent>

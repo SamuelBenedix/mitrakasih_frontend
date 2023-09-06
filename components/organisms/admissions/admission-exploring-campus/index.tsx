@@ -13,11 +13,11 @@ export default function AdmissionExploringCampus(props: Props) {
   return (
     <section className="mt-32">
       <Container size="md">
-        <PageTitle heading="h2">Explore Our Campuses</PageTitle>
+        <PageTitle heading="h2">Explore Our School</PageTitle>
         <article className="mt-10">
           <PageParagraph>
-            Visit Mitra Kasih virtually today! Click on one of our campuses
-            below and take a self-guided 360° virtual tour.
+            Visit Mitra Kasih virtually today! Click on one of our school below
+            and take a self-guided 360° virtual tour.
           </PageParagraph>
         </article>
 

@@ -21,7 +21,7 @@ export default function AboutCampusPage(props: Props) {
       <PageHero
         navBar={{ navigations: getNavigation("About"), name: "About" }}
         header={{
-          title: "Our Campuses",
+          title: "Our School",
           description:
             "Our campus provide students a safe place to learn, play, engage with their surroundings, and explore their interests.",
           image: getRandomImageUrl(),
