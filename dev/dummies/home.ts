@@ -235,7 +235,7 @@ export const tab_panel_first_dummies = {
         {
           title: "Mitra Kasih Peduli",
           description:
-            "Mitra Kasih Peduli is the service arm of Jakarta Intercultural School. It helps to support and fund service projects developed by students and Mitra Kasih service initiatives.",
+            "Mitra Kasih Peduli is the service arm of Mitra Kasih School. It helps to support and fund service projects developed by students and Mitra Kasih service initiatives.",
           linkLabel: "Learn More",
           linkHref: "",
           image: getRandomImageUrl(),
@@ -248,7 +248,7 @@ export const tab_panel_first_dummies = {
 export const campus_slideshow_dummies = [
   {
     description:
-      "At Jakarta Intercultural School, students are challenged to be reflective and creative",
+      "At Mitra Kasih School, students are challenged to be reflective and creative",
     image: getRandomImageUrl(),
   },
   {
@@ -335,6 +335,11 @@ export const community_voices_dummies = {
 
   body: [
     {
+      title: "Early School Student",
+      description: "What would you tell people abot the Mitra Kasih community?",
+      image: getRandomImageUrl(),
+    },
+    {
       title: "Elementary School Student",
       description: "What would you tell new students joining Mitra Kasih?",
       image: getRandomImageUrl(),
@@ -350,12 +355,6 @@ export const community_voices_dummies = {
       title: "High School Student",
       description:
         "What does Mitra Kasih' mission to be Best for the World mean to you?",
-      image: getRandomImageUrl(),
-    },
-
-    {
-      title: "Faculty",
-      description: "What would you tell people abot the Mitra Kasih community?",
       image: getRandomImageUrl(),
     },
   ],

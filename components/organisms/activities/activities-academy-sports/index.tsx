@@ -26,8 +26,8 @@ export default function ActivitiesAcademySports(props: Props) {
           <PageParagraph>
             These programs were established with the aim of offering quality,
             high interest academic, fitness, creative and sports activities
-            beyond the normal Jakarta Intercultural School curriculum and ASAs
-            in order to better serve our community.
+            beyond the normal Mitra Kasih School curriculum and ASAs in order to
+            better serve our community.
           </PageParagraph>
 
           <PageParagraph>

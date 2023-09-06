@@ -35,7 +35,7 @@ export default function AboutMissionVisionPage(props: Props) {
             <PageTitle>School Leadership</PageTitle>
             <article className="mt-10">
               <PageParagraph>
-                Jakarta Intercultural School is led by a team of experienced
+                Mitra Kasih School is led by a team of experienced
                 administrators under the direction of the Board of Management
                 and governed by a Board of Trustees. They work together to
                 ensure that every Mitra Kasih student gains a high-quality,

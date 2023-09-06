@@ -12,7 +12,7 @@ export default function AboutCampusesIntro(props: Props) {
   return (
     <section className="mt-32">
       <Container size="md">
-        <PageTitle>Our Campuses</PageTitle>
+        <PageTitle>Our School</PageTitle>
 
         <Paragraphs>
           <Paragraph>
@@ -30,7 +30,7 @@ export default function AboutCampusesIntro(props: Props) {
           </Paragraph>
 
           <Paragraph>
-            Our campuses have tranquil gardens, swimming pools, sports fields,
+            Our school have tranquil gardens, swimming pools, sports fields,
             state-of-art STEAM labs, creative arts performance venues, and
             libraries. Mitra Kasih is an oasis, and we often find that our
             students and parents never want to leave!
