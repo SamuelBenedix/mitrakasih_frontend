@@ -115,16 +115,16 @@ export default function AboutCampusesLibraries(props: Props) {
       </PageTitle>
       <div className="mt-10">
         <Library libraries={dummies} />
-
-        <div className="bg-primary-800 p-10 mt-16">
-          <PageParagraph className="text-white">
-            The libraries at Mitra Kasih are a haven for the avid reader,
-            curious explorer, budding adventurer, aspiring scientist — every
-            member of our diverse Dragon community. They serve a multitude of
-            purposes, all geared toward fostering an immersive learning
-            experience further enhanced by the power of literature,
-            information, and technology.
-          </PageParagraph>
+          <div className="bg-primary-800 py-6 px-4 md:p-10 mt-16">
+            <PageParagraph className="text-white">
+              The libraries at Mitra Kasih are a haven for the avid reader,
+              curious explorer, budding adventurer, aspiring scientist — every
+              member of our diverse Dragon community. They serve a multitude of
+              purposes, all geared toward fostering an immersive learning
+              experience further enhanced by the power of literature,
+              information, and technology.
+            </PageParagraph>
+          </div>
         </div>
       </div>
     </section> */}
@@ -135,7 +135,7 @@ export default function AboutCampusesLibraries(props: Props) {
         <div className="mt-10">
           <Library libraries={CampusImage.TechLab} />
 
-          <div className="bg-primary-800 p-10 mt-16">
+          <div className="bg-primary-800 py-6 px-4 md:p-10 mt-16">
             <PageParagraph className="text-white">
               The libraries at Mitra Kasih are a haven for the avid reader,
               curious explorer, budding adventurer, aspiring scientist — every
@@ -155,7 +155,7 @@ export default function AboutCampusesLibraries(props: Props) {
         <div className="mt-10">
           <Library libraries={CampusImage.Classrooms} />
 
-          <div className="bg-primary-800 p-10 mt-16">
+          <div className="bg-primary-800 py-6 px-4 md:p-10 mt-16">
             <PageParagraph className="text-white">
               The libraries at Mitra Kasih are a haven for the avid reader,
               curious explorer, budding adventurer, aspiring scientist — every
@@ -175,7 +175,7 @@ export default function AboutCampusesLibraries(props: Props) {
         <div className="mt-10">
           <Library libraries={CampusImage.Makerspace} />
 
-          <div className="bg-primary-800 p-10 mt-16">
+          <div className="bg-primary-800 py-6 px-4 md:p-10 mt-16">
             <PageParagraph className="text-white">
               The libraries at Mitra Kasih are a haven for the avid reader,
               curious explorer, budding adventurer, aspiring scientist — every
@@ -195,7 +195,7 @@ export default function AboutCampusesLibraries(props: Props) {
         <div className="mt-10">
           <Library libraries={CampusImage.Playground} />
 
-          <div className="bg-primary-800 p-10 mt-16">
+          <div className="bg-primary-800 py-6 px-4 md:p-10 mt-16">
             <PageParagraph className="text-white">
               The libraries at Mitra Kasih are a haven for the avid reader,
               curious explorer, budding adventurer, aspiring scientist — every
@@ -215,7 +215,7 @@ export default function AboutCampusesLibraries(props: Props) {
         <div className="mt-10">
           <Library libraries={CampusImage.Athletic} />
 
-          <div className="bg-primary-800 p-10 mt-16">
+          <div className="bg-primary-800 py-6 px-4 md:p-10 mt-16">
             <PageParagraph className="text-white">
               The libraries at Mitra Kasih are a haven for the avid reader,
               curious explorer, budding adventurer, aspiring scientist — every
@@ -235,7 +235,7 @@ export default function AboutCampusesLibraries(props: Props) {
         <div className="mt-10">
           <Library libraries={CampusImage.Art} />
 
-          <div className="bg-primary-800 p-10 mt-16">
+          <div className="bg-primary-800 py-6 px-4 md:p-10 mt-16">
             <PageParagraph className="text-white">
               The libraries at Mitra Kasih are a haven for the avid reader,
               curious explorer, budding adventurer, aspiring scientist — every
@@ -255,7 +255,7 @@ export default function AboutCampusesLibraries(props: Props) {
         <div className="mt-10">
           <Library libraries={CampusImage.Cafe} />
 
-          <div className="bg-primary-800 p-10 mt-16">
+          <div className="bg-primary-800 py-6 px-4 md:p-10 mt-16">
             <PageParagraph className="text-white">
               The libraries at Mitra Kasih are a haven for the avid reader,
               curious explorer, budding adventurer, aspiring scientist — every

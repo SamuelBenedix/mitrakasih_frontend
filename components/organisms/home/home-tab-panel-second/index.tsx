@@ -2,15 +2,9 @@
 
 import React from "react";
 import Container from "@/components/atoms/container";
-import Image from "next/image";
-import { IconArrowNarrowRight } from "@tabler/icons-react";
-import Link from "next/link";
 import styles from "./styles.module.css";
 import { cn } from "@/lib/utils/utils";
-import {
-  tab_panel_first_dummies,
-  tab_panel_second_dummies,
-} from "@/dev/dummies/home";
+import { tab_panel_second_dummies } from "@/dev/dummies/home";
 import * as Tabs from "@radix-ui/react-tabs";
 import HomeSectionHeader from "../../../molecules/section-header";
 import Slider from "react-slick";
@@ -28,6 +22,14 @@ export default function HomeTabPanelSecond(props: Props) {
     slidesToScroll: 1,
     arrows: false,
     className: "tab-panel-slider",
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1.1,
+        },
+      },
+    ],
   };
 
   return (

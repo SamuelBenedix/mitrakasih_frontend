@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import { RecoilRoot } from "recoil";
 
 interface Props {
   children: React.ReactNode;
@@ -9,5 +10,5 @@ interface Props {
 export default function Providers(props: Props) {
   const { children } = props;
 
-  return <>{children}</>;
+  return <RecoilRoot>{children}</RecoilRoot>;
 }

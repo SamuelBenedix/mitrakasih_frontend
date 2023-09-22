@@ -21,7 +21,7 @@ export default function AdmissionExploringCampus(props: Props) {
           </PageParagraph>
         </article>
 
-        <div className="grid grid-cols-2 gap-8 mt-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
           {exploring_campus.map((item) => (
             <Figure
               key={item.title}

@@ -51,7 +51,7 @@ export const app = {
 
     {
       label: "Admissions",
-      href: paths.admission,
+      href: paths.admissions,
       links: [
         {
           label: "Admission Guidelines",

@@ -13,7 +13,7 @@ export default function AcademicsElementarySchoolExperience(props: Props) {
       <Container size="md">
         <PageTitle heading="h2">Student and Family Experience</PageTitle>
 
-        <ul className="list-disc space-y-2 mt-8">
+        <ul className="list-disc px-4 md:px-0 space-y-2 mt-8">
           <li>
             <PageParagraph>
               We value the home-school connection. We see you, Mitra Kasih

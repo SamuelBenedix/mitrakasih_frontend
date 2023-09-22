@@ -39,7 +39,7 @@ export default function AdmissionCampusTours(props: Props) {
           </ul>
         </article>
 
-        <div className="grid grid-cols-2 gap-x-8 mt-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
           <Button>Schedule A Virtual Meeting Today</Button>
           <Button>
             Contact Mitra Kasih Admissions to Book an On-Campus Tour

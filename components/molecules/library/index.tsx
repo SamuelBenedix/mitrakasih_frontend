@@ -28,7 +28,7 @@ export default function Library(props: Props) {
       {libraries.map((library) => (
         <div key={library.name}>
           <div className="flex flex-col items-center">
-            <div className="h-[32rem] w-full">
+            <div className="h-[20rem] md:h-[32rem] w-full">
               <Image
                 src={library.image}
                 alt=""
