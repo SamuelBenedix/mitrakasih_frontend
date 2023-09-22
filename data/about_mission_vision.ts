@@ -1,16 +1,16 @@
-export const page_title = "Mission and Vision";
+export const _pageTitle = "Mission and Vision";
 
-export const page_quote =
+export const _pageQuote =
   "Our Mission and Vision guide everything that we do from how we learn to the dispositions that Mitra Kasih students gain while at our school.";
 
-export const mission_vision = [
+export const _missionVisions = [
   "We are passionate, inquisitive and creative – learning in Indonesia to be best for the world. ",
   "We value perseverance, integrity, responsibility, respect, compassion, balance and fun.",
   "We will inspire joyful, rigorous learning and foster wellness as a pioneering, inclusive, and collaborative community.",
   "We learn by reflecting and relating, by being resourceful and resilient.",
 ];
 
-export const quality_learnings = [
+export const _qualityLearnings = [
   {
     name: "Resourceful",
     list: [
@@ -53,7 +53,7 @@ export const quality_learnings = [
   },
 ];
 
-export const striving_list = [
+export const _strivingList = [
   "cultivate a safe, inclusive, and empowering learning environment that supports all learners’ emotional, social and cognitive development",
   "use the backward-by-design planning model",
   "design materials and assessments that are situated in meaningful contexts",

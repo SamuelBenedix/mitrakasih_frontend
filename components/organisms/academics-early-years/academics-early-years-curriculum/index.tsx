@@ -4,7 +4,7 @@ import React from "react";
 import Container from "@/components/atoms/container";
 import PageTitle from "../../../atoms/heading";
 import PageParagraph from "../../../atoms/paragraph";
-import { quality_learnings } from "@/dev/dummies/mission-vision";
+import { quality_learnings } from "@/data/about_mission_vision";
 import {
   Tabs,
   TabsContent,

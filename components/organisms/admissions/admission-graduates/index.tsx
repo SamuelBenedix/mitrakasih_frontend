@@ -2,7 +2,7 @@ import PageTitle from "../../../atoms/heading";
 import React from "react";
 import Container from "@/components/atoms/container";
 import Figure from "@/components/molecules/figure";
-import { graduates } from "@/dev/dummies/admissions";
+import { _graduates } from "@/data/admissions";
 import Button from "@/components/atoms/button";
 
 interface Props {}
@@ -15,7 +15,7 @@ export default function AdmissionGraduates(props: Props) {
       <Container size="md">
         <PageTitle heading="h2">Where Mitra Kasih Students Go</PageTitle>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
-          {graduates.map((item) => (
+          {_graduates.map((item) => (
             <Figure key={item.title} title={item.title} image={item.image} />
           ))}
         </div>

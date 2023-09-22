@@ -1,7 +1,7 @@
 import ContainerBase from "@/components/atoms/container-base";
 import PageHero from "@/components/organisms/layout/page-hero";
 import { getNavigation } from "@/lib/utils/utils";
-import { getRandomImageUrl } from "@/dev/getRandomImageUrl";
+import { getRandomImageUrl } from "@/data/getRandomImageUrl";
 import AcademicsIntro from "@/components/organisms/academics/academics-intro";
 import AcademicsReasons from "@/components/organisms/academics/academics-reasons";
 

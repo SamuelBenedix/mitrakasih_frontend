@@ -1,7 +1,7 @@
 import ContainerBase from "@/components/atoms/container-base";
 import PageHero from "@/components/organisms/layout/page-hero";
 import { getNavigation } from "@/lib/utils/utils";
-import { getRandomImageUrl } from "@/dev/getRandomImageUrl";
+import { getRandomImageUrl } from "@/data/getRandomImageUrl";
 import AcademicsMiddleSchoolIntro from "@/components/organisms/academics-middle-school/academics-middle-school-intro";
 import AcademicsMiddleSchoolCurriculum from "@/components/organisms/academics-middle-school/academics-middle-school-curriculum";
 import AcademicsMiddleSchoolExperience from "@/components/organisms/academics-middle-school/academics-middle-school-experience";

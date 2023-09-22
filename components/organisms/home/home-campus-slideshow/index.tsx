@@ -5,7 +5,7 @@ import Slider from "react-slick";
 import Image from "next/image";
 import "./styles.css";
 import { IconChevronLeft, IconChevronRight } from "@tabler/icons-react";
-import { campus_slideshow_dummies } from "@/dev/dummies/home";
+import { _campusSlideshow } from "@/data/home";
 
 interface Props {}
 
@@ -63,7 +63,7 @@ export default function HomeCampusSlideshow(props: Props) {
 
         <div className="pt-6 md:pt-20 pb-28 md:px-0">
           <Slider ref={slider} {...settings}>
-            {campus_slideshow_dummies.map((dummy) => (
+            {_campusSlideshow.map((dummy) => (
               <div key={dummy.description} className="md:h-[46rem]">
                 <div className="md:h-[36rem] max-w-6xl mx-auto slide-container relative">
                   <Image

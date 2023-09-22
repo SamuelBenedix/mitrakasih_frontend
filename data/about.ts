@@ -1,6 +1,6 @@
-import { getRandomImageUrl } from "@/dev/getRandomImageUrl";
+import { getRandomImageUrl } from "@/data/getRandomImageUrl";
 
-export const intro_dummies = {
+export const _aboutIntro = {
   title: "What Does It Mean To Be Best For The World?",
 
   description:

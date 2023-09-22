@@ -3,7 +3,7 @@
 import React from "react";
 import Container from "@/components/atoms/container";
 import { cn } from "@/lib/utils/utils";
-import { community_voices_dummies } from "@/dev/dummies/home";
+import { _communityVoices } from "@/data/home";
 import HomeSectionHeader from "../../../molecules/section-header";
 import Slider from "react-slick";
 import Figure from "@/components/molecules/figure";
@@ -34,10 +34,10 @@ export default function HomeCommunityVoices(props: Props) {
     <section className="mt-40">
       <Container size="md">
         <HomeSectionHeader
-          title={community_voices_dummies.title}
-          description={community_voices_dummies.description}
-          linkLabel={community_voices_dummies.linkLabel}
-          linkHref={community_voices_dummies.linkHref}
+          title={_communityVoices.title}
+          description={_communityVoices.description}
+          linkLabel={_communityVoices.linkLabel}
+          linkHref={_communityVoices.linkHref}
         />
 
         <div className="relative">
@@ -49,7 +49,7 @@ export default function HomeCommunityVoices(props: Props) {
 
           {/*<div className="relative max-w-8xl">*/}
           <Slider {...settings}>
-            {community_voices_dummies.body.map((dummy) => (
+            {_communityVoices.body.map((dummy) => (
               <Figure
                 key={dummy.title}
                 title={dummy.title}

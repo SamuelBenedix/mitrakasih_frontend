@@ -9,7 +9,7 @@
 ## How To Run in Development?
 ```shell
 yarn
-yarn dev
+yarn data
 ```
 
 ## Details

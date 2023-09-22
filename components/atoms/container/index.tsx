@@ -6,18 +6,27 @@ interface Props {
   size?: "sm" | "md" | "lg" | "xl";
   firstSection?: boolean;
   section?: boolean;
+  noPadding?: boolean;
   className?: string;
 }
 
 export default function Container(props: Props) {
-  const { children, size = "xl", className, firstSection, section } = props;
+  const {
+    children,
+    size = "xl",
+    className,
+    firstSection,
+    section,
+    noPadding,
+  } = props;
 
   const classes = cn(
     "mx-auto",
-    size === "sm" && "max-w-[860px] px-4",
-    size === "md" && "max-w-[1200px] px-4",
-    size === "lg" && "max-w-[1500px] px-4",
-    size === "xl" && "max-w-[1620px] px-4",
+    noPadding ? "px-0" : "px-4",
+    size === "sm" && "max-w-[860px]",
+    size === "md" && "max-w-[1200px]",
+    size === "lg" && "max-w-[1500px]",
+    size === "xl" && "max-w-[1620px]",
     firstSection && "mt-14 md:mt-32",
     className,
   );

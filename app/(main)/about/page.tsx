@@ -1,7 +1,7 @@
 import ContainerBase from "@/components/atoms/container-base";
 import PageHero from "@/components/organisms/layout/page-hero";
 import { getNavigation } from "@/lib/utils/utils";
-import { getRandomImageUrl } from "@/dev/getRandomImageUrl";
+import { getRandomImageUrl } from "@/data/getRandomImageUrl";
 import AboutAbout from "@/components/organisms/about/about-about";
 import AboutIntro from "@/components/organisms/about/about-intro";
 import AboutMembership from "@/components/organisms/about/about-membership";
@@ -22,9 +22,8 @@ export default function AboutPage(props: Props) {
       <PageHero
         navBar={{ navigations: getNavigation("About"), name: "About" }}
         header={{
-          title: "About Mitra Kasih",
-          description:
-            "Mitra Kasih is a diverse community of learners representing over 60 nationalities where every student is supported to achieve their very best.",
+          title: `About {app.title}`,
+          description: `{app.title} is a diverse community of learners representing over 60 nationalities where every student is supported to achieve their very best.`,
           image: getRandomImageUrl(),
         }}
       />

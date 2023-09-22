@@ -1,7 +1,7 @@
 import ContainerBase from "@/components/atoms/container-base";
 import PageHero from "@/components/organisms/layout/page-hero";
 import { getNavigation } from "@/lib/utils/utils";
-import { getRandomImageUrl } from "@/dev/getRandomImageUrl";
+import { getRandomImageUrl } from "@/data/getRandomImageUrl";
 import AdmissionIntro from "@/components/organisms/admissions/admission-intro";
 import AdmissionCampusTours from "@/components/organisms/admissions/admission-campus-tours";
 import AdmissionExploringCampus from "@/components/organisms/admissions/admission-exploring-campus";

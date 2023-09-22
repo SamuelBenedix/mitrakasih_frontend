@@ -1,6 +1,6 @@
-import { getRandomImageUrl } from "@/dev/getRandomImageUrl";
+import { getRandomImageUrl } from "@/data/getRandomImageUrl";
 
-export const hero_dummies = [
+export const _hero = [
   {
     title: "Where We Learn",
     description:
@@ -29,10 +29,10 @@ export const hero_dummies = [
   },
 ];
 
-export const about_dummies =
+export const _about =
   "At Mitra Kasih, we prepare students from across the globe to be best in what they aspire for and at the same time, be best for the world they live in.";
 
-export const tab_panel_first_dummies = {
+export const _tabPanelFirst = {
   title: "Where We Learn",
 
   description:
@@ -245,7 +245,7 @@ export const tab_panel_first_dummies = {
   ],
 };
 
-export const campus_slideshow_dummies = [
+export const _campusSlideshow = [
   {
     description:
       "At Mitra Kasih School, students are challenged to be reflective and creative",
@@ -268,7 +268,7 @@ export const campus_slideshow_dummies = [
   },
 ];
 
-export const tab_panel_second_dummies = {
+export const _tabPanelSecond = {
   title: "Life at Mitra Kasih",
 
   description:
@@ -323,7 +323,7 @@ export const tab_panel_second_dummies = {
   ],
 };
 
-export const community_voices_dummies = {
+export const _communityVoices = {
   title: "Community Voices",
 
   description:

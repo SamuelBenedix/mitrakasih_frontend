@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "@/components/atoms/container";
 import Figure from "@/components/molecules/figure";
-import { getRandomImageUrl } from "@/dev/getRandomImageUrl";
+import { getRandomImageUrl } from "@/data/getRandomImageUrl";
 import Heading from "@/components/atoms/heading";
 import Paragraph from "@/components/atoms/paragraph";
 

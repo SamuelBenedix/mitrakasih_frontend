@@ -4,7 +4,7 @@ import React from "react";
 import PageTitle from "../../../atoms/heading";
 import Container from "@/components/atoms/container";
 import Library from "@/components/molecules/library";
-import { getRandomImageUrl } from "@/dev/getRandomImageUrl";
+import { getRandomImageUrl } from "@/data/getRandomImageUrl";
 import PageParagraph from "../../../atoms/paragraph";
 
 interface Props {}
@@ -16,7 +16,7 @@ export default function AboutCampusesLibraries(props: Props) {
     TechLab: [
       {
         name: "TL1",
-        image: "/images/documentations/excurrexcurr/coding/Coding (Large).JPG",
+        image: "/images/documentations/excurr/coding/Coding (Large).JPG",
       },
       {
         name: "TL2",
@@ -55,7 +55,7 @@ export default function AboutCampusesLibraries(props: Props) {
       {
         name: "MK3",
         image:
-          "/images/documentations/three_way_conferencethree_way_conference/HIGH/IMG_20230911_151756 (Large).jpg",
+          "/images/documentations/three_way_conference/HIGH/IMG_20230911_151756 (Large).jpg",
       },
     ],
     Athletic: [
@@ -76,8 +76,7 @@ export default function AboutCampusesLibraries(props: Props) {
     Art: [
       {
         name: "AR1",
-        image:
-          "/images/documentations/pentas_senipentas_seni/2022/DSC01279.JPG",
+        image: "/images/documentations/pentas_seni/2022/DSC01279.JPG",
       },
       {
         name: "AR2",

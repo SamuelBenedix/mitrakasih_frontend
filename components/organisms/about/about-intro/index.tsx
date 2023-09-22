@@ -3,7 +3,7 @@
 import React from "react";
 import Container from "@/components/atoms/container";
 import Slider from "react-slick";
-import { intro_dummies } from "@/dev/dummies/about";
+import { _aboutIntro } from "@/data/about";
 import HomeSectionHeader from "@/components/molecules/section-header";
 import Figure from "@/components/molecules/figure";
 import Paragraph from "@/components/atoms/paragraph";
@@ -36,15 +36,15 @@ export default function AboutIntro(props: Props) {
       <Container>
         <div className="flex justify-end">
           <HomeSectionHeader
-            title={intro_dummies.title}
-            description={intro_dummies.description}
-            linkLabel={intro_dummies.linkLabel}
-            linkHref={intro_dummies.linkHref}
+            title={_aboutIntro.title}
+            description={_aboutIntro.description}
+            linkLabel={_aboutIntro.linkLabel}
+            linkHref={_aboutIntro.linkHref}
           />
         </div>
 
         <Slider {...settings}>
-          {intro_dummies.body.map((item) => (
+          {_aboutIntro.body.map((item) => (
             <Figure
               key={item.title}
               title={item.title}

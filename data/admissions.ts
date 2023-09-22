@@ -1,6 +1,6 @@
-import { getRandomImageUrl } from "@/dev/getRandomImageUrl";
+import { getRandomImageUrl } from "@/data/getRandomImageUrl";
 
-export const exploring_campus = [
+export const _exploringCampus = [
   {
     title: "Pondok Indah Elementary",
     linkLabel: "Explore Pondok Indah Elementary Campus",
@@ -28,7 +28,7 @@ export const exploring_campus = [
   },
 ];
 
-export const graduates = [
+export const _graduates = [
   {
     title: "Let's hear from Halle",
     image: getRandomImageUrl(),

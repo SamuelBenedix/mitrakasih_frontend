@@ -38,7 +38,7 @@ export default function PageHero(props: Props) {
         <div
           className={cn(
             header ? "bg-white" : " bg-primary-800",
-            "flex h-[5rem] md:h-[8rem] flex-row justify-between items-center md:items-end px-4 md:px-10",
+            "flex h-[5rem] md:h-[8rem] flex-row justify-between items-center px-4 md:px-10",
           )}
         >
           <div className="z-10">
@@ -52,7 +52,7 @@ export default function PageHero(props: Props) {
               />
             </Link>
           </div>
-          <div className="mb-4 hidden md:flex">
+          <div className="mb-4 hidden md:flex self-end">
             {app.navigations.map((navigation) => (
               <Navigation
                 key={navigation.label}

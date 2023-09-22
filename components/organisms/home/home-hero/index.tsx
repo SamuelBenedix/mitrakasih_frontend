@@ -13,7 +13,7 @@ import {
 } from "@tabler/icons-react";
 import "./styles.css";
 import HomeSectionHeader from "../../../molecules/section-header";
-import { hero_dummies } from "@/dev/dummies/home";
+import { _hero } from "@/data/home";
 import { useMobileNavbar } from "@/hooks/useMobileNavbar";
 
 interface Props {}
@@ -85,7 +85,7 @@ export default function HomeHero(props: Props) {
       </button>
 
       <Slider ref={slider} {...settings}>
-        {hero_dummies.map((dummy) => (
+        {_hero.map((dummy) => (
           <figure key={dummy.title} className="relative">
             <div className="w-full h-screen">
               <Image

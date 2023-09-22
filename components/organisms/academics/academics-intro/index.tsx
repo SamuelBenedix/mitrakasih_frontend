@@ -4,7 +4,7 @@ import PageTitle from "../../../atoms/heading";
 import PageQuote from "../../../atoms/quote";
 import PageParagraph from "../../../atoms/paragraph";
 import Figure from "@/components/molecules/figure";
-import { getRandomImageUrl } from "@/dev/getRandomImageUrl";
+import { getRandomImageUrl } from "@/data/getRandomImageUrl";
 
 interface Props {}
 

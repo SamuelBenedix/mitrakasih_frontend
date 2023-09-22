@@ -1,7 +1,7 @@
 import ContainerBase from "@/components/atoms/container-base";
 import PageHero from "@/components/organisms/layout/page-hero";
 import { getNavigation } from "@/lib/utils/utils";
-import { getRandomImageUrl } from "@/dev/getRandomImageUrl";
+import { getRandomImageUrl } from "@/data/getRandomImageUrl";
 import AcademicsElementarySchoolCurriculum from "@/components/organisms/academics-elementary-school/academics-elementary-school-curriculum";
 import AcademicsElementarySchoolExperience from "@/components/organisms/academics-elementary-school/academics-elementary-school-experience";
 import AcademicsElementarySchoolCommunity from "@/components/organisms/academics-elementary-school/academics-elementary-school-community";
@@ -31,7 +31,7 @@ export default function AcademicsElementarySchoolPage(props: Props) {
           description:
             "Elementary school is when students to start to build on their curiosities and love of learning.",
           image:
-            "/images/documentations/classes/PRIMARY/IMG-20220607-WA0052.jpg",
+            "/images/documentations/classesclasses/PRIMARY/IMG-20220607-WA0052.jpg",
         }}
       />
 

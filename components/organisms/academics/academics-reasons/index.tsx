@@ -3,7 +3,7 @@
 import React from "react";
 import Container from "@/components/atoms/container";
 import HomeSectionHeader from "@/components/molecules/section-header";
-import { intro_dummies } from "@/dev/dummies/about";
+import { intro_dummies } from "@/data/about";
 import Slider from "react-slick";
 import Image from "next/image";
 import Link from "next/link";
