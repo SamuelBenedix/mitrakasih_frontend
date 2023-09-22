@@ -37,7 +37,7 @@ export default function Header() {
     <header>
       <div
         className={cn(
-          "flex flex-row justify-between items-center md:items-end md:px-10 fixed px-4 top-0 inset-x-0 z-20 transition-all duration-700",
+          "flex flex-row justify-between items-center md:px-10 fixed px-4 top-0 inset-x-0 z-20 transition-all duration-700",
           show
             ? "h-[5rem] md:h-[8rem] bg-white shadow"
             : "-translate-y-[5rem] md:-translate-y-[8rem]",
@@ -50,11 +50,11 @@ export default function Header() {
               alt={app.title}
               width={120}
               height={120}
-              className="h-20 md:h-28 w-full"
+              className="h-12 md:h-20 w-full"
             />
           </Link>
         </div>
-        <div className="mb-4 hidden md:flex">
+        <div className="mb-4 hidden md:flex self-end">
           {app.navigations.map((navigation) => (
             <Navigation key={navigation.label} link={navigation} />
           ))}

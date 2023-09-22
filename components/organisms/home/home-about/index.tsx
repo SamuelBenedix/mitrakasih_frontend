@@ -42,10 +42,10 @@ export default function HomeAbout(props: Props) {
               alt=""
               height={180}
               width={180}
-              className="h-24 md:h-36 w-full"
+              className="h-16 md:h-36 w-full"
             />
           </div>
-          <p className="text-primary-800 text-center md:text-3xl leading-[1.8rem] md:leading-[3rem]">
+          <p className="text-primary-800 text-center md:text-3xl leading-[1.8rem] md:leading-[3rem] mt-4 md:mt-10">
             At Mitra Kasih, we prepare students from across the globe to be best
             in what they aspire for and at the same time, be best for the world
             they live in.

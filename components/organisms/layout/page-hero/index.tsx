@@ -48,7 +48,7 @@ export default function PageHero(props: Props) {
                 alt={app.title}
                 width={120}
                 height={120}
-                className="h-20 md:h-28 w-full"
+                className="h-12 md:h-20 w-full"
               />
             </Link>
           </div>
@@ -61,7 +61,12 @@ export default function PageHero(props: Props) {
               />
             ))}
           </div>
-          <div className="md:hidden text-primary-800">
+          <div
+            className={cn(
+              "md:hidden",
+              header ? "text-primary-800" : "text-white",
+            )}
+          >
             <button onClick={openMobileNavbar}>
               <IconMenu size={36} />
             </button>

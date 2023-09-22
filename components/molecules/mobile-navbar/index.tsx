@@ -27,15 +27,15 @@ export default function MobileNavbar() {
           : "translate-x-[100vw] opacity-0",
       )}
     >
-      <div className="flex flex-row justify-between items-center px-4">
+      <div className="flex flex-row justify-between items-center p-4">
         <div>
           <Link href={paths.home}>
             <Image
-              src={app.images.logo}
+              src={app.images.logoWhite}
               alt={app.title}
               width={120}
               height={120}
-              className="h-20 md:h-28 w-full"
+              className="h-12 md:h-20 w-full"
             />
           </Link>
         </div>

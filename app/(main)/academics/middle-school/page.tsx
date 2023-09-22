@@ -30,7 +30,8 @@ export default function AcademicsMiddleSchoolPage(props: Props) {
           title: "Middle School",
           description:
             "This is the time when students start to branch out, discover new interests, and make meaningful connections between the real world and their love of learning.",
-            image: '/images/DOKUMENTASI/FUNWEEK/MIIDLE HIGH/IMG-20230607-WA0046.jpg',
+          image:
+            "/images/documentations/FUNWEEK/MIIDLE HIGH/IMG-20230607-WA0046.jpg",
         }}
       />
 

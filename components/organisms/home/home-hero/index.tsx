@@ -47,7 +47,7 @@ export default function HomeHero(props: Props) {
       <header>
         <div
           className={cn(
-            "flex h-[5rem] md:h-[8rem] flex-row justify-between items-center md:items-end px-4 md:px-10 absolute z-10 bg-white inset-x-0 top-0 text-white",
+            "flex h-[5rem] md:h-[8rem] flex-row justify-between items-center px-4 md:px-10 absolute z-10 bg-white inset-x-0 top-0 text-white",
           )}
         >
           <div className="z-10">
@@ -56,16 +56,12 @@ export default function HomeHero(props: Props) {
               alt={app.title}
               width={120}
               height={120}
-              className="h-20 md:h-28 w-full"
+              className="h-12 md:h-20 w-full"
             />
           </div>
-          <div className="mb-4 hidden md:flex">
+          <div className="mb-4 hidden md:flex self-end">
             {app.navigations.map((navigation) => (
-              <Navigation
-                key={navigation.label}
-                link={navigation}
-                // color="white"
-              />
+              <Navigation key={navigation.label} link={navigation} />
             ))}
           </div>
           <div className="md:hidden text-primary-800">

@@ -13,85 +13,87 @@ export default function AboutCampusesLibraries(props: Props) {
   const {} = props;
 
   const CampusImage = {
-    TechLab : [
+    TechLab: [
       {
         name: "TL1",
-        image: '/images/DOKUMENTASI/01 EXCURR/coding/Coding (Large).JPG',
+        image: "/images/documentations/excurrexcurr/coding/Coding (Large).JPG",
       },
       {
         name: "TL2",
-        image: '/images/Foto Gedung/NK/DSC00283 (Large).JPG', 
+        image: "/images/buildings/NK/DSC00283 (Large).JPG",
       },
     ],
-    Playground : [
+    Playground: [
       {
         name: "PL1",
-        image: '/images/Foto Gedung/NK/DSC00282 (Large).JPG',
+        image: "/images/buildings/NK/DSC00282 (Large).JPG",
       },
       {
         name: "PL2",
-        image: '/images/Foto Gedung/NK/DSC00280 (Large).JPG',
+        image: "/images/buildings/NK/DSC00280 (Large).JPG",
       },
     ],
-    Classrooms : [
+    Classrooms: [
       {
         name: "CL1",
-        image: '/images/DOKUMENTASI/01 DIKELAS/HIGH/IMG-20220607-WA0022.jpg',
+        image: "/images/documentations/classes/HIGH/IMG-20220607-WA0022.jpg",
       },
       {
         name: "CL2",
-        image: '/images/DOKUMENTASI/01 DIKELAS/MIDDLE/IMG-20220607-WA0024.jpg',
+        image: "/images/documentations/classes/MIDDLE/IMG-20220607-WA0024.jpg",
       },
-
     ],
     Makerspace: [
       {
         name: "MK1",
-        image: '/images/DOKUMENTASI/ACTIVITY 2023-2024/MKS00896 (Large).JPG',
+        image: "/images/documentations/activity_2023_2024/MKS00896 (Large).JPG",
       },
       {
         name: "MK2",
-        image: '/images/DOKUMENTASI/ACTIVITY 2023-2024/MKS09951 (Large).JPG',
+        image: "/images/documentations/activity_2023_2024/MKS09951 (Large).JPG",
       },
       {
         name: "MK3",
-        image: '/images/DOKUMENTASI/01 THREE WAY CONFERENCE/HIGH/IMG_20230911_151756 (Large).jpg',
+        image:
+          "/images/documentations/three_way_conferencethree_way_conference/HIGH/IMG_20230911_151756 (Large).jpg",
       },
     ],
     Athletic: [
       {
-        name  : "AT1",
-        image: '/images/DOKUMENTASI/ACTIVITY 2023-2024/DSC00121 (Large).JPG',
+        name: "AT1",
+        image: "/images/documentations/activity_2023_2024/DSC00121 (Large).JPG",
       },
       {
         name: "AT2",
-        image: '/images/DOKUMENTASI/FUNWEEK/MIIDLE HIGH/IMG-20230607-WA0033.jpg',
+        image:
+          "/images/documentations/FUNWEEK/MIIDLE HIGH/IMG-20230607-WA0033.jpg",
       },
       {
         name: "AT3",
-        image: '/images/DOKUMENTASI/OLAHRAGA/NK/DSC00119 (Large).JPG',
-      }
+        image: "/images/documentations/OLAHRAGA/NK/DSC00119 (Large).JPG",
+      },
     ],
     Art: [
       {
         name: "AR1",
-        image: '/images/DOKUMENTASI/05 PENTAS SENI/2022/DSC01279.JPG',
+        image:
+          "/images/documentations/pentas_senipentas_seni/2022/DSC01279.JPG",
       },
       {
         name: "AR2",
-        image: '/images/DOKUMENTASI/05 PENTAS SENI/2022/DSC01260.JPG',
+        image: "/images/documentations/pentas_seni/2022/DSC01260.JPG",
       },
     ],
     Cafe: [
       {
         name: "CF1",
-        image: '/images/DOKUMENTASI/ACTIVITY 2023-2024/DSC00121 (Large).JPG',
+        image: "/images/documentations/activity_2023_2024/DSC00121 (Large).JPG",
       },
       {
         name: "CF2",
-        image: '/images/DOKUMENTASI/ACTIVITY 2023-2024/DSC00121 (Large).JPG',
+        image: "/images/documentations/activity_2023_2024/DSC00121 (Large).JPG",
       },
-    ]
+    ],
   };
   const dummies = [
     {
@@ -109,7 +111,7 @@ export default function AboutCampusesLibraries(props: Props) {
   ];
   return (
     <Container size="md">
-    {/* <section className="mt-20">
+      {/* <section className="mt-20">
       <PageTitle heading="h2" className="text-center">
         Libraries
       </PageTitle>
