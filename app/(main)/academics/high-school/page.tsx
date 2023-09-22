@@ -30,7 +30,7 @@ export default function AcademicsHighSchoolPage(props: Props) {
           title: "High School",
           description:
             "Mitra Kasih High School is where students begin to explore how their passions and love of learning translate into life beyond school.",
-          image: getRandomImageUrl(),
+            image: '/images/DOKUMENTASI/ACTIVITY 2022-2023/H/WhatsApp Image 2023-05-30 at 08.51.22 (1).jpeg',
         }}
       />
 
