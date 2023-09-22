@@ -10,6 +10,7 @@ import { paths } from "@/config/paths";
 import { IconMenu } from "@tabler/icons-react";
 import { useMobileNavbar } from "@/hooks/useMobileNavbar";
 import MobileNavbar from "@/components/molecules/mobile-navbar";
+import { navigations } from "@/config/navigations";
 
 export default function Header() {
   const [show, setShow] = useState<boolean>(false);
@@ -55,7 +56,7 @@ export default function Header() {
           </Link>
         </div>
         <div className="mb-4 hidden md:flex self-end">
-          {app.navigations.map((navigation) => (
+          {navigations.map((navigation) => (
             <Navigation key={navigation.label} link={navigation} />
           ))}
         </div>

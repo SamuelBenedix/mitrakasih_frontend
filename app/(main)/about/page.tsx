@@ -1,10 +1,10 @@
 import ContainerBase from "@/components/atoms/container-base";
 import PageHero from "@/components/organisms/layout/page-hero";
 import { getNavigation } from "@/lib/utils/utils";
-import { getRandomImageUrl } from "@/data/getRandomImageUrl";
 import AboutAbout from "@/components/organisms/about/about-about";
 import AboutIntro from "@/components/organisms/about/about-intro";
 import AboutMembership from "@/components/organisms/about/about-membership";
+import { _label, _pageDescription, _pageImage, _pageTitle } from "@/data/about";
 
 interface Props {}
 
@@ -20,11 +20,11 @@ export default function AboutPage(props: Props) {
   return (
     <ContainerBase>
       <PageHero
-        navBar={{ navigations: getNavigation("About"), name: "About" }}
+        navBar={{ navigations: getNavigation(_label), name: _label }}
         header={{
-          title: `About {app.title}`,
-          description: `{app.title} is a diverse community of learners representing over 60 nationalities where every student is supported to achieve their very best.`,
-          image: getRandomImageUrl(),
+          title: _pageTitle,
+          description: _pageDescription,
+          image: _pageImage,
         }}
       />
 

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 interface Props {
   libraries: {
-    name: string;
+    caption: string;
     image: string;
   }[];
 }
@@ -26,19 +26,19 @@ export default function Library(props: Props) {
   return (
     <Slider ref={slider} {...settings}>
       {libraries.map((library) => (
-        <div key={library.name}>
+        <div key={library.caption}>
           <div className="flex flex-col items-center">
             <div className="h-[20rem] md:h-[32rem] w-full">
               <Image
                 src={library.image}
-                alt=""
-                width="600"
-                height="600"
+                alt={library.caption}
+                width="1200"
+                height="1200"
                 className="object-cover h-full w-full group-hover:scale-125 transition-all duration-1000"
               />
             </div>
             <p className="text-primary-800 text-lg font-semibold mt-4 mb-6">
-              {library.name}
+              {library.caption}
             </p>
           </div>
         </div>

@@ -1,10 +1,10 @@
 import { getRandomImageUrl } from "@/data/getRandomImageUrl";
+import { app } from "@/config/app";
 
 export const _hero = [
   {
     title: "Where We Learn",
-    description:
-      "The facilities at Mitra Kasih were designed with one goal: creating the best learning environment for our students.",
+    description: `The facilities at ${app.title} were designed with one goal: creating the best learning environment for our students.`,
     linkLabel: "Learn More",
     linkHref: "#",
     image: getRandomImageUrl(),
@@ -12,8 +12,7 @@ export const _hero = [
 
   {
     title: "Learning is What We Do",
-    description:
-      "At Mitra Kasih, we prepare students from across the globe to be the best in what they aspire for while being Best for the World they live in.",
+    description: `At ${app.title}, we prepare students from across the globe to be the best in what they aspire for while being Best for the World they live in.`,
     linkLabel: "Learn More",
     linkHref: "#",
     image: getRandomImageUrl(),
@@ -21,22 +20,19 @@ export const _hero = [
 
   {
     title: "Best for the World",
-    description:
-      "We learn in Indonesia to be Best for the World. Find out how you can join the Mitra Kasih community today!",
+    description: `We learn in Indonesia to be Best for the World. Find out how you can join the ${app.title} community today!`,
     linkLabel: "Learn More",
     linkHref: "#",
     image: getRandomImageUrl(),
   },
 ];
 
-export const _about =
-  "At Mitra Kasih, we prepare students from across the globe to be best in what they aspire for and at the same time, be best for the world they live in.";
+export const _about = `At ${app.title}, we prepare students from across the globe to be best in what they aspire for and at the same time, be best for the world they live in.`;
 
 export const _tabPanelFirst = {
   title: "Where We Learn",
 
-  description:
-    "The facilities at Mitra Kasih were designed with one goal: creating the best learning environment for our students.",
+  description: `The facilities at ${app.title} were designed with one goal: creating the best learning environment for our students.`,
 
   linkLabel: "Learn More",
 
@@ -47,7 +43,7 @@ export const _tabPanelFirst = {
       label: "Admissions",
       body: [
         {
-          title: "Visit Mitra Kasih",
+          title: `Visit ${app.title}`,
           description:
             "The best way to learn about our school is to experience it for yourself! Schedule a tour with our Admissions Office today.",
           linkLabel: "Schedule a Tour Today",
@@ -57,8 +53,7 @@ export const _tabPanelFirst = {
 
         {
           title: "Say Hello! Inquire With Us Today",
-          description:
-            "Speak with a member of our Admissioins Ofice and take the first step to joining Mitra Kasih!",
+          description: `Speak with a member of our Admissions Office and take the first step to joining ${app.title}!`,
           linkLabel: "Take the first step",
           linkHref: "",
           image: getRandomImageUrl(),
@@ -66,8 +61,7 @@ export const _tabPanelFirst = {
 
         {
           title: "Apply Today",
-          description:
-            "Do you already know that Mitra Kasih is the right school for your family? Apply today!",
+          description: `Do you already know that ${app.title} is the right school for your family? Apply today!`,
           linkLabel: "Start of Complete your Application",
           linkHref: "",
           image: getRandomImageUrl(),
@@ -84,8 +78,7 @@ export const _tabPanelFirst = {
 
         {
           title: "School Fees",
-          description:
-            "A Mitra Kasih education prepares your child for endless possibility and experiences.",
+          description: `A ${app.title} education prepares your child for endless possibility and experiences.`,
           linkLabel: "Learn More",
           linkHref: "",
           image: getRandomImageUrl(),
@@ -139,17 +132,15 @@ export const _tabPanelFirst = {
       body: [
         {
           title: "Early Years",
-          description:
-            "It's never too early for students to begin exploring their interests and develop a love for learning. The Mitra Kasih Early Years program, for students ages 3-6, is the perfect place to start.",
+          description: `It's never too early for students to begin exploring their interests and develop a love for learning. The ${app.title} Early Years program, for students ages 3-6, is the perfect place to start.`,
           linkLabel: "Learn More",
           linkHref: "",
           image: getRandomImageUrl(),
         },
 
         {
-          title: "Elemntary School",
-          description:
-            "The Mitra Kasih Elemntary School program (Grades 1-5) immerses children in an atmosphere of care, exploration, and growth while they are introduced to the wonders of mathematics, reading, and writing.",
+          title: "Elementary School",
+          description: `The ${app.title} Elemntary School program (Grades 1-5) immerses children in an atmosphere of care, exploration, and growth while they are introduced to the wonders of mathematics, reading, and writing.`,
           linkLabel: "Learn More",
           linkHref: "",
           image: getRandomImageUrl(),
@@ -157,8 +148,7 @@ export const _tabPanelFirst = {
 
         {
           title: "Middle School",
-          description:
-            "Students in the Mitra Kasih Middle School (Grades 6-8) begin to build powerful connections between theri learning and real life. They are encouraged to explore new interests and develop new passions.",
+          description: `Students in the ${app.title} Middle School (Grades 6-8) begin to build powerful connections between theri learning and real life. They are encouraged to explore new interests and develop new passions.`,
           linkLabel: "Learn More",
           linkHref: "",
           image: getRandomImageUrl(),
@@ -166,26 +156,23 @@ export const _tabPanelFirst = {
 
         {
           title: "High School",
-          description:
-            "As one of the few schools that offer both the International Baccalaurate (IB) and Advances Placement (AP) diploma/courses, the Mitra Kasih High School (Grades 9-12) program is centered on choice and supporting students to achive their very best.",
+          description: `As one of the few schools that offer both the International Baccalaurate (IB) and Advances Placement (AP) diploma/courses, the ${app.title} High School (Grades 9-12) program is centered on choice and supporting students to achive their very best.`,
           linkLabel: "Learn More",
           linkHref: "",
           image: getRandomImageUrl(),
         },
 
         {
-          title: "Mitra Kasih Learning Center",
-          description:
-            "As an etension of our current Student Support Service, the Mitra Kasih Learning Center provides additional support for students with moderate to significant learning needs and global developmental delays.",
+          title: `${app.title} Learning Center`,
+          description: `As an extension of our current Student Support Service, the ${app.title} Learning Center provides additional support for students with moderate to significant learning needs and global developmental delays.`,
           linkLabel: "Learn More",
           linkHref: "",
           image: getRandomImageUrl(),
         },
 
         {
-          title: "Mitra Kasih Studio",
-          description:
-            "Middle School students have the chance to engage in an experiential learning pathway that focuses on teamwork and problem solving through longterm projects called Mitra Kasih Studio.",
+          title: `${app.title} Studio`,
+          description: `Middle School students have the chance to engage in an experiential learning pathway that focuses on teamwork and problem solving through longterm projects called ${app.title} Studio.`,
           linkLabel: "Learn More",
           linkHref: "",
           image: getRandomImageUrl(),
@@ -208,7 +195,7 @@ export const _tabPanelFirst = {
         {
           title: "Service Learning",
           description:
-            "Servicee learning and dedication to being stewards of the environment is built into the curriculum for all of our students from Early Years to High School.",
+            "Service learning and dedication to being stewards of the environment is built into the curriculum for all of our students from Early Years to High School.",
           linkLabel: "Learn More",
           linkHref: "",
           image: getRandomImageUrl(),
@@ -216,8 +203,7 @@ export const _tabPanelFirst = {
 
         {
           title: "Service Clubs",
-          description:
-            "A highlight for many Mitra Kasih students is their participation in one of the many service clubs that are available.",
+          description: `A highlight for many ${app.title} students is their participation in one of the many service clubs that are available.`,
           linkLabel: "Learn More",
           linkHref: "",
           image: getRandomImageUrl(),
@@ -225,17 +211,15 @@ export const _tabPanelFirst = {
 
         {
           title: "Service Partners",
-          description:
-            "Mitra Kasih is only one part of he incredible community in Jakarta that is dedicated to service. We partner with several organizations to help create positive change.",
+          description: `${app.title} is only one part of he incredible community in Jakarta that is dedicated to service. We partner with several organizations to help create positive change.`,
           linkLabel: "Learn More",
           linkHref: "",
           image: getRandomImageUrl(),
         },
 
         {
-          title: "Mitra Kasih Peduli",
-          description:
-            "Mitra Kasih Peduli is the service arm of Mitra Kasih School. It helps to support and fund service projects developed by students and Mitra Kasih service initiatives.",
+          title: `${app.title} Peduli`,
+          description: `${app.title} Peduli is the service arm of ${app.title} School. It helps to support and fund service projects developed by students and ${app.title} service initiatives.`,
           linkLabel: "Learn More",
           linkHref: "",
           image: getRandomImageUrl(),
@@ -247,8 +231,7 @@ export const _tabPanelFirst = {
 
 export const _campusSlideshow = [
   {
-    description:
-      "At Mitra Kasih School, students are challenged to be reflective and creative",
+    description: `At ${app.title} School, students are challenged to be reflective and creative`,
     image: getRandomImageUrl(),
   },
   {
@@ -269,10 +252,9 @@ export const _campusSlideshow = [
 ];
 
 export const _tabPanelSecond = {
-  title: "Life at Mitra Kasih",
+  title: `Life at ${app.title}`,
 
-  description:
-    "Students at Mitra Kasih love to learn, have fun, and discover new passions on our beautiful, spacious, and state-of-the-art campus.",
+  description: `Students at ${app.title} love to learn, have fun, and discover new passions on our beautiful, spacious, and state-of-the-art campus.`,
 
   linkLabel: "Learn More",
 
@@ -285,8 +267,7 @@ export const _tabPanelSecond = {
         {
           title: "Hectares",
           number: "20",
-          description:
-            "Mitra Kasih has four schools across three lush, open campus in South Jakarta. There is plenty of outdoor space on campus for Mitra Kasih students to learn!",
+          description: `${app.title} has four schools across three lush, open campus in South Jakarta. There is plenty of outdoor space on campus for ${app.title} students to learn!`,
           linkLabel: "See our campus",
           linkHref: "",
           image: getRandomImageUrl(),
@@ -294,8 +275,7 @@ export const _tabPanelSecond = {
         {
           title: "Founded",
           number: "1951",
-          description:
-            "For over 70 years Mitra Kasih has been delivering a high-quality international education to students in South Jakarta.",
+          description: `For over 70 years ${app.title} has been delivering a high-quality international education to students in South Jakarta.`,
           linkLabel: "Learn More",
           linkHref: "",
           image: getRandomImageUrl(),
@@ -303,17 +283,15 @@ export const _tabPanelSecond = {
         {
           title: "Students",
           number: "2000+",
-          description:
-            "With students representing over 60 different nationalities, Mitra Kasih is truly an international school.",
-          linkLabel: "Learn More About Mitra Kasih",
+          description: `With students representing over 60 different nationalities, ${app.title} is truly an international school.`,
+          linkLabel: `Learn More About ${app.title}`,
           linkHref: "",
           image: getRandomImageUrl(),
         },
         {
           title: "Clubs and Activities",
           number: "300+",
-          description:
-            "Students from Elementary School to High School have hundreds of clubs and activities to choose from when shapng their Mitra Kasih experience",
+          description: `Students from Elementary School to High School have hundreds of clubs and activities to choose from when shapng their ${app.title} experience`,
           linkLabel: "Learn More",
           linkHref: "",
           image: getRandomImageUrl(),
@@ -326,36 +304,33 @@ export const _tabPanelSecond = {
 export const _communityVoices = {
   title: "Community Voices",
 
-  description:
-    "Mitra Kasih is a diverse community that includes not only out students and faculty and staff, but parents and alumni too. Listen to what our community has to say about their Mitra Kasih experience.",
+  description: `${app.title} is a diverse community that includes not only out students and faculty and staff, but parents and alumni too. Listen to what our community has to say about their ${app.title} experience.`,
 
-  linkLabel: "Learn more about the Mitra Kasih Community",
+  linkLabel: `Learn more about the ${app.title} Community`,
 
   linkHref: "#",
 
   body: [
     {
       title: "Early School Student",
-      description:
-        "What would you tell people about the Mitra Kasih community?",
+      description: `What would you tell people about the ${app.title} community?`,
       image: getRandomImageUrl(),
     },
     {
       title: "Elementary School Student",
-      description: "What would you tell new students joining Mitra Kasih?",
+      description: `What would you tell new students joining ${app.title}?`,
       image: getRandomImageUrl(),
     },
 
     {
       title: "Middle School Students",
-      description: "Wat was your first day of school at Mitra Kasih like?",
+      description: `Wat was your first day of school at ${app.title} like?`,
       image: getRandomImageUrl(),
     },
 
     {
       title: "High School Student",
-      description:
-        "What does Mitra Kasih' mission to be Best for the World mean to you?",
+      description: `What does ${app.title}' mission to be Best for the World mean to you?`,
       image: getRandomImageUrl(),
     },
   ],

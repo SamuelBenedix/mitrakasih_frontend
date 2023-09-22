@@ -4,7 +4,7 @@ import React from "react";
 import Container from "@/components/atoms/container";
 import { cn } from "@/lib/utils/utils";
 import { _communityVoices } from "@/data/home";
-import HomeSectionHeader from "../../../molecules/section-header";
+import HomeSectionHeader from "@/components/molecules/section-header";
 import Slider from "react-slick";
 import Figure from "@/components/molecules/figure";
 
@@ -30,6 +30,7 @@ export default function HomeCommunityVoices(props: Props) {
     ],
   };
 
+  // @ts-ignore
   return (
     <section className="mt-40">
       <Container size="md">
@@ -47,7 +48,6 @@ export default function HomeCommunityVoices(props: Props) {
             )}
           />
 
-          {/*<div className="relative max-w-8xl">*/}
           <Slider {...settings}>
             {_communityVoices.body.map((dummy) => (
               <Figure
@@ -58,7 +58,6 @@ export default function HomeCommunityVoices(props: Props) {
               />
             ))}
           </Slider>
-          {/*</div>*/}
         </div>
       </Container>
     </section>

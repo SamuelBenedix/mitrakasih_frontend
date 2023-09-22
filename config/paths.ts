@@ -26,4 +26,9 @@ export const paths = {
   admissions: "/admissions",
 
   admission_guidelines: "/admissions/guidelines",
+
+  admission_registration:
+    "https://sd.mitrakasih.sch.id/public/register/student",
+
+  admission_announcement: "/admissions/announcement",
 };

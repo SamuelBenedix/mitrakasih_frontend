@@ -18,3 +18,19 @@ export const isNavs = (obj: any): obj is Navs => {
 export const isNav = (obj: any): obj is Nav => {
   return "href" in obj;
 };
+
+export interface Slides {
+  title: string;
+  description: string;
+  linkLabel?: string;
+  linkHref?: string;
+  slides: Figure[];
+}
+
+export interface Figure {
+  title: string;
+  description?: string;
+  linkLabel?: string;
+  linkHref?: string;
+  image: string;
+}

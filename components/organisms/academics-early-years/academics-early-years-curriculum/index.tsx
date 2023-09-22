@@ -4,14 +4,14 @@ import React from "react";
 import Container from "@/components/atoms/container";
 import PageTitle from "../../../atoms/heading";
 import PageParagraph from "../../../atoms/paragraph";
-import { quality_learnings } from "@/data/about_mission_vision";
+import { _qualityLearnings } from "@/data/about_mission_vision";
 import {
   Tabs,
   TabsContent,
   TabsList,
   TabsTrigger,
 } from "@/components/atoms/tabs";
-import Paragraphs from "@/components/atoms/paragraphs";
+import Paragraphs from "../../../molecules/paragraphs";
 
 interface Props {}
 
@@ -22,21 +22,21 @@ export default function AcademicsEarlyYearsCurriculum(props: Props) {
     <section className="mt-32">
       <Container size="md">
         <PageTitle heading="h2">Our Curriculum</PageTitle>
-        <Paragraphs>
-          <PageParagraph>
-            We recognize that the Early Years and Kindergarten Period (ages 3-6)
-            as pivotal in building a foundation for the educational life of our
-            students. We center our curriculum around an inquiry approach to
-            learning that is well-researched and based on best teaching
-            practices from around the world. Here is where it all starts —
-            growing curiosity and the love of learning!
-          </PageParagraph>
-        </Paragraphs>
+        <Paragraphs
+          paragraphs={[
+            "We recognize that the Early Years and Kindergarten Period (ages 3-6)\n" +
+              "            as pivotal in building a foundation for the educational life of our\n" +
+              "            students. We center our curriculum around an inquiry approach to\n" +
+              "            learning that is well-researched and based on best teaching\n" +
+              "            practices from around the world. Here is where it all starts —\n" +
+              "            growing curiosity and the love of learning!",
+          ]}
+        ></Paragraphs>
 
         <div className="mt-10">
-          <Tabs defaultValue={quality_learnings[0].name}>
+          <Tabs defaultValue={_qualityLearnings[0].name}>
             <TabsList>
-              {quality_learnings.map((quality_learning) => (
+              {_qualityLearnings.map((quality_learning) => (
                 <TabsTrigger
                   key={quality_learning.name}
                   value={quality_learning.name}
@@ -46,7 +46,7 @@ export default function AcademicsEarlyYearsCurriculum(props: Props) {
               ))}
             </TabsList>
 
-            {quality_learnings.map((quality_learning) => (
+            {_qualityLearnings.map((quality_learning) => (
               <TabsContent
                 key={quality_learning.name}
                 value={quality_learning.name}

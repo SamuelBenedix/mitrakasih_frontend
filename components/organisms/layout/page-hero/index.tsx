@@ -12,6 +12,7 @@ import { IconArrowRight, IconMenu } from "@tabler/icons-react";
 import { usePathname } from "next/navigation";
 import { paths } from "@/config/paths";
 import { useMobileNavbar } from "@/hooks/useMobileNavbar";
+import { navigations } from "@/config/navigations";
 
 type Props = {
   navBar?: {
@@ -53,7 +54,7 @@ export default function PageHero(props: Props) {
             </Link>
           </div>
           <div className="mb-4 hidden md:flex self-end">
-            {app.navigations.map((navigation) => (
+            {navigations.map((navigation) => (
               <Navigation
                 key={navigation.label}
                 link={navigation}

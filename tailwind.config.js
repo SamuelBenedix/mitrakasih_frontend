@@ -12,7 +12,19 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: colors.blue,
+        primary: {
+          50: "#f1f5fd",
+          100: "#dfe8fa",
+          200: "#c6d7f7",
+          300: "#9ebdf2",
+          400: "#709aea",
+          500: "#4f77e2",
+          600: "#3a5ad6",
+          700: "#3148c4",
+          800: "#2e3c9f",
+          900: "#2e3c8c",
+          950: "#1e244d",
+        },
       },
       transitionTimingFunction: {
         "out-quart": "cubic-bezier(0.25, 1, 0.5, 1)",

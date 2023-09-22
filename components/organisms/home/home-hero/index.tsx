@@ -1,6 +1,6 @@
 "use client";
 
-import React, { createRef } from "react";
+import { createRef } from "react";
 import Image from "next/image";
 import { app } from "@/config/app";
 import { cn } from "@/lib/utils/utils";
@@ -15,6 +15,7 @@ import "./styles.css";
 import HomeSectionHeader from "../../../molecules/section-header";
 import { _hero } from "@/data/home";
 import { useMobileNavbar } from "@/hooks/useMobileNavbar";
+import { navigations } from "@/config/navigations";
 
 interface Props {}
 
@@ -60,7 +61,7 @@ export default function HomeHero(props: Props) {
             />
           </div>
           <div className="mb-4 hidden md:flex self-end">
-            {app.navigations.map((navigation) => (
+            {navigations.map((navigation) => (
               <Navigation key={navigation.label} link={navigation} />
             ))}
           </div>

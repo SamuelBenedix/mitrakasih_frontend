@@ -9,6 +9,7 @@ import { cn } from "@/lib/utils/utils";
 import { paths } from "@/config/paths";
 import Image from "next/image";
 import { useMobileNavbar } from "@/hooks/useMobileNavbar";
+import { navigations } from "@/config/navigations";
 
 export default function MobileNavbar() {
   const {
@@ -53,7 +54,7 @@ export default function MobileNavbar() {
           value={accordionValue}
           onValueChange={setAccordionValue}
         >
-          {app.navigations.map((navigation) => (
+          {navigations.map((navigation) => (
             <Accordion.Item
               key={navigation.label}
               value={navigation.label}
