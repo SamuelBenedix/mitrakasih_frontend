@@ -30,7 +30,7 @@ export default function AcademicsEarlyYearsPage(props: Props) {
           title: "Early Years",
           description:
             "The Mitra Kasih Early Years program was designed to bring out the inquirer in each and every student and introduce them to a love of learning.",
-          image: getRandomImageUrl(),
+          image: '/images/DOKUMENTASI/01 ASEMBLY/DSC00112 (Large).JPG',
         }}
       />
 
