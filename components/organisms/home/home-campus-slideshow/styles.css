@@ -1,10 +1,10 @@
 .slide-container {
+    @apply md:translate-y-[6rem];
     transition: all .7s ease-in-out;
-    transform: translateY(6rem);
 }
 
 .slick-current .slide-container {
-    transform: translateY(0rem);
+    @apply md:translate-y-0;
 }
 
 .slide-shadow {
@@ -19,14 +19,14 @@
 .slide-description {
     transition: all 1s ease-in-out;
     opacity: 0;
-    transform: translateY(4rem);
+    @apply md:translate-y-[4rem];
 }
 
 .slick-current .slide-description {
-    transform: translateY(0rem);
+    @apply md:translate-y-0;
     opacity: 1;
 }
 
 .slick-slide {
-    width: 86rem;
+    @apply md:w-[86rem]
 }
