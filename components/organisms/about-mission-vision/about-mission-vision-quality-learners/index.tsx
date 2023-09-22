@@ -6,7 +6,6 @@ import PageTitle from "../../../atoms/heading";
 import PageParagraph from "../../../atoms/paragraph";
 import * as Tabs from "@radix-ui/react-tabs";
 import {
-  mission_vision,
   page_quote,
   page_title,
   quality_learnings,

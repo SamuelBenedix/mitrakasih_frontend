@@ -1,14 +1,24 @@
-export const page_title = "Mission and Vision";
+export const page_title = {mission:"Mission",vision:"Vision"};
 
-export const page_quote =
-  "Our Mission and Vision guide everything that we do from how we learn to the dispositions that Mitra Kasih students gain while at our school.";
+export const page_quote ={
+  mission: "Misi SMA MITRA KASIH dirumuskan berdasarkan masukan dari berbagai  pihak-pihak yang berkepentingan dan telah diputuskan oleh rapat dewan guru serta disosialisasikan kepada warga satuan pendidikan. Misi ini juga ditinjau dan dirumuskan kembali secara berkala sesuai dengan perkembangan dan tantangan di masyarakat.",
+  vision:"Membentuk Tunas Harapan Bangsa Yang Memiliki Nilai-Nilai Keimanan, Karakter, Dan Berbudaya, Semangat Entrepreneur, Berwawasan Lingkungan Hidup, Cakap Teknologi, Sehingga Menjadi Pribadi Yang Kompeten Dan Berprestasi Dalam Dunia Global."
+};
 
-export const mission_vision = [
-  "We are passionate, inquisitive and creative – learning in Indonesia to be best for the world. ",
-  "We value perseverance, integrity, responsibility, respect, compassion, balance and fun.",
-  "We will inspire joyful, rigorous learning and foster wellness as a pioneering, inclusive, and collaborative community.",
-  "We learn by reflecting and relating, by being resourceful and resilient.",
-];
+export const mission_vision = {mission:[
+],vision:[
+  "Tujuan pendidikan menengah, yaitu untuk meningkatkan kecerdasan, pengetahuan, kepribadian, akhlak mulia, serta ketrampilan untuk hidup mandiri dan mengikuti pendidikan lebih lanjut.",
+"Tuntutan SKL jenjang SMA, yang diamanatkan dalam Permendiknas Nomor 20 tahun 2016.",
+"Berorientasi pada potensi, perkembangan, kebutuhan dan kepentingan peserta didik.",
+"Berorientasi pada kepentingan daerah, nasional dan internasional.",
+"Berorientasi pada perkembangan ilmu pengetahuan, teknologi dan seni.",
+"Memberi inspirasi dan tantangan dalam meningkatkan prestasi secara berkelanjutan untuk mencapai keunggulan.",
+"Mendorong semangat dan komitmen seluruh warga satuan pendidikan untuk meningkatkan kualitas proses dan hasil pendidikan.",
+"Mengarahkan langkah-langkah strategis yang konsisten dengan penjabaran misi satuan pendidikan.",
+"Memiliki kompetensi pada tiga dimensi yaitu sikap, pengetahuan, dan keterampilan.",
+
+  ]
+};
 
 export const quality_learnings = [
   {

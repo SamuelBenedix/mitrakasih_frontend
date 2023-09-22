@@ -8,10 +8,6 @@ import PageQuote from "../../../atoms/quote";
 import { IconAssembly } from "@tabler/icons-react";
 import * as Tabs from "@radix-ui/react-tabs";
 import {
-  mission_vision,
-  page_quote,
-  page_title,
-  quality_learnings,
   striving_list,
 } from "@/dev/dummies/mission-vision";
 
@@ -29,7 +25,7 @@ export default function AboutMissionVisionStrivingList(props: Props) {
         <PageParagraph className="mt-8">
           At Mitra Kasih we strive to:
         </PageParagraph>
-        <ul className="columns-2 list-disc gap-x-20 mt-8">
+        <ul className="list-disc mt-8">
           {striving_list.map((item) => (
             <li key={item}>
               <PageParagraph>{item}</PageParagraph>
