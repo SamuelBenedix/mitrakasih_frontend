@@ -2,9 +2,6 @@
 
 import React from "react";
 import Container from "@/components/atoms/container";
-import Image from "next/image";
-import { IconArrowNarrowRight } from "@tabler/icons-react";
-import Link from "next/link";
 import * as Tabs from "@radix-ui/react-tabs";
 import Slider from "react-slick";
 import HomeSectionHeader from "../../../molecules/section-header";
@@ -23,6 +20,14 @@ export default function HomeTabPanelFirst(props: Props) {
     slidesToScroll: 1,
     arrows: false,
     className: "tab-panel-slider",
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1.1,
+        },
+      },
+    ],
   };
 
   return (

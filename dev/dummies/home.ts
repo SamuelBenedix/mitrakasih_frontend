@@ -258,7 +258,7 @@ export const campus_slideshow_dummies = [
   },
   {
     description:
-      "While relating to the people and community aroung them as they grow",
+      "While relating to the people and community around them as they grow",
     image: getRandomImageUrl(),
   },
   {
@@ -304,7 +304,7 @@ export const tab_panel_second_dummies = {
           title: "Students",
           number: "2000+",
           description:
-            "With students representing over 60 different nationalities, Mitra Kasih is truly an internaitonal school.",
+            "With students representing over 60 different nationalities, Mitra Kasih is truly an international school.",
           linkLabel: "Learn More About Mitra Kasih",
           linkHref: "",
           image: getRandomImageUrl(),
@@ -313,7 +313,7 @@ export const tab_panel_second_dummies = {
           title: "Clubs and Activities",
           number: "300+",
           description:
-            "Students from Elemntary School to High School have hundreds of clubs and activities to choose from when shapng their Mitra Kasih experience",
+            "Students from Elementary School to High School have hundreds of clubs and activities to choose from when shapng their Mitra Kasih experience",
           linkLabel: "Learn More",
           linkHref: "",
           image: getRandomImageUrl(),
@@ -336,7 +336,8 @@ export const community_voices_dummies = {
   body: [
     {
       title: "Early School Student",
-      description: "What would you tell people abot the Mitra Kasih community?",
+      description:
+        "What would you tell people about the Mitra Kasih community?",
       image: getRandomImageUrl(),
     },
     {

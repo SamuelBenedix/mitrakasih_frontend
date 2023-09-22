@@ -24,7 +24,7 @@ export default function RootLayout(props: Props) {
     <html lang={app.lang}>
       <body>
         <Providers>
-          <div className="antialiased flex flex-col min-h-screen overflow-x-hidden">
+          <div className="antialiased flex-col min-h-screen overflow-x-hidden flex">
             <Header />
             <main className="grow">{children}</main>
             <Footer />

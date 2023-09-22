@@ -23,7 +23,7 @@ export const paths = {
 
   news: "/news",
 
-  admission: "/admission",
+  admissions: "/admissions",
 
-  admission_guidelines: "/admission/guidelines",
+  admission_guidelines: "/admissions/guidelines",
 };

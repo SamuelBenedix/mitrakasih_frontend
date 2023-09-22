@@ -1,14 +1,9 @@
+"use client";
+
 import React from "react";
 import Container from "@/components/atoms/container";
-import Image from "next/image";
-import { IconArrowNarrowRight } from "@tabler/icons-react";
-import Link from "next/link";
-import styles from "./styles.module.css";
 import { cn } from "@/lib/utils/utils";
-import {
-  community_voices_dummies,
-  tab_panel_second_dummies,
-} from "@/dev/dummies/home";
+import { community_voices_dummies } from "@/dev/dummies/home";
 import HomeSectionHeader from "../../../molecules/section-header";
 import Slider from "react-slick";
 import Figure from "@/components/molecules/figure";
@@ -17,6 +12,23 @@ interface Props {}
 
 export default function HomeCommunityVoices(props: Props) {
   const {} = props;
+
+  const settings = {
+    speed: 700,
+    slidesToShow: 4,
+    infinite: false,
+    slidesToScroll: 1,
+    arrows: false,
+    className: "tab-panel-slider",
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1.1,
+        },
+      },
+    ],
+  };
 
   return (
     <section className="mt-40">
@@ -35,7 +47,8 @@ export default function HomeCommunityVoices(props: Props) {
             )}
           />
 
-          <div className="relative grid grid-cols-1 md:grid-cols-4">
+          {/*<div className="relative max-w-8xl">*/}
+          <Slider {...settings}>
             {community_voices_dummies.body.map((dummy) => (
               <Figure
                 key={dummy.title}
@@ -44,7 +57,8 @@ export default function HomeCommunityVoices(props: Props) {
                 description={dummy.description}
               />
             ))}
-          </div>
+          </Slider>
+          {/*</div>*/}
         </div>
       </Container>
     </section>

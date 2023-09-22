@@ -21,6 +21,14 @@ export default function AcademicsReasons(props: Props) {
     slidesToScroll: 1,
     arrows: false,
     className: "tab-panel-slider",
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1.1,
+        },
+      },
+    ],
   };
 
   return (

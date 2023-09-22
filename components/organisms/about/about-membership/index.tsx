@@ -21,7 +21,7 @@ export default function AboutMembership(props: Props) {
           Satuan Pendidikan Kerjasama (SPK), or Joint Cooperation School.
         </Paragraph>
 
-        <div className="grid grid-cols-2 mt-20 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 mt-20 gap-10">
           <Figure
             title="Leadership"
             image={getRandomImageUrl()}

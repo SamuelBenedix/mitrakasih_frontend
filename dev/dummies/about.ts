@@ -23,7 +23,7 @@ export const intro_dummies = {
     {
       title: "Say Hello! Inquire With Us Today",
       description:
-        "Speak with a member of our Admissioins Ofice and take the first step to joining Mitra Kasih!",
+        "Speak with a member of our Admissions Office and take the first step to joining Mitra Kasih!",
       linkLabel: "Take the first step",
       linkHref: "",
       image: getRandomImageUrl(),

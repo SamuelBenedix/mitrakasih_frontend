@@ -29,6 +29,7 @@ export default function AdmissionPage(props: Props) {
           image: getRandomImageUrl(),
         }}
       />
+
       <div className="min-h-screen">
         <AdmissionIntro />
         <AdmissionCampusTours />

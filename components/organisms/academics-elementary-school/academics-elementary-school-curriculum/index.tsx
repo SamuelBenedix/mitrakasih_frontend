@@ -47,7 +47,7 @@ export default function AcademicsElementarySchoolCurriculum(props: Props) {
                   key={quality_learning.name}
                   value={quality_learning.name}
                 >
-                  <div className="flex flex-row space-x-8">
+                  <div className="flex flex-col md:flex-row space-y-6 md:space-y-0 px-6 md:px-0 md:space-x-8">
                     <div>
                       <PageParagraph className="w-[20rem]">
                         {quality_learning.name} learning is happening when

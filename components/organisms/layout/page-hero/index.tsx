@@ -5,13 +5,13 @@ import Image from "next/image";
 import { app } from "@/config/app";
 import Navigation from "@/components/molecules/navigation";
 import React from "react";
-import { getRandomImageUrl } from "@/dev/getRandomImageUrl";
 import HomeSectionHeader from "../../../molecules/section-header";
 import { Nav } from "@/types/app";
 import Link from "next/link";
-import { IconArrowRight } from "@tabler/icons-react";
+import { IconArrowRight, IconMenu } from "@tabler/icons-react";
 import { usePathname } from "next/navigation";
 import { paths } from "@/config/paths";
+import { useMobileNavbar } from "@/hooks/useMobileNavbar";
 
 type Props = {
   navBar?: {
@@ -28,6 +28,8 @@ type Props = {
 export default function PageHero(props: Props) {
   const { navBar, header } = props;
 
+  const { open: openMobileNavbar } = useMobileNavbar();
+
   const pathname = usePathname();
 
   return (
@@ -36,7 +38,7 @@ export default function PageHero(props: Props) {
         <div
           className={cn(
             header ? "bg-white" : " bg-primary-800",
-            "flex h-[8rem] flex-row justify-between items-end px-10",
+            "flex h-[5rem] md:h-[8rem] flex-row justify-between items-center md:items-end px-4 md:px-10",
           )}
         >
           <div className="z-10">
@@ -46,10 +48,11 @@ export default function PageHero(props: Props) {
                 alt={app.title}
                 width={120}
                 height={120}
+                className="h-20 md:h-28 w-full"
               />
             </Link>
           </div>
-          <div className="mb-4 flex">
+          <div className="mb-4 hidden md:flex">
             {app.navigations.map((navigation) => (
               <Navigation
                 key={navigation.label}
@@ -58,11 +61,16 @@ export default function PageHero(props: Props) {
               />
             ))}
           </div>
+          <div className="md:hidden text-primary-800">
+            <button onClick={openMobileNavbar}>
+              <IconMenu size={36} />
+            </button>
+          </div>
         </div>
       </header>
 
       {header && (
-        <div className="relative h-[34rem]">
+        <div className="relative h-[28rem] md:h-[34rem]">
           <Image
             src={header.image}
             alt=""
@@ -73,7 +81,7 @@ export default function PageHero(props: Props) {
 
           <div className="absolute bg-gradient-to-t from-black/60 to-transparent h-[90%] bottom-0 inset-x-0" />
 
-          <figcaption className="absolute bottom-0 inset-x-0 md:mx-40 slide-section-header">
+          <figcaption className="absolute -bottom-10 md:bottom-0 inset-x-0 px-4 md:mx-40 slide-section-header">
             {header.title && header.description && (
               <HomeSectionHeader
                 title={header.title}
@@ -86,7 +94,7 @@ export default function PageHero(props: Props) {
       )}
 
       {navBar && (
-        <div className="flex border-b divide-x">
+        <div className="hidden md:flex border-b divide-x">
           <div className="w-52 py-7 flex justify-center items-center">
             <p className="flex space-x-6 items-center text-primary-800 font-semibold">
               <span>{navBar.name}</span> <IconArrowRight />

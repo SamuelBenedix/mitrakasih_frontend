@@ -2,13 +2,13 @@ import Container from "@/components/atoms/container";
 import styles from "./styles.module.css";
 import { cn } from "@/lib/utils/utils";
 import {
-  IconPhone,
-  IconMapPinFilled,
   IconBrandFacebook,
   IconBrandInstagram,
+  IconBrandLinkedin,
   IconBrandX,
   IconBrandYoutube,
-  IconBrandLinkedin,
+  IconMapPinFilled,
+  IconPhone,
 } from "@tabler/icons-react";
 import Link from "next/link";
 import { app } from "@/config/app";
@@ -52,8 +52,8 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="flex flex-col md:flex-row space-x-10">
+          <div className="flex flex-col md:flex-row justify-between items-center space-y-8 md:space-y-0">
+            <div className="flex flex-col md:flex-row md:space-x-10 items-center space-y-6 md:space-y-0">
               <Link
                 href={app.links.contactUs}
                 className="font-medium hover:underline"
