@@ -27,9 +27,9 @@ export default function AcademicsElementarySchoolPage(props: Props) {
           name: "Academics",
         }}
         header={{
-          title: "Elementary School",
+          title: "Sekolah Dasar",
           description:
-            "Elementary school is when students to start to build on their curiosities and love of learning.",
+            "Sekolah Dasar adalah masa di mana para siswa mulai membangun keingintahuan dan kecintaan mereka untuk belajar.",
           image:
             "/images/documentations/classes/PRIMARY/IMG-20220607-WA0052.jpg",
         }}

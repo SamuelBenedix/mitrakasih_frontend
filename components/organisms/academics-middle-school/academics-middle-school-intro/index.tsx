@@ -12,10 +12,9 @@ export default function AcademicsMiddleSchoolIntro(props: Props) {
   return (
     <section className="mt-32">
       <Container size="md">
-        <PageTitle>Early Years</PageTitle>
+        <PageTitle>Sekolah Menengah Pertama</PageTitle>
         <PageQuote>
-          The Mitra Kasih Early Years and Kindergarten Program is an atmosphere
-          of wonder, care, exploration and growth.
+        Ini adalah waktu ketika siswa mulai bercabang, menemukan minat baru, dan membuat hubungan yang bermakna antara dunia nyata dan kecintaan mereka terhadap belajar.
         </PageQuote>
         <article>
           <PageParagraph>

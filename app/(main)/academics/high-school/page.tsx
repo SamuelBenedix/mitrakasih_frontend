@@ -27,9 +27,9 @@ export default function AcademicsHighSchoolPage(props: Props) {
           name: "Academics",
         }}
         header={{
-          title: "High School",
+          title: "Sekolah Menengah Atas",
           description:
-            "Mitra Kasih High School is where students begin to explore how their passions and love of learning translate into life beyond school.",
+            "SMA Mitra Kasih adalah lembaga pendidikan yang berdedikasi untuk membentuk siswa-siswa unggul dengan nilai-nilai keimanan, karakter, dan keterampilan berwawasan iptek, siap untuk menghadapi tantangan global.",
           image:
             "/images/documentations/activity_2022_2023/H/WhatsApp Image 2023-05-30 at 08.51.22 (1).jpeg",
         }}
