@@ -37,7 +37,7 @@ export default function Footer() {
                 <p>Jl. Duta Indah III Pondok Indah, Jakarta12310</p>
               </div>
             </div>
-            <div className="flex space-x-2">
+            {/* <div className="flex space-x-2">
               <IconMapPinFilled />
               <div className="max-w-xs">
                 <p className="font-semibold">Pondok Indah Campus</p>
@@ -50,7 +50,7 @@ export default function Footer() {
                 <p className="font-semibold">Pondok Indah Campus</p>
                 <p>Jl. Duta Indah III Pondok Indah, Jakarta12310</p>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="flex flex-col md:flex-row justify-between items-center space-y-8 md:space-y-0">
             <div className="flex flex-col md:flex-row md:space-x-10 items-center space-y-6 md:space-y-0">

@@ -7,5 +7,5 @@ interface Props {
 export default function Quote(props: Props) {
   const { children } = props;
 
-  return <p className="text-primary-800 text-3xl py-16">{children}</p>;
+  return <p className="text-primary-800 text-3xl py-16 text-justify">{children}</p>;
 }

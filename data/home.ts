@@ -7,7 +7,7 @@ export const _hero = [
     description: `The facilities at ${app.title} were designed with one goal: creating the best learning environment for our students.`,
     linkLabel: "Learn More",
     linkHref: "#",
-    image: getRandomImageUrl(),
+    image: '/images/Foto Gedung/P/DSC02138 (Small).JPG',
   },
 
   {
@@ -15,7 +15,7 @@ export const _hero = [
     description: `At ${app.title}, we prepare students from across the globe to be the best in what they aspire for while being Best for the World they live in.`,
     linkLabel: "Learn More",
     linkHref: "#",
-    image: getRandomImageUrl(),
+    image: '/images/DOKUMENTASI/01 DIKELAS/PRIMARY/WhatsApp Image 2023-05-29 at 08.17.51.jpeg',
   },
 
   {
@@ -23,7 +23,7 @@ export const _hero = [
     description: `We learn in Indonesia to be Best for the World. Find out how you can join the ${app.title} community today!`,
     linkLabel: "Learn More",
     linkHref: "#",
-    image: getRandomImageUrl(),
+    image: '/images/Foto Gedung/MH/MIDDLE.jpg',
   },
 ];
 
@@ -48,7 +48,7 @@ export const _tabPanelFirst = {
             "The best way to learn about our school is to experience it for yourself! Schedule a tour with our Admissions Office today.",
           linkLabel: "Schedule a Tour Today",
           linkHref: "",
-          image: getRandomImageUrl(),
+          image: '/images/Foto Gedung/MH/DSC01867.JPG',
         },
 
         {
@@ -56,7 +56,7 @@ export const _tabPanelFirst = {
           description: `Speak with a member of our Admissions Office and take the first step to joining ${app.title}!`,
           linkLabel: "Take the first step",
           linkHref: "",
-          image: getRandomImageUrl(),
+          image: '/images/DOKUMENTASI/FUNWEEK/MIIDLE HIGH/IMG-20230607-WA0046.jpg',
         },
 
         {
@@ -64,7 +64,7 @@ export const _tabPanelFirst = {
           description: `Do you already know that ${app.title} is the right school for your family? Apply today!`,
           linkLabel: "Start of Complete your Application",
           linkHref: "",
-          image: getRandomImageUrl(),
+          image: '/images/DOKUMENTASI/FUNWEEK/MIIDLE HIGH/IMG-20230609-WA0122.jpg',
         },
 
         {
@@ -73,7 +73,7 @@ export const _tabPanelFirst = {
             "Do you have a question? It might be answered in our Frequently Asked Questions.",
           linkLabel: "See our FAQs",
           linkHref: "",
-          image: getRandomImageUrl(),
+          image: '/images/DOKUMENTASI/FUNWEEK/MIIDLE HIGH/DSC02022.JPG',
         },
 
         {
@@ -81,7 +81,7 @@ export const _tabPanelFirst = {
           description: `A ${app.title} education prepares your child for endless possibility and experiences.`,
           linkLabel: "Learn More",
           linkHref: "",
-          image: getRandomImageUrl(),
+          image: '/images/DOKUMENTASI/FUNWEEK/MIIDLE HIGH/DSC02036.JPG',
         },
       ],
     },
@@ -232,22 +232,22 @@ export const _tabPanelFirst = {
 export const _campusSlideshow = [
   {
     description: `At ${app.title} School, students are challenged to be reflective and creative`,
-    image: getRandomImageUrl(),
+    image: '/images/DOKUMENTASI/FUNWEEK/MIIDLE HIGH/IMG-20230607-WA0025.jpg',
   },
   {
     description:
       "To have experiences that instill resilience and resourcefulness",
-    image: getRandomImageUrl(),
+    image: '/images/DOKUMENTASI/FUNWEEK/PRIMARY/WhatsApp Image 2023-06-13 at 11.48.06.jpeg',
   },
   {
     description:
-      "While relating to the people and community around them as they grow",
-    image: getRandomImageUrl(),
+      "While relating to the people and community aroung them as they grow",
+    image: '/images/DOKUMENTASI/03 ADIWIYATA/cfe62997-a200-404a-8b25-ad65779ad93b.jpg',
   },
   {
     description:
       "To be lifelong learners, leaders, and Best for the World they live in",
-    image: getRandomImageUrl(),
+    image: '/images/DOKUMENTASI/UPACARA/UPACARA-17 AGUSTUS 2023/DSC03518 (Large).JPG',
   },
 ];
 
@@ -270,7 +270,7 @@ export const _tabPanelSecond = {
           description: `${app.title} has four schools across three lush, open campus in South Jakarta. There is plenty of outdoor space on campus for ${app.title} students to learn!`,
           linkLabel: "See our campus",
           linkHref: "",
-          image: getRandomImageUrl(),
+          image: '/images/Foto Gedung/MH/MIDDLE.jpg',
         },
         {
           title: "Founded",
@@ -278,15 +278,16 @@ export const _tabPanelSecond = {
           description: `For over 70 years ${app.title} has been delivering a high-quality international education to students in South Jakarta.`,
           linkLabel: "Learn More",
           linkHref: "",
-          image: getRandomImageUrl(),
+          image: '/images/DOKUMENTASI/UPACARA/UPACARA-TAHUN AJARAN BARU 2023-2024/DSC09596 (Large).JPG',
         },
         {
           title: "Students",
           number: "2000+",
-          description: `With students representing over 60 different nationalities, ${app.title} is truly an international school.`,
+          description:
+          `With students representing over 60 different nationalities, ${app.title} is truly an internaitonal school.`,
           linkLabel: `Learn More About ${app.title}`,
           linkHref: "",
-          image: getRandomImageUrl(),
+          image: '/images/DOKUMENTASI/FIRST DAY SCHOOL 2023-2024/MIDDLE _ HIGH/DSC09335 (Large).JPG',
         },
         {
           title: "Clubs and Activities",
@@ -294,7 +295,7 @@ export const _tabPanelSecond = {
           description: `Students from Elementary School to High School have hundreds of clubs and activities to choose from when shapng their ${app.title} experience`,
           linkLabel: "Learn More",
           linkHref: "",
-          image: getRandomImageUrl(),
+          image: '/images/DOKUMENTASI/01 EXCURR/dance/IMG_1087 (Large).JPG',
         },
       ],
     },
@@ -313,25 +314,26 @@ export const _communityVoices = {
   body: [
     {
       title: "Early School Student",
-      description: `What would you tell people about the ${app.title} community?`,
-      image: getRandomImageUrl(),
+      description: `What would you tell people abot the ${app.title} community?`,
+      image: '/images/DOKUMENTASI/01 DIKELAS/NK/IMG20230529114927 (Large).jpg',
     },
     {
       title: "Elementary School Student",
       description: `What would you tell new students joining ${app.title}?`,
-      image: getRandomImageUrl(),
+      image: '/images/DOKUMENTASI/01 DIKELAS/PRIMARY/WhatsApp Image 2023-05-29 at 08.17.51.jpeg',
     },
 
     {
       title: "Middle School Students",
-      description: `Wat was your first day of school at ${app.title} like?`,
-      image: getRandomImageUrl(),
+      description: `What was your first day of school at ${app.title} like?`,
+      image: '/images/DOKUMENTASI/01 DIKELAS/MIDDLE/IMG-20220607-WA0024.jpg',
     },
 
     {
       title: "High School Student",
-      description: `What does ${app.title}' mission to be Best for the World mean to you?`,
-      image: getRandomImageUrl(),
+      description:
+        `What does ${app.title}'s mission to be Best for the World mean to you?`,
+      image: '/images/DOKUMENTASI/01 DIKELAS/HIGH/IMG-20220607-WA0022.jpg',
     },
   ],
 };

@@ -13,7 +13,7 @@ export default function AboutMissionVisionStrivingList(props: Props) {
   const {} = props;
 
   return (
-    <section className="mt-32">
+    <section className="my-16">
       <Container size="md">
         <PageTitle heading="h2">
           Shared Learning and Pedagogical Approaches
