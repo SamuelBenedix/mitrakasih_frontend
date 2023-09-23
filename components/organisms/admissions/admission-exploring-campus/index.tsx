@@ -1,8 +1,8 @@
-import PageTitle from "../../../atoms/heading";
+import PageTitle from "@/components/atoms/heading";
 import React from "react";
 import Container from "@/components/atoms/container";
-import PageParagraph from "../../../atoms/paragraph";
-import { exploring_campus } from "@/dev/dummies/admissions";
+import PageParagraph from "@/components/atoms/paragraph";
+import { _exploringCampus } from "@/data/admissions";
 import Figure from "@/components/molecules/figure";
 
 interface Props {}
@@ -21,8 +21,8 @@ export default function AdmissionExploringCampus(props: Props) {
           </PageParagraph>
         </article>
 
-        <div className="grid grid-cols-2 gap-8 mt-8">
-          {exploring_campus.map((item) => (
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+          {_exploringCampus.map((item) => (
             <Figure
               key={item.title}
               title={item.title}

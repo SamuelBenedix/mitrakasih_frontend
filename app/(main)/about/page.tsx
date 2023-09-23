@@ -1,13 +1,10 @@
 import ContainerBase from "@/components/atoms/container-base";
 import PageHero from "@/components/organisms/layout/page-hero";
 import { getNavigation } from "@/lib/utils/utils";
-import { getRandomImageUrl } from "@/dev/getRandomImageUrl";
-import PageTitle from "../../../components/atoms/heading";
-import Container from "@/components/atoms/container";
-import PageParagraph from "../../../components/atoms/paragraph";
 import AboutAbout from "@/components/organisms/about/about-about";
 import AboutIntro from "@/components/organisms/about/about-intro";
 import AboutMembership from "@/components/organisms/about/about-membership";
+import { _label, _pageDescription, _pageImage, _pageTitle } from "@/data/about";
 
 interface Props {}
 
@@ -23,12 +20,11 @@ export default function AboutPage(props: Props) {
   return (
     <ContainerBase>
       <PageHero
-        navBar={{ navigations: getNavigation("About"), name: "About" }}
+        navBar={{ navigations: getNavigation(_label), name: _label }}
         header={{
-          title: "About Mitra Kasih",
-          description:
-            "Mitra Kasih adalah sekolah yang mempersiapkan siswa untuk meraih prestasi maksimal dalam dunia pendidikan yang kompetitif.",
-          image: '/images/Foto Gedung/P/DSC02134 (Large).JPG',
+          title: _pageTitle,
+          description: _pageDescription,
+          image: _pageImage,
         }}
       />
 

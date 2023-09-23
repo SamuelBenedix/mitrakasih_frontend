@@ -2,6 +2,7 @@ import { clsx, type ClassValue } from "clsx";
 import { twMerge } from "tailwind-merge";
 import { app } from "@/config/app";
 import { Nav } from "@/types/app";
+import { navigations } from "@/config/navigations";
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
@@ -33,7 +34,6 @@ export function route(path: string, params?: Record<string, string>) {
 
 export function getNavigation(label: string): Nav[] {
   return (
-    app.navigations.find((navigation) => navigation.label === label)?.links ||
-    []
+    navigations.find((navigation) => navigation.label === label)?.links || []
   );
 }

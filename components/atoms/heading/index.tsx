@@ -14,7 +14,10 @@ export default function Heading(props: Props) {
     case "h1":
       return (
         <h1
-          className={cn("text-primary-800 font-bold text-6xl mb-8", className)}
+          className={cn(
+            "text-primary-800 font-bold text-5xl md:text-6xl mb-8",
+            className,
+          )}
         >
           {children}
         </h1>

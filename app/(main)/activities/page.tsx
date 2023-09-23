@@ -1,12 +1,7 @@
 import ContainerBase from "@/components/atoms/container-base";
 import PageHero from "@/components/organisms/layout/page-hero";
 import { getNavigation } from "@/lib/utils/utils";
-import { getRandomImageUrl } from "@/dev/getRandomImageUrl";
-import AcademicsMiddleSchoolIntro from "@/components/organisms/academics-middle-school/academics-middle-school-intro";
-import AcademicsMiddleSchoolCurriculum from "@/components/organisms/academics-middle-school/academics-middle-school-curriculum";
-import AcademicsMiddleSchoolExperience from "@/components/organisms/academics-middle-school/academics-middle-school-experience";
-import AcademicsMiddleSchoolCommunity from "@/components/organisms/academics-middle-school/academics-middle-school-community";
-import AcademicsMiddleSchoolCampuses from "@/components/organisms/academics-middle-school/academics-middle-school-campuses";
+import { getRandomImageUrl } from "@/data/getRandomImageUrl";
 import ActivitiesIntro from "@/components/organisms/activities/activities-intro";
 import ActivitiesAcademySports from "@/components/organisms/activities/activities-academy-sports";
 import ActivitiesLeadership from "@/components/organisms/activities/activities-leadership";

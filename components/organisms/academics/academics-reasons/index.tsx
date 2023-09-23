@@ -3,7 +3,7 @@
 import React from "react";
 import Container from "@/components/atoms/container";
 import HomeSectionHeader from "@/components/molecules/section-header";
-import { intro_dummies } from "@/dev/dummies/about";
+import { _intro } from "@/data/about";
 import Slider from "react-slick";
 import Image from "next/image";
 import Link from "next/link";
@@ -21,6 +21,14 @@ export default function AcademicsReasons(props: Props) {
     slidesToScroll: 1,
     arrows: false,
     className: "tab-panel-slider",
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1.1,
+        },
+      },
+    ],
   };
 
   return (
@@ -34,7 +42,7 @@ export default function AcademicsReasons(props: Props) {
         </div>
 
         <Slider {...settings}>
-          {intro_dummies.body.map((item) => (
+          {_intro.slides.map((item) => (
             <figure key={item.title} className="relative group overflow-hidden">
               <Image
                 src={item.image}
@@ -51,7 +59,7 @@ export default function AcademicsReasons(props: Props) {
                 <div className="opacity-0 h-0 group-hover:h-auto ease-out-quart group-hover:opacity-100 transition-all duration-1000">
                   <p className="mb-4">{item.description}</p>
                   <Link
-                    href={item.linkHref}
+                    href={item.linkHref || "#"}
                     className="font-medium flex space-x-2 items-center"
                   >
                     <span>{item.linkLabel}</span>

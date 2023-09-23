@@ -1,7 +1,7 @@
 import ContainerBase from "@/components/atoms/container-base";
 import PageHero from "@/components/organisms/layout/page-hero";
 import { getNavigation } from "@/lib/utils/utils";
-import { getRandomImageUrl } from "@/dev/getRandomImageUrl";
+import { getRandomImageUrl } from "@/data/getRandomImageUrl";
 import AcademicsMiddleSchoolIntro from "@/components/organisms/academics-middle-school/academics-middle-school-intro";
 import AcademicsMiddleSchoolCurriculum from "@/components/organisms/academics-middle-school/academics-middle-school-curriculum";
 import AcademicsMiddleSchoolExperience from "@/components/organisms/academics-middle-school/academics-middle-school-experience";
@@ -30,7 +30,8 @@ export default function AcademicsMiddleSchoolPage(props: Props) {
           title: "Middle School",
           description:
             "This is the time when students start to branch out, discover new interests, and make meaningful connections between the real world and their love of learning.",
-            image: '/images/DOKUMENTASI/FUNWEEK/MIIDLE HIGH/IMG-20230607-WA0046.jpg',
+          image:
+            "/images/documentations/FUNWEEK/MIIDLE HIGH/IMG-20230607-WA0046.jpg",
         }}
       />
 

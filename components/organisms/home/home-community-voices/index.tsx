@@ -1,15 +1,10 @@
+"use client";
+
 import React from "react";
 import Container from "@/components/atoms/container";
-import Image from "next/image";
-import { IconArrowNarrowRight } from "@tabler/icons-react";
-import Link from "next/link";
-import styles from "./styles.module.css";
 import { cn } from "@/lib/utils/utils";
-import {
-  community_voices_dummies,
-  tab_panel_second_dummies,
-} from "@/dev/dummies/home";
-import HomeSectionHeader from "../../../molecules/section-header";
+import { _communityVoices } from "@/data/home";
+import HomeSectionHeader from "@/components/molecules/section-header";
 import Slider from "react-slick";
 import Figure from "@/components/molecules/figure";
 
@@ -18,14 +13,32 @@ interface Props {}
 export default function HomeCommunityVoices(props: Props) {
   const {} = props;
 
+  const settings = {
+    speed: 700,
+    slidesToShow: 4,
+    infinite: false,
+    slidesToScroll: 1,
+    arrows: false,
+    className: "tab-panel-slider",
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1.1,
+        },
+      },
+    ],
+  };
+
+  // @ts-ignore
   return (
     <section className="mt-40">
       <Container size="md">
         <HomeSectionHeader
-          title={community_voices_dummies.title}
-          description={community_voices_dummies.description}
-          linkLabel={community_voices_dummies.linkLabel}
-          linkHref={community_voices_dummies.linkHref}
+          title={_communityVoices.title}
+          description={_communityVoices.description}
+          linkLabel={_communityVoices.linkLabel}
+          linkHref={_communityVoices.linkHref}
         />
 
         <div className="relative">
@@ -35,8 +48,8 @@ export default function HomeCommunityVoices(props: Props) {
             )}
           />
 
-          <div className="relative grid grid-cols-1 md:grid-cols-4">
-            {community_voices_dummies.body.map((dummy) => (
+          <Slider {...settings}>
+            {_communityVoices.body.map((dummy) => (
               <Figure
                 key={dummy.title}
                 title={dummy.title}
@@ -44,7 +57,7 @@ export default function HomeCommunityVoices(props: Props) {
                 description={dummy.description}
               />
             ))}
-          </div>
+          </Slider>
         </div>
       </Container>
     </section>

@@ -8,7 +8,7 @@ import {
   TabsList,
   TabsTrigger,
 } from "@/components/atoms/tabs";
-import { quality_learnings } from "@/dev/dummies/mission-vision";
+import { _qualityLearnings } from "@/data/about_mission_vision";
 
 interface Props {}
 
@@ -44,9 +44,9 @@ export default function ActivitiesAfterSchool(props: Props) {
         </article>
 
         <div className="mt-10">
-          <Tabs defaultValue={quality_learnings[0].name}>
+          <Tabs defaultValue={_qualityLearnings[0].name}>
             <TabsList>
-              {quality_learnings.map((quality_learning) => (
+              {_qualityLearnings.map((quality_learning) => (
                 <TabsTrigger
                   key={quality_learning.name}
                   value={quality_learning.name}
@@ -56,12 +56,12 @@ export default function ActivitiesAfterSchool(props: Props) {
               ))}
             </TabsList>
 
-            {quality_learnings.map((quality_learning) => (
+            {_qualityLearnings.map((quality_learning) => (
               <TabsContent
                 key={quality_learning.name}
                 value={quality_learning.name}
               >
-                <div className="flex flex-row space-x-8">
+                <div className="flex flex-col md:flex-row space-y-6 md:space-y-0 px-6 md:px-0 md:space-x-8">
                   <div>
                     <PageParagraph className="w-[20rem]">
                       {quality_learning.name} learning is happening when

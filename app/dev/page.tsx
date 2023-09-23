@@ -6,6 +6,7 @@ import Slider from "react-slick";
 export default function HomePage() {
   if (process.env.NODE_ENV === "production") return notFound();
 
+  // @ts-ignore
   return (
     <section>
       <Slider>

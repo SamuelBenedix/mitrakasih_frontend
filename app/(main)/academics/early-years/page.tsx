@@ -1,7 +1,7 @@
 import ContainerBase from "@/components/atoms/container-base";
 import PageHero from "@/components/organisms/layout/page-hero";
 import { getNavigation } from "@/lib/utils/utils";
-import { getRandomImageUrl } from "@/dev/getRandomImageUrl";
+import { getRandomImageUrl } from "@/data/getRandomImageUrl";
 import AcademicsEarlyYearsIntro from "@/components/organisms/academics-early-years/academics-early-years-intro";
 import AcademicsEarlyYearsCurriculum from "@/components/organisms/academics-early-years/academics-early-years-curriculum";
 import AcademicsEarlyYearsExperience from "@/components/organisms/academics-early-years/academics-early-years-experience";
@@ -30,7 +30,7 @@ export default function AcademicsEarlyYearsPage(props: Props) {
           title: "Early Years",
           description:
             "The Mitra Kasih Early Years program was designed to bring out the inquirer in each and every student and introduce them to a love of learning.",
-          image: '/images/DOKUMENTASI/01 ASEMBLY/DSC00112 (Large).JPG',
+          image: "/images/documentations/assembly/DSC00112 (Large).JPG",
         }}
       />
 

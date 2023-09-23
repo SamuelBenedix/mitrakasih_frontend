@@ -5,7 +5,7 @@ import Container from "@/components/atoms/container";
 import PageTitle from "../../../atoms/heading";
 import PageParagraph from "../../../atoms/paragraph";
 import * as Tabs from "@radix-ui/react-tabs";
-import { quality_learnings } from "@/dev/dummies/mission-vision";
+import { _qualityLearnings } from "@/data/about_mission_vision";
 
 interface Props {}
 
@@ -28,9 +28,9 @@ export default function AcademicsMiddleSchoolCurriculum(props: Props) {
         </article>
 
         <div className="mt-10">
-          <Tabs.Root defaultValue={quality_learnings[0].name}>
+          <Tabs.Root defaultValue={_qualityLearnings[0].name}>
             <Tabs.List className="space-x-6 border-b">
-              {quality_learnings.map((quality_learning) => (
+              {_qualityLearnings.map((quality_learning) => (
                 <Tabs.Trigger
                   key={quality_learning.name}
                   value={quality_learning.name}
@@ -42,12 +42,12 @@ export default function AcademicsMiddleSchoolCurriculum(props: Props) {
             </Tabs.List>
 
             <div className="mt-8">
-              {quality_learnings.map((quality_learning) => (
+              {_qualityLearnings.map((quality_learning) => (
                 <Tabs.Content
                   key={quality_learning.name}
                   value={quality_learning.name}
                 >
-                  <div className="flex flex-row space-x-8">
+                  <div className="flex flex-col md:flex-row space-y-6 md:space-y-0 px-6 md:px-0 md:space-x-8">
                     <div>
                       <PageParagraph className="w-[20rem]">
                         {quality_learning.name} learning is happening when

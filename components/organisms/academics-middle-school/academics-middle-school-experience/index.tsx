@@ -2,6 +2,7 @@ import React from "react";
 import Container from "@/components/atoms/container";
 import PageTitle from "../../../atoms/heading";
 import PageParagraph from "../../../atoms/paragraph";
+import { app } from "@/config/app";
 
 interface Props {}
 
@@ -13,10 +14,10 @@ export default function AcademicsMiddleSchoolExperience(props: Props) {
       <Container size="md">
         <PageTitle heading="h2">Student and Family Experience</PageTitle>
 
-        <ul className="list-disc space-y-2 mt-8">
+        <ul className="list-disc px-4 md:px-0 space-y-2 mt-8">
           <li>
             <PageParagraph>
-              We value the home-school connection. We see you, Mitra Kasih
+              We value the home-school connection. We see you, {app.title}
               parents, as partners in your student&apos;s education. Your input
               is valuable and we work together to support learning.
             </PageParagraph>
@@ -54,7 +55,7 @@ export default function AcademicsMiddleSchoolExperience(props: Props) {
           <PageParagraph>
             Young children learn best through direct experiences with the world
             rather than through abstract and formal academic practices. The
-            Mitra Kasih Early Years and Kindergarten Program is supported by
+            {app.title} Early Years and Kindergarten Program is supported by
             qualified, expert educators who guide young children in their
             acquisition of knowledge and their development of content, skills,
             and attitudes, preparing them for elementary school.

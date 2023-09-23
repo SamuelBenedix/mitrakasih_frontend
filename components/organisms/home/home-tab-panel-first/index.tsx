@@ -2,13 +2,10 @@
 
 import React from "react";
 import Container from "@/components/atoms/container";
-import Image from "next/image";
-import { IconArrowNarrowRight } from "@tabler/icons-react";
-import Link from "next/link";
 import * as Tabs from "@radix-ui/react-tabs";
 import Slider from "react-slick";
 import HomeSectionHeader from "../../../molecules/section-header";
-import { tab_panel_first_dummies } from "@/dev/dummies/home";
+import { _tabPanelFirst } from "@/data/home";
 import Figure from "@/components/molecules/figure";
 
 interface Props {}
@@ -23,14 +20,22 @@ export default function HomeTabPanelFirst(props: Props) {
     slidesToScroll: 1,
     arrows: false,
     className: "tab-panel-slider",
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1.1,
+        },
+      },
+    ],
   };
 
   return (
     <section>
       <Container>
-        <Tabs.Root defaultValue={tab_panel_first_dummies.tabs[0].label}>
+        <Tabs.Root defaultValue={_tabPanelFirst.tabs[0].label}>
           <Tabs.List className="space-x-6">
-            {tab_panel_first_dummies.tabs.map((dummy) => (
+            {_tabPanelFirst.tabs.map((dummy) => (
               <Tabs.Trigger
                 key={dummy.label}
                 value={dummy.label}
@@ -42,14 +47,14 @@ export default function HomeTabPanelFirst(props: Props) {
           </Tabs.List>
 
           <HomeSectionHeader
-            title={tab_panel_first_dummies.title}
-            description={tab_panel_first_dummies.description}
-            linkLabel={tab_panel_first_dummies.linkLabel}
-            linkHref={tab_panel_first_dummies.linkHref}
+            title={_tabPanelFirst.title}
+            description={_tabPanelFirst.description}
+            linkLabel={_tabPanelFirst.linkLabel}
+            linkHref={_tabPanelFirst.linkHref}
           />
 
-          <Container size="lg">
-            {tab_panel_first_dummies.tabs.map((dummy) => (
+          <Container size="lg" noPadding>
+            {_tabPanelFirst.tabs.map((dummy) => (
               <Tabs.Content key={dummy.label} value={dummy.label}>
                 <Slider {...settings}>
                   {dummy.body.map((item) => (

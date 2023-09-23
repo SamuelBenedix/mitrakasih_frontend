@@ -1,7 +1,7 @@
 import ContainerBase from "@/components/atoms/container-base";
 import PageHero from "@/components/organisms/layout/page-hero";
 import { getNavigation } from "@/lib/utils/utils";
-import { getRandomImageUrl } from "@/dev/getRandomImageUrl";
+import { getRandomImageUrl } from "@/data/getRandomImageUrl";
 import AcademicsHighSchoolIntro from "@/components/organisms/academics-high-school/academics-high-school-intro";
 import AcademicsHighSchoolCurriculum from "@/components/organisms/academics-high-school/academics-high-school-curriculum";
 import AcademicsHighSchoolExperience from "@/components/organisms/academics-high-school/academics-high-school-experience";
@@ -30,7 +30,8 @@ export default function AcademicsHighSchoolPage(props: Props) {
           title: "High School",
           description:
             "Mitra Kasih High School is where students begin to explore how their passions and love of learning translate into life beyond school.",
-            image: '/images/DOKUMENTASI/ACTIVITY 2022-2023/H/WhatsApp Image 2023-05-30 at 08.51.22 (1).jpeg',
+          image:
+            "/images/documentations/activity_2022_2023activity_2022_2023/H/WhatsApp Image 2023-05-30 at 08.51.22 (1).jpeg",
         }}
       />
 
