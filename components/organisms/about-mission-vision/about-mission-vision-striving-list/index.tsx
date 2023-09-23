@@ -4,8 +4,11 @@ import React from "react";
 import Container from "@/components/atoms/container";
 import PageTitle from "@/components/atoms/heading";
 import PageParagraph from "@/components/atoms/paragraph";
-import { _strivingList } from "@/data/about_mission_vision";
-import { app } from "@/config/app";
+import {
+  _strivingList,
+  _strivingListDescription,
+  _strivingListTitle,
+} from "@/data/about_mission_vision";
 
 interface Props {}
 
@@ -15,16 +18,16 @@ export default function AboutMissionVisionStrivingList(props: Props) {
   return (
     <section className="my-16">
       <Container size="md">
-        <PageTitle heading="h2">
-          Shared Learning and Pedagogical Approaches
-        </PageTitle>
+        <PageTitle heading="h2">{_strivingListTitle}</PageTitle>
+
         <PageParagraph className="mt-8">
-          At {app.title} we strive to:
+          {_strivingListDescription}
         </PageParagraph>
+
         <ul className="md:columns-2 px-6 md:px-0 list-disc gap-x-20 mt-8">
-          {_strivingList.map((item) => (
-            <li key={item}>
-              <PageParagraph>{item}</PageParagraph>
+          {_strivingList.map((_item, key) => (
+            <li key={key}>
+              <PageParagraph>{_item}</PageParagraph>
             </li>
           ))}
         </ul>

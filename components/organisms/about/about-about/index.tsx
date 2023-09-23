@@ -1,7 +1,6 @@
 import React from "react";
 import Container from "@/components/atoms/container";
 import Heading from "@/components/atoms/heading";
-import Paragraph from "@/components/atoms/paragraph";
 import Paragraphs from "../../../molecules/paragraphs";
 import { _about, _pageTitle } from "@/data/about";
 

@@ -1,12 +1,17 @@
-export const _pageTitle = { mission: "Mission", vision: "Vision", goal: "Tujuan" };
+import { app } from "@/config/app";
 
-export const _pageQuote =
-{
+export const _pageTitle = {
+  mission: "Misi",
+  vision: "Visi",
+  goal: "Tujuan",
+};
+
+export const _pageQuote = {
   mission:
     "Misi Sekolah MITRA KASIH dirumuskan berdasarkan masukan dari berbagai  pihak-pihak yang berkepentingan dan telah diputuskan oleh rapat dewan guru serta disosialisasikan kepada warga satuan pendidikan. Misi ini juga ditinjau dan dirumuskan kembali secara berkala sesuai dengan perkembangan dan tantangan di masyarakat.",
   vision:
     "Membentuk Tunas Harapan Bangsa Yang Memiliki Nilai-Nilai Keimanan, Karakter, Dan Berbudaya, Semangat Entrepreneur, Berwawasan Lingkungan Hidup, Cakap Teknologi, Sehingga Menjadi Pribadi Yang Kompeten Dan Berprestasi Dalam Dunia Global.",
-  goal: "Berdasarkan visi dan misi di atas, SMA Mitra Kasih menetapkan tujuan sekolah yang akan dicapai dalam kurun waktu 3 tahun ke depan"
+  goal: "Berdasarkan visi dan misi di atas, SMA Mitra Kasih menetapkan tujuan sekolah yang akan dicapai dalam kurun waktu 3 tahun ke depan",
 };
 
 export const _missionVisions = {
@@ -29,10 +34,15 @@ export const _missionVisions = {
     "Terlaksananya program pembiasaan sejalan dengan profil siswa yang entrepreneurial",
     "Terlaksananya integrasi prinsip-prinsip pendidikan entrepreneurship dengan mengaplikasikan praktik pembelajaran terbaik",
     "Terjalinnya kerjasama masyarakat sekitar, khususnya dengan dunia usaha untuk membangun sekolah yang berdampak",
-  ]
+  ],
 };
 
-export const _qualityLearnings = [
+export const _qualityLearnersTitle = "How do we define learning?";
+
+export const _qualityLearnersDescription =
+  "Learning is a lifelong process that transforms us through rigorous engagement in meaningful experiences. At Mitra Kasih, quality learning happens when students are resourceful, resilient, relating, and reflective. We call these the 4 Rs.";
+
+export const _qualityLearners = [
   {
     name: "Resourceful",
     list: [
@@ -74,6 +84,10 @@ export const _qualityLearnings = [
     ],
   },
 ];
+
+export const _strivingListTitle = "Shared Learning and Pedagogical Approaches";
+
+export const _strivingListDescription = `At ${app.title} we strive to:`;
 
 export const _strivingList = [
   "cultivate a safe, inclusive, and empowering learning environment that supports all learners’ emotional, social and cognitive development",
