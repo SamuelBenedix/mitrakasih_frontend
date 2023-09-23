@@ -28,7 +28,7 @@ export default function AboutPage(props: Props) {
           title: "About Mitra Kasih",
           description:
             "Mitra Kasih is a diverse community of learners representing over 60 nationalities where every student is supported to achieve their very best.",
-          image: getRandomImageUrl(),
+          image: '/images/Foto Gedung/P/DSC02134 (Large).JPG',
         }}
       />
 

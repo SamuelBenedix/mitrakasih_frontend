@@ -18,7 +18,7 @@ export default function AboutMissionVisionQualityLearners(props: Props) {
   const {} = props;
 
   return (
-    <section className="mt-32">
+    <section className="my-16">
       <Container size="md">
         <PageTitle heading="h2">How do we define learning?</PageTitle>
         <article className="mt-8">
