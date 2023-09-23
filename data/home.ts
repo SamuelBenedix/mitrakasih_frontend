@@ -7,7 +7,7 @@ export const _hero = [
     description: `The facilities at ${app.title} were designed with one goal: creating the best learning environment for our students.`,
     linkLabel: "Learn More",
     linkHref: "#",
-    image: '/images/Foto Gedung/P/DSC02138 (Small).JPG',
+    image: '/images/buildings/P/DSC02138 (Small).JPG',
   },
 
   {
@@ -23,7 +23,7 @@ export const _hero = [
     description: `We learn in Indonesia to be Best for the World. Find out how you can join the ${app.title} community today!`,
     linkLabel: "Learn More",
     linkHref: "#",
-    image: '/images/Foto Gedung/MH/MIDDLE.jpg',
+    image: '/images/buildings/MH/MIDDLE (Large).jpg',
   },
 ];
 
@@ -48,7 +48,7 @@ export const _tabPanelFirst = {
             "The best way to learn about our school is to experience it for yourself! Schedule a tour with our Admissions Office today.",
           linkLabel: "Schedule a Tour Today",
           linkHref: "",
-          image: '/images/Foto Gedung/MH/DSC01867.JPG',
+          image: '/images/buildings/MH/DSC01867 (Large).JPG',
         },
 
         {
@@ -56,7 +56,7 @@ export const _tabPanelFirst = {
           description: `Speak with a member of our Admissions Office and take the first step to joining ${app.title}!`,
           linkLabel: "Take the first step",
           linkHref: "",
-          image: '/images/DOKUMENTASI/FUNWEEK/MIIDLE HIGH/IMG-20230607-WA0046.jpg',
+          image: '/images/DOKUMENTASI/FUNWEEK/MIIDLE HIGH/IMG-20230607-WA0046 (Large).jpg',
         },
 
         {
@@ -64,7 +64,7 @@ export const _tabPanelFirst = {
           description: `Do you already know that ${app.title} is the right school for your family? Apply today!`,
           linkLabel: "Start of Complete your Application",
           linkHref: "",
-          image: '/images/DOKUMENTASI/FUNWEEK/MIIDLE HIGH/IMG-20230609-WA0122.jpg',
+          image: '/images/DOKUMENTASI/FUNWEEK/MIIDLE HIGH/IMG-20230609-WA0122 (Large).jpg',
         },
 
         {
@@ -73,7 +73,7 @@ export const _tabPanelFirst = {
             "Do you have a question? It might be answered in our Frequently Asked Questions.",
           linkLabel: "See our FAQs",
           linkHref: "",
-          image: '/images/DOKUMENTASI/FUNWEEK/MIIDLE HIGH/DSC02022.JPG',
+          image: '/images/DOKUMENTASI/FUNWEEK/MIIDLE HIGH/DSC02022 (Large).JPG',
         },
 
         {
@@ -81,7 +81,7 @@ export const _tabPanelFirst = {
           description: `A ${app.title} education prepares your child for endless possibility and experiences.`,
           linkLabel: "Learn More",
           linkHref: "",
-          image: '/images/DOKUMENTASI/FUNWEEK/MIIDLE HIGH/DSC02036.JPG',
+          image: '/images/DOKUMENTASI/FUNWEEK/MIIDLE HIGH/DSC02036 (Large).JPG',
         },
       ],
     },
@@ -270,7 +270,7 @@ export const _tabPanelSecond = {
           description: `${app.title} has four schools across three lush, open campus in South Jakarta. There is plenty of outdoor space on campus for ${app.title} students to learn!`,
           linkLabel: "See our campus",
           linkHref: "",
-          image: '/images/Foto Gedung/MH/MIDDLE.jpg',
+          image: '/images/buildings/MH/MIDDLE (Large).jpg',
         },
         {
           title: "Founded",

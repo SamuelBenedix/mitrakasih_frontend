@@ -10,7 +10,7 @@ export const _pageTitle: string = `Tentang ${app.title}`;
 
 export const _pageDescription: string = `${app.title} adalah sekolah yang mempersiapkan siswa untuk meraih prestasi maksimal dalam dunia pendidikan yang kompetitif.`;
 
-export const _pageImage: string = '/images/Foto Gedung/P/DSC02134 (Large).JPG';
+export const _pageImage: string = '/images/buildings/P/DSC02134 (Large).JPG';
 
 export const _about: string[] = [
   "Sekolah Mitra Kasih adalah lembaga pendidikan yang berkomitmen untuk memberikan standar pendidikan internasional yang tinggi dengan menghadirkan tenaga pengajar terbaik. Kami didedikasikan untuk memberikan kualitas pendidikan terbaik kepada setiap siswa kami, dengan tujuan membekali mereka untuk menghadapi perkembangan dunia yang cepat.",
@@ -19,10 +19,10 @@ export const _about: string[] = [
 ];
 
 export const _intro: Slides = {
-  title: "What Does It Mean To Be Best For The World?",
+  title: "Apa Artinya Menjadi yang Terbaik Bagi Dunia?",
 
   description:
-    "Our mission is to “learn in Indonesia to be Best for the World.” It means we emphasize creating positive change in our community, wherever we are.",
+    "Misi kami adalah \"belajar di Indonesia untuk menjadi yang terbaik bagi dunia\". Ini berarti kami menekankan untuk menciptakan perubahan positif di masyarakat, di mana pun kami berada.",
 
   linkLabel: "Learn More",
 
@@ -30,37 +30,37 @@ export const _intro: Slides = {
 
   slides: [
     {
-      title: "Community of Care",
+      title: "Komunitas Kepedulian",
       description:
-        "The best way to learn about our school is to experience it for yourself! Schedule a tour with our Admissions Office today.",
+        "Cara terbaik untuk mempelajari sekolah kami adalah dengan mengalaminya sendiri!",
       linkLabel: "Schedule a Tour Today",
       linkHref: "",
-      image: getRandomImageUrl(),
+      image: '/images/DOKUMENTASI/SOCIAL/BAKSOS/DSC03406 (Large).JPG',
     },
 
     {
       title: "Say Hello! Inquire With Us Today",
-      description: `Speak with a member of our Admissions Office and take the first step to joining ${app.title}!`,
+      description: `Hubungi anggota Tim Admisi kami dan ambil langkah pertama untuk bergabung dengan ${app.title}!`,
       linkLabel: "Take the first step",
       linkHref: "",
-      image: getRandomImageUrl(),
+      image: '/images/DOKUMENTASI/UPACARA/UPACARA-TAHUN AJARAN BARU 2023-2024/DSC09741 (Large).JPG',
     },
 
     {
-      title: "Apply Today",
-      description: `Do you already know that ${app.title} is the right school for your family? Apply today!`,
+      title: "Daftar Hari Ini",
+      description: `Apa kamu tahu bahwa ${app.title} adalah sekolah yang tepat untuk keluarga Anda? Daftar sekarang juga!`,
       linkLabel: "Start of Complete your Application",
       linkHref: "",
-      image: getRandomImageUrl(),
+      image: '/images/DOKUMENTASI/FIRST DAY SCHOOL 2023-2024/MIDDLE _ HIGH/DSC09335 (Large).JPG',
     },
 
     {
       title: "FAQs",
       description:
-        "Do you have a question? It might be answered in our Frequently Asked Questions.",
+        "Punya pertanyaan? Pertanyaan Anda mungkin bisa dijawab di Pertanyaan yang Sering Diajukan.",
       linkLabel: "See our FAQs",
       linkHref: "",
-      image: getRandomImageUrl(),
+      image: '/images/DOKUMENTASI/FUNWEEK/MIIDLE HIGH/DSC02022 (Large).JPG',
     },
 
     {
