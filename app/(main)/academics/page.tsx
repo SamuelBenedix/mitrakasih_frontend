@@ -1,9 +1,14 @@
 import ContainerBase from "@/components/atoms/container-base";
 import PageHero from "@/components/organisms/layout/page-hero";
 import { getNavigation } from "@/lib/utils/utils";
-import { getRandomImageUrl } from "@/data/getRandomImageUrl";
 import AcademicsIntro from "@/components/organisms/academics/academics-intro";
 import AcademicsReasons from "@/components/organisms/academics/academics-reasons";
+import {
+  _label,
+  _pageDescription,
+  _pageImage,
+  _pageTitle,
+} from "@/data/academics";
 
 interface Props {}
 
@@ -20,14 +25,13 @@ export default function AcademicsPage(props: Props) {
     <ContainerBase>
       <PageHero
         navBar={{
-          navigations: getNavigation("Academics"),
-          name: "Academics",
+          navigations: getNavigation(_label),
+          name: _label,
         }}
         header={{
-          title: "Academics",
-          description:
-            "From Early Years to High School, Mitra Kasih offers a premier learning environment that is accredited by the Western Association of Schools and Colleges, and the Council of International Schools.",
-          image: getRandomImageUrl(),
+          title: _pageTitle,
+          description: _pageDescription,
+          image: _pageImage,
         }}
       />
 
