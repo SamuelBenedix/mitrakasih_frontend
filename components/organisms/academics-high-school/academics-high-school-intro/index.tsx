@@ -12,19 +12,13 @@ export default function AcademicsHighSchoolIntro(props: Props) {
   return (
     <section className="mt-32">
       <Container size="md">
-        <PageTitle>Early Years</PageTitle>
+        <PageTitle>Sekolah Menengah Atas</PageTitle>
         <PageQuote>
-          The Mitra Kasih Early Years and Kindergarten Program is an atmosphere
-          of wonder, care, exploration and growth.
+        SMA Mitra Kasih adalah lembaga pendidikan yang berdedikasi untuk membentuk siswa-siswa unggul dengan nilai-nilai keimanan, karakter, dan keterampilan berwawasan iptek, siap untuk menghadapi tantangan global.
         </PageQuote>
         <article>
           <PageParagraph>
-            It isn&apos;t long before a love of learning starts to grow within
-            each student. When children are respected for who they are and their
-            learning journeys are valued, they will excel at school and at home.
-            This is the time when they first start to build friendships on their
-            own, and begin to develop passions and interests — and their
-            individuality and personality shines.
+          Tidak butuh waktu lama sebelum kecintaan untuk belajar mulai tumbuh dalam diri setiap siswa. Ketika anak-anak dihormati apa adanya dan perjalanan belajar mereka dihargai, mereka akan berprestasi di sekolah dan di rumah. Ini adalah waktu ketika mereka pertama kali mulai membangun persahabatan mereka sendiri, dan mulai mengembangkan hasrat dan minat - dan individualitas dan kepribadian mereka bersinar.
           </PageParagraph>
         </article>
       </Container>

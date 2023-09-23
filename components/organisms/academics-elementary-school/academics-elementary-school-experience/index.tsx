@@ -2,6 +2,7 @@ import React from "react";
 import Container from "@/components/atoms/container";
 import PageTitle from "../../../atoms/heading";
 import PageParagraph from "../../../atoms/paragraph";
+import { app } from "@/config/app";
 
 interface Props {}
 
@@ -16,48 +17,34 @@ export default function AcademicsElementarySchoolExperience(props: Props) {
         <ul className="list-disc px-4 md:px-0 space-y-2 mt-8">
           <li>
             <PageParagraph>
-              We value the home-school connection. We see you, Mitra Kasih
-              parents, as partners in your student&apos;s education. Your input
-              is valuable and we work together to support learning.
+            Kami menghargai hubungan antara rumah dan sekolah. Kami melihat Anda, orang tua {app.title}, sebagai mitra dalam pendidikan siswa Anda. Masukan Anda sangat berharga dan kami bekerja sama untuk mendukung pembelajaran siswa Anda.
             </PageParagraph>
           </li>
 
           <li>
             <PageParagraph>
-              Our highly qualified teaching staff looks after student wellbeing
-              and ensures their first experience away from home is safe and
-              comfortable.
+            Staf pengajar kami yang berkualifikasi tinggi menjaga kesejahteraan siswa dan memastikan pengalaman pertama mereka jauh dari rumah aman dan nyaman.
             </PageParagraph>
           </li>
 
           <li>
             <PageParagraph>
-              Every child is a unique student, so we personalize the learning
-              experience to tailor their needs.
+            Setiap anak adalah siswa yang unik, jadi kami mempersonalisasi pengalaman belajar pengalaman belajar untuk menyesuaikan kebutuhan mereka.
             </PageParagraph>
           </li>
         </ul>
 
         <PageTitle heading="h3" className="mt-10">
-          Each Child Is Unique
+        Setiap Anak Itu Unik
         </PageTitle>
 
         <article className="mt-8 space-y-4">
           <PageParagraph>
-            Each child is unique and is a competent learner with an innate
-            curiosity about the world. It is our role as educators to provide a
-            safe and nurturing environment for them to explore those curiosities
-            and begin to develop a love of learning that they will build on for
-            the remainder of their lives.
+          Setiap anak itu unik dan merupakan pembelajar yang kompeten dengan keingintahuan tentang dunia. Adalah peran kita sebagai pendidik untuk menyediakan lingkungan yang aman dan mengayomi bagi mereka untuk mengeksplorasi keingintahuan tersebut dan mulai mengembangkan kecintaan belajar yang akan mereka kembangkan sepanjang hidup mereka. mereka selama sisa hidup mereka.
           </PageParagraph>
 
           <PageParagraph>
-            Young children learn best through direct experiences with the world
-            rather than through abstract and formal academic practices. The
-            Mitra Kasih Early Years and Kindergarten Program is supported by
-            qualified, expert educators who guide young children in their
-            acquisition of knowledge and their development of content, skills,
-            and attitudes, preparing them for elementary school.
+          Anak-anak belajar paling baik melalui pengalaman langsung dengan dunia daripada melalui praktik-praktik akademis yang abstrak dan formal. SMA {app.title} didukung oleh pendidik yang berkualitas dan ahli yang membimbing anak-anak dalam pengetahuan dan pengembangan konten, keterampilan, dan sikap mereka, mempersiapkan mereka untuk masuk ke sekolah dasar.
           </PageParagraph>
         </article>
       </Container>

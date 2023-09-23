@@ -6,6 +6,7 @@ import PageTitle from "../../../atoms/heading";
 import PageParagraph from "../../../atoms/paragraph";
 import * as Tabs from "@radix-ui/react-tabs";
 import { _qualityLearnings } from "@/data/about_mission_vision";
+import { app } from "@/config/app";
 
 interface Props {}
 
@@ -15,15 +16,16 @@ export default function AcademicsHighSchoolCurriculum(props: Props) {
   return (
     <section className="mt-32">
       <Container size="md">
-        <PageTitle heading="h2">Our Curriculum</PageTitle>
+        <PageTitle heading="h2">Kurikulum Kami</PageTitle>
         <article>
           <PageParagraph>
-            We recognize that the Early Years and Kindergarten Period (ages 3-6)
+          Kurikulum SMA {app.title} sejalan dengan standar pemerintah, tetapi juga menambahkan elemen-elemen khusus yang menekankan pengembangan karakter, pemahaman teknologi, dan keterampilan entrepreneur untuk mempersiapkan siswa menghadapi dunia yang terus berkembang
+            {/* We recognize that the Early Years and Kindergarten Period (ages 3-6)
             as pivotal in building a foundation for the educational life of our
             students. We center our curriculum around an inquiry approach to
             learning that is well-researched and based on best teaching
             practices from around the world. Here is where it all starts —
-            growing curiosity and the love of learning!
+            growing curiosity and the love of learning! */}
           </PageParagraph>
         </article>
 

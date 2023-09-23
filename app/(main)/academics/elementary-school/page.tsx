@@ -31,7 +31,7 @@ export default function AcademicsElementarySchoolPage(props: Props) {
           description:
             "Elementary school is when students to start to build on their curiosities and love of learning.",
           image:
-            "/images/documentations/classesclasses/PRIMARY/IMG-20220607-WA0052.jpg",
+            "/images/documentations/classes/PRIMARY/IMG-20220607-WA0052.jpg",
         }}
       />
 
