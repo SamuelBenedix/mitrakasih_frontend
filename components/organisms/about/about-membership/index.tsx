@@ -22,18 +22,18 @@ export default function AboutMembership(props: Props) {
           <Figure
             title="Leadership"
             image={'/images/DOKUMENTASI/UPACARA/UPACARA-17 AGUSTUS 2023/DSC03518 (Large).JPG'}
-            description="The leadership team at Mitra Kasih are educators first and foremost and lead the school in innovation and learning. With a principal and vice principal at each campus, we are able to make a large community feel small."
+            description="Tim kepemimpinan di Mitra Kasih adalah para pendidik yang terbaik dan terutama dalam memimpin sekolah, berinovasi dan mengajar. Dengan kepala sekolah dan wakil kepala sekolah di setiap sekolah, kami mampu membuat komunitas yang besar terasa kecil."
             size="sm"
             linkLabel="Meet Our Leadership Team"
           />
 
-          <Figure
+          {/* <Figure
             title="Apple Distinguished School"
             image={'/images/Foto Gedung/MH/DSC01867 (Large).JPG'}
             description="We are pleased to have been recognized as an Apple distinguished school for the last 10 years. Our Apple one-to-one program allows students to personalize and creatively express their learning."
             linkLabel="Read More"
             size="sm"
-          />
+          /> */}
         </div>
       </Container>
     </section>

@@ -27,7 +27,7 @@ export default function AboutPage(props: Props) {
         header={{
           title: "About Mitra Kasih",
           description:
-            "Mitra Kasih is a diverse community of learners representing over 60 nationalities where every student is supported to achieve their very best.",
+            "Mitra Kasih adalah sekolah yang mempersiapkan siswa untuk meraih prestasi maksimal dalam dunia pendidikan yang kompetitif.",
           image: '/images/Foto Gedung/P/DSC02134 (Large).JPG',
         }}
       />

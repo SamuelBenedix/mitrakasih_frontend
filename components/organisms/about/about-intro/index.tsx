@@ -22,6 +22,7 @@ export default function AboutIntro(props: Props) {
     arrows: false,
     className: "tab-panel-slider",
   };
+  const manyYears = new Date().getFullYear() - 2012;
 
   return (
     <section>
@@ -51,9 +52,7 @@ export default function AboutIntro(props: Props) {
 
       <Container size="md" className="mt-20">
         <Paragraph>
-          Since we first opened our doors in 1951, we have had the privilege of
-          educating thousands of students from all across the world. We have 70
-          years of history learning, serving, and having fun in Jakarta.
+        Sejak pertama kali kami membuka pintu kami pada tahun 2012, kami memiliki pengalaman {manyYears} tahun dalam mendidik siswa untuk siap dalam menghadapi cepatnya perkembangan dunia.
         </Paragraph>
 
         <CommonLink href="#" className="mt-10">

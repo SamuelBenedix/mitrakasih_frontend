@@ -12,26 +12,22 @@ export default function AboutAbout(props: Props) {
   return (
     <section className="mt-32">
       <Container size="md">
-        <Heading>About Mitra Kasih</Heading>
+        <Heading>Tentang Mitra Kasih</Heading>
 
         <Paragraphs>
           <Paragraph>
-            We create, teach, and learn together across three garden-like
-            campuses with leading-edge facilities that support independent
-            inquiry, critical thinking, problem-solving, and collaborative
-            study.
+          Sekolah Mitra Kasih adalah lembaga pendidikan yang berkomitmen untuk memberikan standar pendidikan internasional yang tinggi dengan menghadirkan tenaga pengajar terbaik. Kami didedikasikan untuk memberikan kualitas pendidikan terbaik kepada setiap siswa kami, dengan tujuan membekali mereka untuk menghadapi perkembangan dunia yang cepat.
+
+
           </Paragraph>
 
           <Paragraph>
-            We play sports, put on drama productions, paint, sculpt, engineer,
-            and create. Our students are able to explore and grow in a safe
-            environment and are encouraged to follow their passions to be as
-            successful as they can be.
+            Kami percaya bahwa setiap siswa adalah individu yang unik dan
+            berharga yang memiliki potensi untuk mencapai yang terbaik.
           </Paragraph>
 
           <Paragraph>
-            The Mitra Kasih community is global and stretches well beyond the
-            school. As we always say, Once a Dragon, Always a Dragon!
+          Kami berkomitmen untuk menciptakan lingkungan pendidikan yang mendukung perkembangan siswa secara holistik, sehingga mereka dapat menjadi pemimpin masa depan yang siap menghadapi tantangan global. Dengan semangat ini, kami menyambut semua siswa untuk bergabung dengan kami dalam perjalanan pendidikan yang inspiratif.
           </Paragraph>
         </Paragraphs>
       </Container>
