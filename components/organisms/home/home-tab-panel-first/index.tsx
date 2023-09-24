@@ -53,7 +53,7 @@ export default function HomeTabPanelFirst(props: Props) {
             linkHref={_tabPanelFirst.linkHref}
           />
 
-          <Container size="lg" noPadding>
+          {/* <Container size="lg" noPadding>
             {_tabPanelFirst.tabs.map((dummy) => (
               <Tabs.Content key={dummy.label} value={dummy.label}>
                 <Slider {...settings}>
@@ -70,7 +70,7 @@ export default function HomeTabPanelFirst(props: Props) {
                 </Slider>
               </Tabs.Content>
             ))}
-          </Container>
+          </Container> */}
         </Tabs.Root>
       </Container>
     </section>

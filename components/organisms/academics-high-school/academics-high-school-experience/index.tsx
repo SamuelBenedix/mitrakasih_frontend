@@ -54,7 +54,7 @@ export default function AcademicsHighSchoolExperience(props: Props) {
           <PageParagraph>
             Young children learn best through direct experiences with the world
             rather than through abstract and formal academic practices. The
-            Mitra Kasih Early Years and Kindergarten Program is supported by
+            Mitra Kasih Nursery Kindergarten and Kindergarten Program is supported by
             qualified, expert educators who guide young children in their
             acquisition of knowledge and their development of content, skills,
             and attitudes, preparing them for elementary school.

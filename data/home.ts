@@ -86,53 +86,53 @@ export const _tabPanelFirst = {
       ],
     },
 
-    {
-      label: "Campuses",
-      body: [
-        {
-          title: "Pattimura Elementary School",
-          description:
-            "Take a virtual 360° tour of our first and original campus Pattimura, located in the South Jakarta neighborhood of Kebayoran Baru.",
-          linkLabel: "Take a 360° Virtual Tour Today",
-          linkHref: "",
-          image: getRandomImageUrl(),
-        },
+    // {
+    //   label: "Campuses",
+    //   body: [
+    //     {
+    //       title: "Pattimura Elementary School",
+    //       description:
+    //         "Take a virtual 360° tour of our first and original campus Pattimura, located in the South Jakarta neighborhood of Kebayoran Baru.",
+    //       linkLabel: "Take a 360° Virtual Tour Today",
+    //       linkHref: "",
+    //       image: getRandomImageUrl(),
+    //     },
 
-        {
-          title: "Pondok Indah Elemntary School",
-          description:
-            "Take a virtual 360° tour of our beautiful Pondok Indah Elementary located in Pondok Indah in South Jakarta.",
-          linkLabel: "Take a 360° Virtual Tour Today",
-          linkHref: "",
-          image: getRandomImageUrl(),
-        },
+    //     {
+    //       title: "Pondok Indah Elemntary School",
+    //       description:
+    //         "Take a virtual 360° tour of our beautiful Pondok Indah Elementary located in Pondok Indah in South Jakarta.",
+    //       linkLabel: "Take a 360° Virtual Tour Today",
+    //       linkHref: "",
+    //       image: getRandomImageUrl(),
+    //     },
 
-        {
-          title: "Middle School Cilandak",
-          description:
-            "Take a virtual 360° tour of our state-of=the-art Middle School campus located in the Cilandak neighborhood of South Jakarta.",
-          linkLabel: "Take a 360° Virtual Tour Today",
-          linkHref: "",
-          image: getRandomImageUrl(),
-        },
+    //     {
+    //       title: "Middle School Cilandak",
+    //       description:
+    //         "Take a virtual 360° tour of our state-of=the-art Middle School campus located in the Cilandak neighborhood of South Jakarta.",
+    //       linkLabel: "Take a 360° Virtual Tour Today",
+    //       linkHref: "",
+    //       image: getRandomImageUrl(),
+    //     },
 
-        {
-          title: "High School Cilandak",
-          description:
-            "Take a virtual 360° tour of the incredible High School campus located in the Cilandak neighborhood of South Jakarta.",
-          linkLabel: "Take a 360° Virtual Tour Today",
-          linkHref: "",
-          image: getRandomImageUrl(),
-        },
-      ],
-    },
+    //     {
+    //       title: "High School Cilandak",
+    //       description:
+    //         "Take a virtual 360° tour of the incredible High School campus located in the Cilandak neighborhood of South Jakarta.",
+    //       linkLabel: "Take a 360° Virtual Tour Today",
+    //       linkHref: "",
+    //       image: getRandomImageUrl(),
+    //     },
+    //   ],
+    // },
 
     {
       label: "Academics",
       body: [
         {
-          title: "Early Years",
-          description: `It's never too early for students to begin exploring their interests and develop a love for learning. The ${app.title} Early Years program, for students ages 3-6, is the perfect place to start.`,
+          title: "Nursery Kindergarten",
+          description: `It's never too early for students to begin exploring their interests and develop a love for learning. The ${app.title} Nursery Kindergarten program, for students ages 3-6, is the perfect place to start.`,
           linkLabel: "Learn More",
           linkHref: "",
           image: getRandomImageUrl(),
@@ -189,50 +189,50 @@ export const _tabPanelFirst = {
       ],
     },
 
-    {
-      label: "Service",
-      body: [
-        {
-          title: "Service Learning",
-          description:
-            "Service learning and dedication to being stewards of the environment is built into the curriculum for all of our students from Early Years to High School.",
-          linkLabel: "Learn More",
-          linkHref: "",
-          image: getRandomImageUrl(),
-        },
+    // {
+    //   label: "Service",
+    //   body: [
+    //     {
+    //       title: "Service Learning",
+    //       description:
+    //         "Service learning and dedication to being stewards of the environment is built into the curriculum for all of our students from Nursery Kindergarten to High School.",
+    //       linkLabel: "Learn More",
+    //       linkHref: "",
+    //       image: getRandomImageUrl(),
+    //     },
 
-        {
-          title: "Service Clubs",
-          description: `A highlight for many ${app.title} students is their participation in one of the many service clubs that are available.`,
-          linkLabel: "Learn More",
-          linkHref: "",
-          image: getRandomImageUrl(),
-        },
+    //     {
+    //       title: "Service Clubs",
+    //       description: `A highlight for many ${app.title} students is their participation in one of the many service clubs that are available.`,
+    //       linkLabel: "Learn More",
+    //       linkHref: "",
+    //       image: getRandomImageUrl(),
+    //     },
 
-        {
-          title: "Service Partners",
-          description: `${app.title} is only one part of he incredible community in Jakarta that is dedicated to service. We partner with several organizations to help create positive change.`,
-          linkLabel: "Learn More",
-          linkHref: "",
-          image: getRandomImageUrl(),
-        },
+    //     {
+    //       title: "Service Partners",
+    //       description: `${app.title} is only one part of he incredible community in Jakarta that is dedicated to service. We partner with several organizations to help create positive change.`,
+    //       linkLabel: "Learn More",
+    //       linkHref: "",
+    //       image: getRandomImageUrl(),
+    //     },
 
-        {
-          title: `${app.title} Peduli`,
-          description: `${app.title} Peduli is the service arm of ${app.title} School. It helps to support and fund service projects developed by students and ${app.title} service initiatives.`,
-          linkLabel: "Learn More",
-          linkHref: "",
-          image: getRandomImageUrl(),
-        },
-      ],
-    },
+    //     {
+    //       title: `${app.title} Peduli`,
+    //       description: `${app.title} Peduli is the service arm of ${app.title} School. It helps to support and fund service projects developed by students and ${app.title} service initiatives.`,
+    //       linkLabel: "Learn More",
+    //       linkHref: "",
+    //       image: getRandomImageUrl(),
+    //     },
+    //   ],
+    // },
   ],
 };
 
 export const _campusSlideshow = [
   {
     description: `At ${app.title} School, students are challenged to be reflective and creative`,
-    image: '/images/DOKUMENTASI/FUNWEEK/MIIDLE HIGH/IMG-20230607-WA0025.jpg',
+    image: '/images/DOKUMENTASI/FUNWEEK/MIIDLE HIGH/IMG-20230607-WA0025 (Large).jpg',
   },
   {
     description:
@@ -284,7 +284,7 @@ export const _tabPanelSecond = {
           title: "Students",
           number: "2000+",
           description:
-          `With students representing over 60 different nationalities, ${app.title} is truly an internaitonal school.`,
+            `With students representing over 60 different nationalities, ${app.title} is truly an internaitonal school.`,
           linkLabel: `Learn More About ${app.title}`,
           linkHref: "",
           image: '/images/DOKUMENTASI/FIRST DAY SCHOOL 2023-2024/MIDDLE _ HIGH/DSC09335 (Large).JPG',

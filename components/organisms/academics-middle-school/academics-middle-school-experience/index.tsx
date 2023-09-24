@@ -55,7 +55,7 @@ export default function AcademicsMiddleSchoolExperience(props: Props) {
           <PageParagraph>
             Young children learn best through direct experiences with the world
             rather than through abstract and formal academic practices. The
-            {app.title} Early Years and Kindergarten Program is supported by
+            {app.title} is supported by
             qualified, expert educators who guide young children in their
             acquisition of knowledge and their development of content, skills,
             and attitudes, preparing them for elementary school.

@@ -19,50 +19,40 @@ export default function AboutMissionVisionIntro(props: Props) {
 
   return (
     <Container section firstSection size="md">
-      <PageTitle>{_pageTitle.mission}</PageTitle>
-
-      <PageQuote>{_pageQuote.mission}</PageQuote>
-
-      <ul className="max-w-2xl space-y-10">
-        {_missionVisions.mission.map((item) => (
-          <li key={item} className="flex items-start space-x-4">
-            <div className="flex-none text-primary-800">
-              <IconAssembly size="1.6em" />
-            </div>
-            <PageParagraph size="lg">{item}</PageParagraph>
-          </li>
-        ))}
-      </ul>
 
       <PageTitle>{_pageTitle.vision}</PageTitle>
 
       <PageQuote>{_pageQuote.vision}</PageQuote>
-
-      <ul className="max-w-2xl space-y-10">
-        {_missionVisions.vision.map((item) => (
-          <li key={item} className="flex items-start space-x-4">
-            <div className="flex-none text-primary-800">
-              <IconAssembly size="1.6em" />
-            </div>
-            <PageParagraph size="lg">{item}</PageParagraph>
+      <PageParagraph className="text-justify" size="lg">Penetapan visi ini mempertimbangkan hal-hal berikut.</PageParagraph>
+      <ol className="space-y-10 mt-5">
+        {_missionVisions.vision.map((item,number) => (
+          <li key={item} >
+            <PageParagraph className="text-justify" size="lg">{number+1}. {item}</PageParagraph>
           </li>
         ))}
-      </ul>
+      </ol>
+      <PageTitle className="mt-20">{_pageTitle.mission}</PageTitle>
 
-      <PageTitle>{_pageTitle.goal}</PageTitle>
+      <PageQuote>{_pageQuote.mission}</PageQuote>
+
+      <ol className="space-y-10 mt-5">
+        {_missionVisions.mission.map((item,number) => (
+          <li key={item} >
+            <PageParagraph className="text-justify" size="lg">{number+1}. {item}</PageParagraph>
+          </li>
+        ))}
+      </ol>
+      <PageTitle className="mt-20">{_pageTitle.goal}</PageTitle>
 
       <PageQuote>{_pageQuote.goal}</PageQuote>
 
-      <ul className="max-w-2xl space-y-10">
-        {_missionVisions.goal.map((item) => (
-          <li key={item} className="flex items-start space-x-4">
-            <div className="flex-none text-primary-800">
-              <IconAssembly size="1.6em" />
-            </div>
-            <PageParagraph size="lg">{item}</PageParagraph>
+      <ol className="space-y-10 mt-5">
+        {_missionVisions.goal.map((item,number) => (
+          <li key={item} >
+            <PageParagraph className="text-justify" size="lg">{number+1}. {item}</PageParagraph>
           </li>
         ))}
-      </ul>
+      </ol>
     </Container>
   );
 }

@@ -27,7 +27,7 @@ export default function AcademicsMiddleSchoolPage(props: Props) {
           name: "Academics",
         }}
         header={{
-          title: "Sekolah Menengah Pertama",
+          title: "Middle School",
           description:
             "Ini adalah waktu ketika siswa mulai bercabang, menemukan minat baru, dan membuat hubungan yang bermakna antara dunia nyata dan kecintaan mereka terhadap belajar.",
           image:
@@ -37,10 +37,6 @@ export default function AcademicsMiddleSchoolPage(props: Props) {
 
       <div className="space-y-40">
         <AcademicsMiddleSchoolIntro />
-        <AcademicsMiddleSchoolCurriculum />
-        <AcademicsMiddleSchoolExperience />
-        <AcademicsMiddleSchoolCommunity />
-        <AcademicsMiddleSchoolCampuses />
       </div>
     </ContainerBase>
   );

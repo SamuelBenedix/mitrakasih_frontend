@@ -8,7 +8,7 @@ import {
   TabsList,
   TabsTrigger,
 } from "@/components/atoms/tabs";
-import { _qualityLearnings } from "@/data/about_mission_vision";
+import { _qualityLearners } from "@/data/about_mission_vision";
 
 interface Props {}
 
@@ -44,9 +44,9 @@ export default function ActivitiesAfterSchool(props: Props) {
         </article>
 
         <div className="mt-10">
-          <Tabs defaultValue={_qualityLearnings[0].name}>
+          <Tabs defaultValue={_qualityLearners[0].name}>
             <TabsList>
-              {_qualityLearnings.map((quality_learning) => (
+              {_qualityLearners.map((quality_learning) => (
                 <TabsTrigger
                   key={quality_learning.name}
                   value={quality_learning.name}
@@ -56,7 +56,7 @@ export default function ActivitiesAfterSchool(props: Props) {
               ))}
             </TabsList>
 
-            {_qualityLearnings.map((quality_learning) => (
+            {_qualityLearners.map((quality_learning) => (
               <TabsContent
                 key={quality_learning.name}
                 value={quality_learning.name}

@@ -5,7 +5,7 @@ import Container from "@/components/atoms/container";
 import PageTitle from "../../../atoms/heading";
 import PageParagraph from "../../../atoms/paragraph";
 import * as Tabs from "@radix-ui/react-tabs";
-import { _qualityLearnings } from "@/data/about_mission_vision";
+import { _qualityLearners } from "@/data/about_mission_vision";
 import { app } from "@/config/app";
 
 interface Props {}
@@ -20,7 +20,7 @@ export default function AcademicsHighSchoolCurriculum(props: Props) {
         <article>
           <PageParagraph>
           Kurikulum SMA {app.title} sejalan dengan standar pemerintah, tetapi juga menambahkan elemen-elemen khusus yang menekankan pengembangan karakter, pemahaman teknologi, dan keterampilan entrepreneur untuk mempersiapkan siswa menghadapi dunia yang terus berkembang
-            {/* We recognize that the Early Years and Kindergarten Period (ages 3-6)
+            {/* We recognize that the Nursery Kindergarten and Kindergarten Period (ages 3-6)
             as pivotal in building a foundation for the educational life of our
             students. We center our curriculum around an inquiry approach to
             learning that is well-researched and based on best teaching
@@ -30,9 +30,9 @@ export default function AcademicsHighSchoolCurriculum(props: Props) {
         </article>
 
         <div className="mt-10">
-          <Tabs.Root defaultValue={_qualityLearnings[0].name}>
+          <Tabs.Root defaultValue={_qualityLearners[0].name}>
             <Tabs.List className="space-x-6 border-b">
-              {_qualityLearnings.map((quality_learning) => (
+              {_qualityLearners.map((quality_learning) => (
                 <Tabs.Trigger
                   key={quality_learning.name}
                   value={quality_learning.name}
@@ -44,7 +44,7 @@ export default function AcademicsHighSchoolCurriculum(props: Props) {
             </Tabs.List>
 
             <div className="mt-8">
-              {_qualityLearnings.map((quality_learning) => (
+              {_qualityLearners.map((quality_learning) => (
                 <Tabs.Content
                   key={quality_learning.name}
                   value={quality_learning.name}

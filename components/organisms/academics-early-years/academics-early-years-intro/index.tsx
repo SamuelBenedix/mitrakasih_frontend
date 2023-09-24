@@ -10,22 +10,44 @@ export default function AcademicsEarlyYearsIntro(props: Props) {
   const {} = props;
 
   return (
-    <Container section firstSection size="md">
-      <PageTitle>Early Years</PageTitle>
-      <PageQuote>
-        The Mitra Kasih Early Years and Kindergarten Program is an atmosphere of
-        wonder, care, exploration and growth.
-      </PageQuote>
-      <article>
-        <PageParagraph>
-          It isn&apos;t long before a love of learning starts to grow within
-          each student. When children are respected for who they are and their
-          learning journeys are valued, they will excel at school and at home.
-          This is the time when they first start to build friendships on their
-          own, and begin to develop passions and interests — and their
-          individuality and personality shines.
-        </PageParagraph>
-      </article>
-    </Container>
+    <section className="mt-32">
+      <Container section firstSection size="md">
+        <PageTitle>Nursery Kindergarten</PageTitle>
+        <PageQuote>
+          Program Taman Kanak-kanak Mitra Kasih adalah sebuah suasana penuh
+          keajaiban, kepedulian, eksplorasi, dan pertumbuhan.
+        </PageQuote>
+        <article>
+          <PageParagraph className="text-justify" size="lg">
+            Nursery Kindergarten di Sekolah Mitra Kasih adalah tahap pendidikan
+            awal yang dirancang khusus untuk anak-anak usia dini. Kami
+            menyediakan lingkungan yang hangat, aman, dan mendukung di mana
+            anak-anak dapat belajar melalui bermain, berinteraksi, dan
+            eksplorasi. Program Nursery Kindergarten kami bertujuan untuk
+            memperkenalkan anak-anak pada konsep pendidikan, mengembangkan
+            keterampilan sosial, emosional, dan kognitif mereka, serta membangun
+            fondasi kuat untuk masa depan mereka dalam pendidikan formal. Dengan
+            guru yang berpengalaman dan peduli, kami berusaha menciptakan
+            pengalaman pendidikan yang positif dan mempersiapkan anak-anak untuk
+            perjalanan pendidikan mereka yang menyenangkan dan bermakna.
+          </PageParagraph>
+        </article>
+      </Container>
+      <Container size="md" className="mt-20">
+        <PageTitle>Batasan Umur</PageTitle>
+        <PageQuote>
+          NK 1: Harus berusia 3 tahun pada 31 Desember 2023 dan harus sudah bisa
+          menggunakan toilet.
+        </PageQuote>
+        <PageQuote>
+          NK 2 Harus berusia 4 tahun pada 31 Desember 2023 dan harus sudah
+          terlatih menggunakan toilet.
+        </PageQuote>
+        <PageQuote>
+          NK 3: Harus berusia 5 tahun pada 31 Desember 2023 dan harus terlatih
+          menggunakan toilet.
+        </PageQuote>
+      </Container>
+    </section>
   );
 }

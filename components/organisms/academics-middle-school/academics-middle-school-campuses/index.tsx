@@ -15,7 +15,7 @@ export default function AcademicsMiddleSchoolCampuses(props: Props) {
 
         <article className="mt-8 space-y-4">
           <PageParagraph>
-            We have two Mitra Kasih campuses that offer the Early Years and
+            We have two Mitra Kasih campuses that offer the Nursery Kindergarten and
             Kindergarten Program: Pattimura Elementary (PEL) and Pondok Indah
             Elementary (PIE). The program, faculty expertise, and learning
             experience at both campuses are the same. Curriculum and lesson

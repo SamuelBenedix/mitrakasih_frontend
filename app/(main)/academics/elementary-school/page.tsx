@@ -27,9 +27,9 @@ export default function AcademicsElementarySchoolPage(props: Props) {
           name: "Academics",
         }}
         header={{
-          title: "Sekolah Dasar",
+          title: "Primary School",
           description:
-            "Sekolah Dasar adalah masa di mana para siswa mulai membangun keingintahuan dan kecintaan mereka untuk belajar.",
+            "Primary School adalah masa di mana para siswa mulai membangun keingintahuan dan kecintaan mereka untuk belajar.",
           image:
             "/images/documentations/classes/PRIMARY/IMG-20220607-WA0052.jpg",
         }}
@@ -37,10 +37,6 @@ export default function AcademicsElementarySchoolPage(props: Props) {
 
       <div className="space-y-40">
         <AcademicsElementarySchoolIntro />
-        <AcademicsElementarySchoolCurriculum />
-        <AcademicsElementarySchoolExperience />
-        <AcademicsElementarySchoolCommunity />
-        <AcademicsElementarySchoolCampuses />
       </div>
     </ContainerBase>
   );

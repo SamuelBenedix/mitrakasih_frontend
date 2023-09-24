@@ -24,8 +24,8 @@ export default function AboutSchoolLeadershipPage(props: Props) {
 
       <div className="space-y-40 min-h-screen">
         <AboutMissionVisionIntro />
-        <AboutMissionVisionQualityLearners />
-        <AboutMissionVisionStrivingList />
+        {/* <AboutMissionVisionQualityLearners /> */}
+        {/* <AboutMissionVisionStrivingList /> */}
       </div>
     </ContainerBase>
   );

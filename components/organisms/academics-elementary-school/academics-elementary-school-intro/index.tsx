@@ -12,21 +12,34 @@ export default function AcademicsElementarySchoolIntro(props: Props) {
   return (
     <section className="mt-32">
       <Container size="md">
-        <PageTitle>Early Years</PageTitle>
+        <PageTitle>Primary School</PageTitle>
         <PageQuote>
-          The Mitra Kasih Early Years and Kindergarten Program is an atmosphere
-          of wonder, care, exploration and growth.
+        Sekolah Dasar Mitra Kasih adalah tempat yang penuh dengan keajaiban, kepedulian, eksplorasi, dan pertumbuhan.
         </PageQuote>
         <article>
-          <PageParagraph>
-            It isn&apos;t long before a love of learning starts to grow within
-            each student. When children are respected for who they are and their
-            learning journeys are valued, they will excel at school and at home.
-            This is the time when they first start to build friendships on their
-            own, and begin to develop passions and interests — and their
-            individuality and personality shines.
+          <PageParagraph className="text-justify" size="lg">
+            Sekolah Dasar (Primary School) di Sekolah Mitra Kasih adalah awal
+            dari perjalanan pendidikan formal siswa kami. Dalam lingkungan yang
+            peduli dan terfokus pada perkembangan siswa, kami memberikan
+            pendidikan yang holistik. Kurikulum kami mencakup mata pelajaran
+            akademik yang kuat, pengembangan karakter, dan keterampilan yang
+            diperlukan untuk sukses di dunia yang terus berubah. Di Sekolah
+            Dasar Mitra Kasih, kami berkomitmen untuk membentuk dasar pendidikan
+            yang kuat dan mendukung pertumbuhan intelektual, sosial, dan
+            emosional anak-anak kami. Kami percaya bahwa setiap siswa memiliki
+            potensi yang luar biasa, dan kami berusaha untuk menggali dan
+            mengembangkan bakat dan minat mereka, sehingga mereka siap untuk
+            mencapai prestasi tinggi dan menghadapi tantangan masa depan.
           </PageParagraph>
         </article>
+      </Container>
+
+      <Container size="md" className="mt-20">
+        <PageTitle>Batasan Umur</PageTitle>
+        <PageQuote>
+          Kelas 1: Harus berusia 6 tahun pada 31 Desember 2023.
+        </PageQuote>
+        <PageQuote>Kelas 2-6: Harus lulus dari kelas sebelumnya.</PageQuote>
       </Container>
     </section>
   );

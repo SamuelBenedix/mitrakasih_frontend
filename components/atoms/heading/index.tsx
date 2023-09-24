@@ -15,7 +15,7 @@ export default function Heading(props: Props) {
       return (
         <h1
           className={cn(
-            "text-primary-800 font-bold text-5xl md:text-6xl mb-8",
+            "text-primary-800 font-bold text-5xl md:text-6xl mb-3",
             className,
           )}
         >
@@ -26,7 +26,7 @@ export default function Heading(props: Props) {
     case "h2":
       return (
         <h2
-          className={cn("text-primary-800 font-bold text-3xl mb-8", className)}
+          className={cn("text-primary-800 font-bold text-3xl mb-3", className)}
         >
           {children}
         </h2>
@@ -34,7 +34,7 @@ export default function Heading(props: Props) {
 
     case "h3":
       return (
-        <h3 className={cn("text-gray-800 font-bold text-xl mb-8", className)}>
+        <h3 className={cn("text-gray-800 font-bold text-xl mb-3", className)}>
           {children}
         </h3>
       );

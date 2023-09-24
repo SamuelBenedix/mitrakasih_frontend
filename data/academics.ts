@@ -6,15 +6,15 @@ export const _label: string = "Academics";
 
 export const _pageTitle: string = `Academics`;
 
-export const _pageDescription: string = `From Early Years to High School, ${app.title} offers a premier learning environment that is accredited by the Western Association of Schools and Colleges, and the Council of International Schools.`;
+export const _pageDescription: string = `From Nursery Kindergarten to High School, ${app.title} offers a premier learning environment that is accredited by the Western Association of Schools and Colleges, and the Council of International Schools.`;
 
 export const _pageImage: string = getRandomImageUrl();
 
 export const _pageQuote: string =
-  "From Early Years to High School, Mitra Kasih offers a premier learning environment that is accredited by the Western Association of Schools and Colleges, and the Council of International Schools.";
+  "From Nursery Kindergarten to High School, Mitra Kasih offers a premier learning environment that is accredited by the Western Association of Schools and Colleges, and the Council of International Schools.";
 
 export const _about: string[] = [
-  "The Mitra Kasih Early Years academic program is based on The Creative Curriculum® for preschool, a comprehensive early childhood educational system that has been shown to promote cognitive, physical social/emotional, and language development of children.",
+  "The Mitra Kasih Nursery Kindergarten academic program is based on The Creative Curriculum® for preschool, a comprehensive early childhood educational system that has been shown to promote cognitive, physical social/emotional, and language development of children.",
   "Like Mitra Kasih as a whole, the Mitra Kasih Elementary School curriculum adopts programs which demonstrate the best international standards, practices and results for student learning. We place strong emphasis on language arts and mathematics. To ensure a balanced curriculum, we provide programs in science and technology, social studies, modern language, fine arts and physical development.",
   "The Mitra Kasih Middle School curriculum emphasizes research-based teaching and learning practices through age-appropriate intellectual, physical, cultural and social experiences. There are a variety of classes and opportunities for students that introduce them to new areas of learning where they can start to develop passions.",
   "Based on international standards, the Mitra Kasih High School academic program is designed to prepare students for a university that fits them best. It includes options to take the International Baccalaureate (IB) and Advanced Placement (AP) diploma/courses. The more options students have to find the right path for them, the more success they will have now and in the future.",
@@ -22,7 +22,7 @@ export const _about: string[] = [
 
 export const _academicFigures: Figure[] = [
   {
-    title: "Early Years",
+    title: "Nursery Kindergarten",
     image: getRandomImageUrl(),
     description: "Ages 3-6",
     linkLabel: "Find Out More",

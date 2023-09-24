@@ -12,20 +12,42 @@ export default function AcademicsMiddleSchoolIntro(props: Props) {
   return (
     <section className="mt-32">
       <Container size="md">
-        <PageTitle>Sekolah Menengah Pertama</PageTitle>
+        <PageTitle>Middle School</PageTitle>
         <PageQuote>
-        Ini adalah waktu ketika siswa mulai bercabang, menemukan minat baru, dan membuat hubungan yang bermakna antara dunia nyata dan kecintaan mereka terhadap belajar.
+          Ini adalah waktu ketika siswa mulai bercabang, menemukan minat baru,
+          dan membuat hubungan yang bermakna antara dunia nyata dan kecintaan
+          mereka terhadap belajar.
         </PageQuote>
         <article>
-          <PageParagraph>
-            It isn&apos;t long before a love of learning starts to grow within
-            each student. When children are respected for who they are and their
-            learning journeys are valued, they will excel at school and at home.
-            This is the time when they first start to build friendships on their
-            own, and begin to develop passions and interests — and their
-            individuality and personality shines.
+          <PageParagraph className="text-justify" size="lg">
+            Sekolah Menengah Pertama (Middle School) di Sekolah Mitra Kasih
+            adalah tahap penting dalam perjalanan pendidikan siswa kami. Di
+            sini, kami memberikan lingkungan yang mendukung pertumbuhan dan
+            perkembangan mereka, serta mempersiapkan mereka untuk menghadapi
+            tantangan pendidikan yang lebih tinggi. Program Middle School kami
+            mengintegrasikan mata pelajaran akademik yang kuat dengan
+            pembangunan karakter yang berfokus pada integritas, tanggung jawab,
+            dan kemandirian. Kami mendorong siswa untuk mengembangkan
+            keterampilan berpikir kritis, kolaborasi, dan berkomunikasi dengan
+            baik. Dengan staf pengajar yang berpengalaman dan fasilitas modern,
+            kami berusaha menciptakan pengalaman pembelajaran yang inspiratif
+            dan menantang bagi siswa kami, sehingga mereka dapat tumbuh menjadi
+            individu yang siap menghadapi masa depan dengan keyakinan dan
+            pengetahuan yang kuat.
           </PageParagraph>
         </article>
+      </Container>
+
+      <Container size="md" className="mt-20">
+        <PageTitle>Batasan Umur</PageTitle>
+        <PageQuote>
+          Kelas 7: Harus berusia 12 tahun pada tanggal 31 Desember 2023 dan
+          merupakan lulusan dari jenjang sebelumnya.
+        </PageQuote>
+        <PageQuote>
+          Kelas 8: Harus berusia 13 tahun pada tanggal 31 Desember 2023 dan
+          merupakan lulusan dari jenjang sebelumnya.
+        </PageQuote>
       </Container>
     </section>
   );

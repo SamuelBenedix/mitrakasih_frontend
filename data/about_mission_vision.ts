@@ -8,14 +8,22 @@ export const _pageTitle = {
 
 export const _pageQuote = {
   mission:
-    "Misi Sekolah MITRA KASIH dirumuskan berdasarkan masukan dari berbagai  pihak-pihak yang berkepentingan dan telah diputuskan oleh rapat dewan guru serta disosialisasikan kepada warga satuan pendidikan. Misi ini juga ditinjau dan dirumuskan kembali secara berkala sesuai dengan perkembangan dan tantangan di masyarakat.",
+    "\"Menjalankan Pendidikan yang mendorong dan membantu siswa untuk mengenali potensi dirinya sehingga dapat mengembangkannya secara optimal agar tercipta lulusan unggul berprestasi, cerdas, bertanggungjawab yang berwawasan iptek\"",
   vision:
-    "Membentuk Tunas Harapan Bangsa Yang Memiliki Nilai-Nilai Keimanan, Karakter, Dan Berbudaya, Semangat Entrepreneur, Berwawasan Lingkungan Hidup, Cakap Teknologi, Sehingga Menjadi Pribadi Yang Kompeten Dan Berprestasi Dalam Dunia Global.",
+    "\"Membentuk Tunas Harapan Bangsa Yang Memiliki Nilai-Nilai Keimanan, Karakter, Dan Berbudaya, Semangat Entrepreneur, Berwawasan Lingkungan Hidup, Cakap Teknologi, Sehingga Menjadi Pribadi Yang Kompeten Dan Berprestasi Dalam Dunia Global.\"",
   goal: "Berdasarkan visi dan misi di atas, SMA Mitra Kasih menetapkan tujuan sekolah yang akan dicapai dalam kurun waktu 3 tahun ke depan",
 };
 
 export const _missionVisions = {
-  mission: [],
+  mission: [
+    "Mengadakan pendidikan agama dan mengimplementasikan nilai-nilai keimanan dalam kegiatan Pendidikan dan pengajaran di sekolah.",
+    "Membentuk generasi yang berkarakter baik, dengan mengutamakan integritas, kedisiplinan, kemandirian, percaya diri, dan bertanggungjawab.",
+    "Menumbuhkan minat siswa untuk peduli terhadap nilai-nilai sosial dan ikut serta melestarikan keanekaragaman budaya.",
+    "Melaksanakan pembelajaran aktif, efektif dan menyenangkan, dengan semangat entrepreneur sehingga siswa menjadi kreatif dan inovatif.",
+    "Mengintegrasikan kurikulum, keterampilan kehidupan, dan perkembangan ilmu teknologi informasi dan komunikasi ke dalam pembelajaran.",
+    "Menyediakan sarana dan prasarana edukasi yang prima sesuai dengan perkembangan zaman dan teknologi.",
+
+  ],
   vision: [
     "Tujuan pendidikan menengah, yaitu untuk meningkatkan kecerdasan, pengetahuan, kepribadian, akhlak mulia, serta ketrampilan untuk hidup mandiri dan mengikuti pendidikan lebih lanjut.",
     "Tuntutan SKL jenjang SD,SMP, dan SMA yang diamanatkan dalam Permendiknas Nomor 20 tahun 2016.",

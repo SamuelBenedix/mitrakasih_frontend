@@ -14,8 +14,8 @@ export default function Paragraph(props: Props) {
     <p
       className={cn(
         "text-gray-800",
-        size === "md" && "text-lg",
-        size === "lg" && "text-xl",
+        size === "md" && "text-xl",
+        size === "lg" && "text-2xl",
         className,
       )}
     >

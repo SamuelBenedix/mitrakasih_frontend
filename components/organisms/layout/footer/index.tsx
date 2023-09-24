@@ -26,15 +26,15 @@ export default function Footer() {
           <div>
             <div className="flex space-x-2">
               <IconPhone />
-              <span>+6221 509 89 555</span>
+              <span>Lorem, ipsum.</span>
             </div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3">
             <div className="flex space-x-2">
               <IconMapPinFilled />
               <div className="max-w-xs">
-                <p className="font-semibold">Pondok Indah Campus</p>
-                <p>Jl. Duta Indah III Pondok Indah, Jakarta12310</p>
+                <p className="font-semibold">Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, debitis?</p>
               </div>
             </div>
             {/* <div className="flex space-x-2">

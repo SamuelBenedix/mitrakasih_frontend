@@ -11,6 +11,7 @@ import {
   AccordionTrigger,
 } from "@/components/atoms/accordion";
 import Button from "@/components/atoms/button";
+import Link from "next/link";
 
 interface Props {}
 
@@ -19,81 +20,64 @@ export default function AdmissionGuidelinesPolicy(props: Props) {
 
   return (
     <Container section firstSection size="md">
-      <PageTitle>Admission Guidelines</PageTitle>
+      <PageTitle>Informasi Pendaftaran</PageTitle>
       <PageTitle className="mt-20" heading="h2">
-        Admission Policy
+        Prosedur Pendaftaran
       </PageTitle>
 
       <article className="mt-10">
-        <PageParagraph>
-          Mitra Kasih School welcomes learners who can benefit from and
-          contribute to a high-quality elementary to secondary university
-          preparatory curriculum.
-        </PageParagraph>
+        {/* <PageParagraph> */}
+          <ul className="list-disc">
+
+          <li>Membeli formulir pendaftaran</li>
+          <li>
+            Mengisi Formulir Pendaftaran, melengkapi persyaratan dokumen,
+            mengembalikan kepada administrasi sekolah
+          </li>
+          <li>
+            Penilaian dan tes masuk nursery, kindergarten, primary,middle, high
+            school mengikuti ketentuan sekolah.
+          </li>
+          <li>
+            Sekolah menyampaikan hasil tes dan observasi beserta proses
+            administrasi penerimaan siswa baru kepada orang tua.
+          </li>
+          <li>
+            Pelunasan Kewajiban keuangan sesuai nominal dan batas waktu yang
+            tercantum.
+          </li>
+          </ul>
+          <PageTitle className="mt-20" heading="h2">
+          Dokument yang diperlukan
+          </PageTitle>
+          <ul className="list-disc">
+            <li>Pas foto anak (3x4) 1 lembar</li>
+            <li>Foto copy akta kelahiran 1 lembar</li>
+            <li>Foto copy KTP orang tua (ayah & ibu) 1 lembar</li>
+            <li>Foto copy Kartu Keluarga 1 lembar</li>
+            <li>Foto copy KMS(Kartu Imunisasi berlaku untuk PAUD) 1 set</li>
+            <li>Foto copy Rapor terakhir</li>
+            <li>
+              Foto copy ijazah dilegalisir((berlaku untuk Primary, Middle, & High
+              School) 1 lembar
+            </li>
+          </ul>
+        {/* </PageParagraph> */}
       </article>
 
-      <Accordion type="multiple" className="mt-8">
-        {/* ==================== Grade Placement Policies ==================== */}
-        <AccordionItem value="1" className="w-full">
-          <AccordionTrigger>Early Years</AccordionTrigger>
-          <AccordionContent>
-            <article className="grid grid-cols-2 gap-12">
-              <div>
-                <PageParagraph>
-                  Please check the appropriate Mitra Kasih grade level by
-                  downloading the
-                </PageParagraph>
-              </div>
-              <div></div>
-            </article>
-          </AccordionContent>
-        </AccordionItem>
-
-        {/* ==================== Early Years Policy ==================== */}
-        <AccordionItem value="2" className="w-full">
-          <AccordionTrigger>Elementary School</AccordionTrigger>
-          <AccordionContent>
-            <PageParagraph>
-              Yes. It adheres to the WAI-ARIA design pattern.
-            </PageParagraph>
-          </AccordionContent>
-        </AccordionItem>
-
-        {/* ==================== Elementary Campus Placement Policy ==================== */}
-        <AccordionItem value="3" className="w-full">
-          <AccordionTrigger>Middle School</AccordionTrigger>
-          <AccordionContent>
-            <article className="space-y-8">
-              <PageParagraph>
-                Mitra Kasih has two Elementary campuses: Pattimura (PEL) and
-                Pondok Indah (PIE). PEL is closer to embassies and the Central
-                Business District while PIE is in a residential area in South
-                Jakarta. Travel time between the campuses is approximately 20
-                minutes.
-              </PageParagraph>
-              <PageParagraph>
-                Admission priority is given to applicants based on the area of
-                residence. In addition, if a grade level or student support
-                service has reached capacity at the student&apos;s preferred
-                campus, the student will be assigned to the alternate campus.
-                The school reserves the right to determine these placements.
-              </PageParagraph>
-            </article>
-          </AccordionContent>
-        </AccordionItem>
-
-        {/* ==================== High School Admission Policies ==================== */}
-        <AccordionItem value="4" className="w-full">
-          <AccordionTrigger>High School</AccordionTrigger>
-          <AccordionContent>
-            Yes. It adheres to the WAI-ARIA design pattern.
-          </AccordionContent>
-        </AccordionItem>
-      </Accordion>
-
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
-        <Button>INQUIRE</Button>
-        <Button>APPLY NOW</Button>
+      <PageTitle className="mt-20" heading="h2">
+        Daftar Sekarang
+      </PageTitle>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+        <Link target="_blank" className="w-full" href='https://sd.mitrakasih.sch.id/public/register/student'>
+        <Button className="w-full" >SD</Button>
+        </Link>
+        <Link target="_blank" className="w-full" href='https://smp.mitrakasih.sch.id/public/register/student'>
+        <Button className="w-full" >SMP</Button>
+        </Link>
+        <Link target="_blank" className="w-full" href='https://sma.mitrakasih.sch.id/public/register/student'>
+        <Button className="w-full" >SMA</Button>
+        </Link>
       </div>
     </Container>
   );

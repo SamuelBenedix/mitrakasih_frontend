@@ -4,7 +4,7 @@ import React from "react";
 import Container from "@/components/atoms/container";
 import PageTitle from "../../../atoms/heading";
 import PageParagraph from "../../../atoms/paragraph";
-import { _qualityLearnings } from "@/data/about_mission_vision";
+import { _qualityLearners } from "@/data/about_mission_vision";
 import {
   Tabs,
   TabsContent,
@@ -24,7 +24,7 @@ export default function AcademicsEarlyYearsCurriculum(props: Props) {
         <PageTitle heading="h2">Our Curriculum</PageTitle>
         <Paragraphs
           paragraphs={[
-            "We recognize that the Early Years and Kindergarten Period (ages 3-6)\n" +
+            "We recognize that the Nursery Kindergarten and Kindergarten Period (ages 3-6)\n" +
               "            as pivotal in building a foundation for the educational life of our\n" +
               "            students. We center our curriculum around an inquiry approach to\n" +
               "            learning that is well-researched and based on best teaching\n" +
@@ -34,9 +34,9 @@ export default function AcademicsEarlyYearsCurriculum(props: Props) {
         ></Paragraphs>
 
         <div className="mt-10">
-          <Tabs defaultValue={_qualityLearnings[0].name}>
+          <Tabs defaultValue={_qualityLearners[0].name}>
             <TabsList>
-              {_qualityLearnings.map((quality_learning) => (
+              {_qualityLearners.map((quality_learning) => (
                 <TabsTrigger
                   key={quality_learning.name}
                   value={quality_learning.name}
@@ -46,7 +46,7 @@ export default function AcademicsEarlyYearsCurriculum(props: Props) {
               ))}
             </TabsList>
 
-            {_qualityLearnings.map((quality_learning) => (
+            {_qualityLearners.map((quality_learning) => (
               <TabsContent
                 key={quality_learning.name}
                 value={quality_learning.name}

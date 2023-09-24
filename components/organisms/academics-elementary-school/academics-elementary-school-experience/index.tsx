@@ -44,7 +44,7 @@ export default function AcademicsElementarySchoolExperience(props: Props) {
           </PageParagraph>
 
           <PageParagraph>
-          Anak-anak belajar paling baik melalui pengalaman langsung dengan dunia daripada melalui praktik-praktik akademis yang abstrak dan formal. SMA {app.title} didukung oleh pendidik yang berkualitas dan ahli yang membimbing anak-anak dalam pengetahuan dan pengembangan konten, keterampilan, dan sikap mereka, mempersiapkan mereka untuk masuk ke sekolah dasar.
+          Anak-anak belajar paling baik melalui pengalaman langsung dengan dunia daripada melalui praktik-praktik akademis yang abstrak dan formal. SMA {app.title} didukung oleh pendidik yang berkualitas dan ahli yang membimbing anak-anak dalam pengetahuan dan pengembangan konten, keterampilan, dan sikap mereka, mempersiapkan mereka untuk masuk ke Primary School.
           </PageParagraph>
         </article>
       </Container>

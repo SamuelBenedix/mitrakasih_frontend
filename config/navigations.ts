@@ -6,15 +6,15 @@ export const navigations = [
     href: paths.about,
     links: [
       {
-        label: "Campuses",
+        label: "Tentang Sekolah",
         href: paths.about_campus,
       },
       {
-        label: "Mission and Vision",
+        label: "Visi dan Misi",
         href: paths.about_mission_vision,
       },
       {
-        label: "School Leadership",
+        label: "Sambutan Kepala Sekolah",
         href: paths.about_school_leadership,
       },
     ],
@@ -25,16 +25,16 @@ export const navigations = [
     href: paths.admissions,
     links: [
       {
-        label: "Admission Guidelines",
+        label: "Informasi Pendaftaran",
         href: paths.admission_guidelines,
       },
       {
-        label: "Registration",
+        label: "Pendaftaran Calon Siswa Baru",
         href: paths.admission_registration,
         target: "_blank",
       },
       {
-        label: "Announcement",
+        label: "Pengumuman Calon Siswa Baru",
         href: paths.admission_announcement,
       },
     ],
@@ -45,11 +45,11 @@ export const navigations = [
     href: paths.academics,
     links: [
       {
-        label: "Early Years",
+        label: "Nursery Kindergarten",
         href: paths.academics_early_years,
       },
       {
-        label: "Elementary Schools",
+        label: "Primary School",
         href: paths.academics_elementary_school,
       },
       {
@@ -62,14 +62,54 @@ export const navigations = [
       },
     ],
   },
-
   {
     label: "Activities",
     href: paths.activities,
+    links: [
+      {
+        label: "Nursery Kindergarten Activities",
+        href: paths.academics_early_years,
+      },
+      {
+        label: "Primary School Activities",
+        href: paths.academics_elementary_school,
+      },
+      {
+        label: "Middle School Activities",
+        href: paths.academics_middle_school,
+      },
+      {
+        label: "High School Activities",
+        href: paths.academics_high_school,
+      },
+    ],
+  },
+  {
+    label: "Login",
+    href: paths.activities,
+    links: [
+      {
+        label: "Login Primary School",
+        href: paths.login_sd,
+      },
+      {
+        label: "Login Middle School",
+        href: paths.login_smp,
+      },
+      {
+        label: "Login High School",
+        href: paths.login_sma,
+      },
+    ],
   },
 
-  {
-    label: "News",
-    href: paths.news,
-  },
+  // {
+  //   label: "Activities",
+  //   href: paths.activities,
+  // },
+
+  // {
+  //   label: "News",
+  //   href: paths.news,
+  // },
 ];
