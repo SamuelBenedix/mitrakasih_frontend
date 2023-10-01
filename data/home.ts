@@ -1,10 +1,14 @@
+
 import { getRandomImageUrl } from "@/data/getRandomImageUrl";
 import { app } from "@/config/app";
 
+
+import * as React from 'react';
+
 export const _hero = [
   {
-    title: "Where We Learn",
-    description: `The facilities at ${app.title} were designed with one goal: creating the best learning environment for our students.`,
+    title: "Tempat Kita Belajar",
+    description: `Fasilitas di ${app.title} dirancang dengan satu tujuan: menciptakan lingkungan belajar yang terbaik bagi para siswa.`,
     linkLabel: "Learn More",
     linkHref: "#",
     image: '/images/buildings/P/DSC02138 (Small).JPG',
@@ -12,7 +16,8 @@ export const _hero = [
 
   {
     title: "Learning is What We Do",
-    description: `At ${app.title}, we prepare students from across the globe to be the best in what they aspire for while being Best for the World they live in.`,
+    description: `Di ${app.title}, kami mempersiapkan siswa-siswi dari seluruh dunia untuk menjadi yang terbaik dalam hal yang mereka cita-citakan dan pada saat yang sama, menjadi yang terbaik bagi dunia tempat mereka tinggal.`,
+    // description: `At ${app.title}, we prepare students from across the globe to be the best in what they aspire for while being Best for the World they live in.`,
     linkLabel: "Learn More",
     linkHref: "#",
     image: '/images/DOKUMENTASI/01 DIKELAS/PRIMARY/WhatsApp Image 2023-05-29 at 08.17.51.jpeg',
@@ -27,12 +32,12 @@ export const _hero = [
   },
 ];
 
-export const _about = `At ${app.title}, we prepare students from across the globe to be best in what they aspire for and at the same time, be best for the world they live in.`;
+export const _about = `Di ${app.title}, kami mempersiapkan siswa-siswi dari seluruh dunia untuk menjadi yang terbaik dalam hal yang mereka cita-citakan dan pada saat yang sama, menjadi yang terbaik bagi dunia tempat mereka tinggal.`
 
 export const _tabPanelFirst = {
-  title: "Where We Learn",
+  title: "Tempat Kita Belajar",
 
-  description: `The facilities at ${app.title} were designed with one goal: creating the best learning environment for our students.`,
+  description: `Fasilitas di ${app.title} dirancang dengan satu tujuan: menciptakan lingkungan belajar yang terbaik bagi para siswa.`,
 
   linkLabel: "Learn More",
 
@@ -43,16 +48,16 @@ export const _tabPanelFirst = {
       label: "Admissions",
       body: [
         {
-          title: `Visit ${app.title}`,
+          title: `Kunjungi ${app.title}`,
           description:
-            "The best way to learn about our school is to experience it for yourself! Schedule a tour with our Admissions Office today.",
-          linkLabel: "Schedule a Tour Today",
+            "Cara terbaik untuk mengenal sekolah kami adalah dengan mengalaminya sendiri! Jadwalkan kunjungan dengan Kantor Penerimaan Siswa Baru kami hari ini.",
+          linkLabel: "Jadwalkan kunjungan Hari Ini",
           linkHref: "",
           image: '/images/buildings/MH/DSC01867 (Large).JPG',
         },
 
         {
-          title: "Say Hello! Inquire With Us Today",
+          title: "Tanyakan Kepada Kami Hari Ini",
           description: `Speak with a member of our Admissions Office and take the first step to joining ${app.title}!`,
           linkLabel: "Take the first step",
           linkHref: "",
@@ -231,30 +236,31 @@ export const _tabPanelFirst = {
 
 export const _campusSlideshow = [
   {
-    description: `At ${app.title} School, students are challenged to be reflective and creative`,
+    description: "Di Sekolah Mitra Kasih, siswa ditantang untuk menjadi reflektif dan kreatif",
     image: '/images/DOKUMENTASI/FUNWEEK/MIIDLE HIGH/IMG-20230607-WA0025 (Large).jpg',
   },
   {
     description:
-      "To have experiences that instill resilience and resourcefulness",
+      "Memiliki pengalaman yang menanamkan ketangguhan dan sumber daya",
     image: '/images/DOKUMENTASI/FUNWEEK/PRIMARY/WhatsApp Image 2023-06-13 at 11.48.06.jpeg',
   },
   {
     description:
-      "While relating to the people and community aroung them as they grow",
+      "Sambil berhubungan dengan masyarakat dan komunitas di sekitar mereka seiring dengan pertumbuhan mereka",
     image: '/images/DOKUMENTASI/03 ADIWIYATA/cfe62997-a200-404a-8b25-ad65779ad93b.jpg',
   },
   {
     description:
-      "To be lifelong learners, leaders, and Best for the World they live in",
+      "Menjadi pembelajar sepanjang hayat, pemimpin, dan yang terbaik bagi dunia yang mereka tinggali",
     image: '/images/DOKUMENTASI/UPACARA/UPACARA-17 AGUSTUS 2023/DSC03518 (Large).JPG',
   },
 ];
 
 export const _tabPanelSecond = {
-  title: `Life at ${app.title}`,
+  title: `Kehidupan di ${app.title}`,
 
-  description: `Students at ${app.title} love to learn, have fun, and discover new passions on our beautiful, spacious, and state-of-the-art campus.`,
+  description:
+    `Siswa-siswi di ${app.title} senang belajar, bersenang-senang, dan menemukan minat baru di sekolah kami yang indah, luas, dan canggih.`,
 
   linkLabel: "Learn More",
 
@@ -303,23 +309,23 @@ export const _tabPanelSecond = {
 };
 
 export const _communityVoices = {
-  title: "Community Voices",
+  title: "Suara Komunitas",
 
-  description: `${app.title} is a diverse community that includes not only out students and faculty and staff, but parents and alumni too. Listen to what our community has to say about their ${app.title} experience.`,
+  description: `${app.title} adalah komunitas yang beragam yang tidak hanya terdiri dari siswa, staf pengajar, dan staf, tetapi juga orang tua dan alumni. Dengarkan apa yang dikatakan oleh komunitas kami tentang pengalaman mereka di ${app.title}.`,
 
-  linkLabel: `Learn more about the ${app.title} Community`,
+  linkLabel: `Pelajari lebih lanjut tentang Komunitas ${app.title}`,
 
   linkHref: "#",
 
   body: [
     {
-      title: "Early School Student",
-      description: `What would you tell people abot the ${app.title} community?`,
+      title: "Nursery Kindergarten Student",
+      description: `Apa yang akan Anda ceritakan kepada orang lain tentang komunitas Mitra Kasih??`,
       image: '/images/DOKUMENTASI/01 DIKELAS/NK/IMG20230529114927 (Large).jpg',
     },
     {
       title: "Elementary School Student",
-      description: `What would you tell new students joining ${app.title}?`,
+      description: `Apa yang akan Anda sampaikan kepada siswa baru yang bergabung dengan Mitra Kasih? ${app.title}?`,
       image: '/images/DOKUMENTASI/01 DIKELAS/PRIMARY/WhatsApp Image 2023-05-29 at 08.17.51.jpeg',
     },
 

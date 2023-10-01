@@ -86,7 +86,7 @@ export const navigations = [
   },
   {
     label: "Login",
-    href: paths.activities,
+    href: '#',
     links: [
       {
         label: "Login Primary School",

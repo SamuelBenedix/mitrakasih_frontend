@@ -33,7 +33,14 @@ export default function HomeTabPanelFirst(props: Props) {
   return (
     <section>
       <Container>
-        <Tabs.Root defaultValue={_tabPanelFirst.tabs[0].label}>
+        <HomeSectionHeader
+          title={_tabPanelFirst.title}
+          description={_tabPanelFirst.description}
+          linkLabel={_tabPanelFirst.linkLabel}
+          linkHref={_tabPanelFirst.linkHref}
+        />
+
+        {/* <Tabs.Root defaultValue={_tabPanelFirst.tabs[0].label}>
           <Tabs.List className="space-x-6">
             {_tabPanelFirst.tabs.map((dummy) => (
               <Tabs.Trigger
@@ -45,15 +52,7 @@ export default function HomeTabPanelFirst(props: Props) {
               </Tabs.Trigger>
             ))}
           </Tabs.List>
-
-          <HomeSectionHeader
-            title={_tabPanelFirst.title}
-            description={_tabPanelFirst.description}
-            linkLabel={_tabPanelFirst.linkLabel}
-            linkHref={_tabPanelFirst.linkHref}
-          />
-
-          {/* <Container size="lg" noPadding>
+          <Container size="lg" noPadding>
             {_tabPanelFirst.tabs.map((dummy) => (
               <Tabs.Content key={dummy.label} value={dummy.label}>
                 <Slider {...settings}>
@@ -70,8 +69,8 @@ export default function HomeTabPanelFirst(props: Props) {
                 </Slider>
               </Tabs.Content>
             ))}
-          </Container> */}
-        </Tabs.Root>
+          </Container>
+        </Tabs.Root> */}
       </Container>
     </section>
   );

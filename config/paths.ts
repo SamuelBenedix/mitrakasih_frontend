@@ -1,3 +1,6 @@
+import { app } from "./app";
+
+
 export const paths = {
   home: "/",
 
@@ -32,7 +35,7 @@ export const paths = {
 
   admission_announcement: "/admissions/announcement",
 
-  login_sd: "https://sd.mitrakasih.sch.id/public/login",
-  login_smp: "https://smp.mitrakasih.sch.id/public/login",
-  login_sma: "https://sma.mitrakasih.sch.id/public/login",
+  login_sd: `${app.blog_url.sd}/login`,
+  login_smp: `${app.blog_url.smp}/login`,
+  login_sma: `${app.blog_url.sma}/login`
 };

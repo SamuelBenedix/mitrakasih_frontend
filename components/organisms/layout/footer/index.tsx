@@ -12,15 +12,20 @@ import {
 } from "@tabler/icons-react";
 import Link from "next/link";
 import { app } from "@/config/app";
+import { ExJson } from "@/data/api";
+
+import * as React from "react";
+import { useState, useEffect } from "react";
 
 export default function Footer() {
+  ExJson("foo").then((data: JSON) => console.log(data));
   return (
     <footer className={cn(styles.footer, "mt-20 py-10 text-white")}>
       <Container size="md">
         <div className="space-y-8">
           <div className="max-w-md">
             <p className="text-2xl font-bold">
-              Learning in Indonesia To Be Best for the World
+              Belajar di Indonesia Untuk Menjadi yang Terbaik Bagi Dunia
             </p>
           </div>
           <div>
@@ -33,8 +38,12 @@ export default function Footer() {
             <div className="flex space-x-2">
               <IconMapPinFilled />
               <div className="max-w-xs">
-                <p className="font-semibold">Lorem ipsum dolor sit amet.</p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, debitis?</p>
+                <p className="font-semibold">Perumahan Citraland</p>
+                <p>
+                  Jl. Jend. Achmad Yani Km. 7,8 Kecamatan Kertak Hanyar, Kabup,
+                  Kertak Hanyar I, Kec. Kertak Hanyar, Kab. Banjar Prov.
+                  Kalimantan Selatan
+                </p>
               </div>
             </div>
             {/* <div className="flex space-x-2">
