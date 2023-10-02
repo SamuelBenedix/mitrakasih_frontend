@@ -24,6 +24,8 @@ export const paths = {
 
   activities: "/activities",
 
+  activities_blog: "/activities/blogs",
+
   news: "/news",
 
   admissions: "/admissions",
@@ -37,5 +39,6 @@ export const paths = {
 
   login_sd: `${app.blog_url.sd}/login`,
   login_smp: `${app.blog_url.smp}/login`,
-  login_sma: `${app.blog_url.sma}/login`
+  login_sma: `${app.blog_url.sma}/login`,
+
 };

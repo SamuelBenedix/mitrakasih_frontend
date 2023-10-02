@@ -1,7 +1,6 @@
 import ContainerBase from "@/components/atoms/container-base";
 import PageHero from "@/components/organisms/layout/page-hero";
 import { getNavigation } from "@/lib/utils/utils";
-import { getRandomImageUrl } from "@/data/getRandomImageUrl";
 import AcademicsEarlyYearsIntro from "@/components/organisms/academics-early-years/academics-early-years-intro";
 import AcademicsEarlyYearsCurriculum from "@/components/organisms/academics-early-years/academics-early-years-curriculum";
 import AcademicsEarlyYearsExperience from "@/components/organisms/academics-early-years/academics-early-years-experience";

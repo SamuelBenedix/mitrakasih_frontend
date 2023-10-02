@@ -18,7 +18,6 @@ import * as React from "react";
 import { useState, useEffect } from "react";
 
 export default function Footer() {
-  ExJson("foo").then((data: JSON) => console.log(data));
   return (
     <footer className={cn(styles.footer, "mt-20 py-10 text-white")}>
       <Container size="md">

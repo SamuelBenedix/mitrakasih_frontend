@@ -72,15 +72,7 @@ export const navigations = [
       },
       {
         label: "Primary School Activities",
-        href: paths.academics_elementary_school,
-      },
-      {
-        label: "Middle School Activities",
-        href: paths.academics_middle_school,
-      },
-      {
-        label: "High School Activities",
-        href: paths.academics_high_school,
+        href: paths.activities_blog,
       },
     ],
   },

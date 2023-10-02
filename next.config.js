@@ -13,6 +13,11 @@ const nextConfig = {
         protocol: "https",
         hostname: "picsum.photos",
       },
+      {
+        protocol: process.env.NODE_ENV === 'development' ? "http" : "https",
+        hostname: process.env.NODE_ENV === 'development' ? "sd.com" : "sd.mitrakasih.sch.id/public",
+        port: process.env.NODE_ENV === 'development' ? '8000' : '443',
+      },
       // <== FOR DEVELOPMENT ONLY <==
     ],
   },
