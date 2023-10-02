@@ -25,37 +25,6 @@ export default function BlogItem(props: Props) {
             : getRandomImageUrl()
         }`}
       />
-      {/* <div
-        className={cn(
-          "h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
-        )}
-        style={{
-          backgroundImage: `url('${app.blog_url["sd"]}/storage/${
-            typeof children === "object" &&
-            children !== null &&
-            "image" in children
-              ? children.image
-              : "/images/blog/8zVsB3jHUycnusdmYBi6Eatm3FGsAGjsVl94ott4.jpg"
-          }')`,
-        }}
-        title={children.title}
-      ></div>
-      <div
-        className={cn(
-          "border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal w-full"
-        )}
-      >
-        <div className={cn("mb-8")}>
-          <div className={cn("text-gray-900 font-bold text-xl mb-2")}>
-            {children !== null &&
-            typeof children === "object" &&
-            "title" in children
-              ? children.title
-              : "Lorem ipsum dolor sit amet."}
-          </div>
-          <p className={cn("text-gray-700 text-base")}>{children.content}</p>
-        </div>
-      </div> */}
     </div>
   );
 }

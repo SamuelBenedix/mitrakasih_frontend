@@ -25,7 +25,7 @@ export default function ActivitiesBlog(props: Props) {
     <Container section firstSection size="md">
       <PageTitle>Activities</PageTitle>
 
-      <Quote>Ini Blog</Quote>
+      {/* <Quote>Ini Blog</Quote> */}
 
       <article className="mt-8 space-y-4">
         {data.map((item) => (
