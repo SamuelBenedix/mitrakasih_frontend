@@ -66,13 +66,21 @@ export const navigations = [
     label: "Activities",
     href: paths.activities,
     links: [
-      {
-        label: "Nursery Kindergarten Activities",
-        href: paths.academics_early_years,
-      },
+      // {
+      //   label: "Nursery Kindergarten Activities",
+      //   href: paths.academics_early_years,
+      // },
       {
         label: "Primary School Activities",
-        href: paths.activities_blog,
+        href: paths.activities_blog_sd,
+      },
+      {
+        label: "Middle School Activities",
+        href: paths.activities_blog_smp,
+      },
+      {
+        label: "High School Activities",
+        href: paths.activities_blog_sma,
       },
     ],
   },

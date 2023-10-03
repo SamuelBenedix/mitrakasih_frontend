@@ -31,12 +31,13 @@ export default function ActivitiesBlogs(props: Props) {
           title: "Activities",
           description:
             "Every student is encouraged to join clubs, organizations, teams, and groups to follow their passions, try new things, and further develop their learning at Mitra Kasih.",
-          image: getRandomImageUrl(),
+          image:
+            "/images/DOKUMENTASI/ACTIVITY 2022-2023/M/WhatsApp Image 2023-05-29 at 12.36.41 (Large).jpeg",
         }}
       />
 
       <div className="space-y-40">
-        <ActivitiesBlog />
+        <ActivitiesBlog school="smp" />
       </div>
     </ContainerBase>
   );

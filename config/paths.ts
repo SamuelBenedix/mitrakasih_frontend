@@ -15,16 +15,16 @@ export const paths = {
   academics: "/academics",
 
   academics_early_years: "/academics/early-years",
-
   academics_elementary_school: "/academics/elementary-school",
-
   academics_middle_school: "/academics/middle-school",
-
   academics_high_school: "/academics/high-school",
 
   activities: "/activities",
 
   activities_blog: "/activities/blogs",
+  activities_blog_sd: "/activities/blogs/sd",
+  activities_blog_smp: "/activities/blogs/smp",
+  activities_blog_sma: "/activities/blogs/sma",
 
   news: "/news",
 

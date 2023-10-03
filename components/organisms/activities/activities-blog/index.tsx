@@ -8,18 +8,18 @@ import { useState, useEffect } from "react";
 import { Blog } from "@/data/api";
 import BlogItem from "@/components/molecules/blog-item";
 
-interface Props {}
+interface Props {
+  school?: "sd" | "smp" | "sma";
+}
 
 export default function ActivitiesBlog(props: Props) {
-  const {} = props;
+  const { school = "sd" } = props;
   const [data, setData] = useState<Blog[]>([]);
   useEffect(() => {
-    Blog().then((res) => {
-      console.log("res.data");
-      console.log(res);
-      setData(res);
+    Blog(school).then((res) => {
+      setData(res.data);
     });
-  }, []);
+  }, [school]);
 
   return (
     <Container section firstSection size="md">
