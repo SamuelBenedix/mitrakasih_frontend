@@ -17,7 +17,8 @@ export default function ActivitiesBlog(props: Props) {
   const [data, setData] = useState<Blog[]>([]);
   useEffect(() => {
     Blog(school).then((res) => {
-      setData(res.data);
+      console.log(res.data);
+      setData(res["data"]);
     });
   }, [school]);
 
@@ -29,7 +30,9 @@ export default function ActivitiesBlog(props: Props) {
 
       <article className="mt-8 space-y-4">
         {data.map((item) => (
-          <BlogItem key={item.id}>{item}</BlogItem>
+          <BlogItem key={item.id} school={school}>
+            {item}
+          </BlogItem>
         ))}
       </article>
     </Container>

@@ -1,14 +1,17 @@
 import React from "react";
-import { cn } from "@/lib/utils/utils";
+import { cn, getNavigation } from "@/lib/utils/utils";
 import { app } from "@/config/app";
+import Link from "next/link";
+import { paths } from "@/config/paths";
 interface ImageElementProps {
   className?: string;
   title?: string;
   image?: string;
   content?: string;
+  school?: string;
 }
 export default function BlogItemElement(props: ImageElementProps) {
-  const { className, title = "Judul", image, content } = props;
+  const { className, title = "Judul", image, content, school } = props;
   return (
     <>
       <div

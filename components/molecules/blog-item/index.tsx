@@ -5,26 +5,33 @@ import { app } from "@/config/app";
 import { Blog } from "@/data/api";
 import BlogItemElement from "@/components/atoms/blog-item-element";
 import { getRandomImageUrl } from "@/data/getRandomImageUrl";
+import Link from "next/link";
+import { paths } from "@/config/paths";
 
 interface Props {
   children?: Blog | any;
   className?: string;
+  school: keyof typeof app.blog_url | "sd";
 }
 
 export default function BlogItem(props: Props) {
-  const { children, className } = props;
+  const { children, className, school } = props;
 
   return (
-    <div className={cn("max-w-sm w-full lg:max-w-full lg:flex", className)}>
+    <Link
+      href={paths.activities_blog + "/" + school}
+      className={cn("max-w-sm w-full lg:max-w-full lg:flex", className)}
+    >
       <BlogItemElement
         title={children.title}
         content={children.content}
+        school={school}
         image={`${
           children.image
-            ? app.blog_url["sd"] + "/storage/" + children.image
+            ? app.blog_url[school] + "/storage/" + children.image
             : getRandomImageUrl()
         }`}
       />
-    </div>
+    </Link>
   );
 }
