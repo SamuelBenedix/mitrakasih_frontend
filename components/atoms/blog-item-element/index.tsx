@@ -16,7 +16,7 @@ export default function BlogItemElement(props: ImageElementProps) {
     <>
       <div
         className={cn(
-          "h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
+          "h-52 lg:h-auto lg:w-52 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
         )}
         style={{
           backgroundImage: `url('${image}')`,

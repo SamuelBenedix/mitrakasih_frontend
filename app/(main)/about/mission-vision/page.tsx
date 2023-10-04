@@ -20,6 +20,13 @@ export default function AboutSchoolLeadershipPage(props: Props) {
     <ContainerBase>
       <PageHero
         navBar={{ navigations: getNavigation("About"), name: "About" }}
+        header={{
+          title: "Visi dan Misi",
+          description:
+            "Visi dan misi bersama-sama membentuk dasar untuk perencanaan strategis dan pengambilan keputusan organisasi. ",
+          image:
+            "/images/documentations/activity_2022_2023/M/DSC01737 (Large).JPG",
+        }}
       />
 
       <div className="space-y-40 min-h-screen">

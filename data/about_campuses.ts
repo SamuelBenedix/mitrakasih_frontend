@@ -8,7 +8,7 @@ export const _pageTitle: string = "Our School";
 export const _pageDescription: string =
   "Our campus provide students a safe place to learn, play, engage with their surroundings, and explore their interests.";
 
-export const _pageImage: string = getRandomImageUrl();
+export const _pageImage: string = "/images/buildings/P/SD (Large).jpg";
 
 export const _about: string[] = [
   "Across a combined 20 hectares, our four divisions create one community. The Middle and High School campus is located in Cilandak, the Pondok Indah Elementary campus is located in Pondok Indah and connects to the Cilandak campus via a path and walking bridge, and the Pattimura Elementary campus is located in Kebayoran Baru.",

@@ -34,3 +34,21 @@ export interface Figure {
   linkHref?: string;
   image: string;
 }
+
+export interface Blog {
+  id: number;
+  title: string;
+  subtitle?: string | null;
+  content: string;
+  image: string | null;
+  tags?: Tag[];
+};
+
+export interface Tag {
+  id: number;
+  name: string;
+  pivot: {
+    blog_id: number;
+    tags_id: number;
+  };
+};

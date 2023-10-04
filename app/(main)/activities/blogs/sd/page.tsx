@@ -1,12 +1,6 @@
 import ContainerBase from "@/components/atoms/container-base";
 import PageHero from "@/components/organisms/layout/page-hero";
 import { getNavigation } from "@/lib/utils/utils";
-import { getRandomImageUrl } from "@/data/getRandomImageUrl";
-import ActivitiesIntro from "@/components/organisms/activities/activities-intro";
-import ActivitiesAcademySports from "@/components/organisms/activities/activities-academy-sports";
-import ActivitiesLeadership from "@/components/organisms/activities/activities-leadership";
-import ActivitiesAfterSchool from "@/components/organisms/activities/activities-after-school";
-import Button from "@/components/atoms/button";
 import ActivitiesBlog from "@/components/organisms/activities/activities-blog";
 
 interface Props {}
