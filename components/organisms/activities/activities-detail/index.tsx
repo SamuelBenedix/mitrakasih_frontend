@@ -4,7 +4,7 @@ import PageTitle from "../../../atoms/heading";
 import * as React from "react";
 import { useState, useEffect } from "react";
 import BlogItem from "@/components/molecules/blog-item";
-import { Blog } from "@/types/app";
+import { Blog, BlogData } from "@/types/app";
 import { BlogDetail, Blogs } from "@/data/api";
 import Image from "next/image";
 import { app } from "@/config/app";
@@ -13,6 +13,17 @@ interface Props {
   school: "sd" | "smp" | "sma";
   id: string;
 }
+
+interface StaticParams {
+  paths: {
+    params: {
+      school: string;
+      id: string;
+    };
+  }[];
+  fallback: boolean;
+}
+
 const contentWithLineBreaks = (data: string) =>
   data.split("\n").map((line, index) => (
     <React.Fragment key={index}>
@@ -20,9 +31,10 @@ const contentWithLineBreaks = (data: string) =>
       <br />
     </React.Fragment>
   ));
+
 export default function ActivitiesDetail(props: Props) {
   const { school, id } = props;
-  const [data, setData] = useState<Blog | undefined>(undefined);
+  const [data, setData] = useState<BlogData | undefined>(undefined);
 
   useEffect(() => {
     BlogDetail(school, id).then((res) => {
@@ -54,3 +66,20 @@ export default function ActivitiesDetail(props: Props) {
     </Container>
   );
 }
+
+export const generateStaticParams = async (): Promise<StaticParams> => {
+  const blogs: BlogData[] = await Blogs("sd");
+  console.log("blogs");
+  console.log(blogs);
+  const paths = blogs.map((item) => ({
+    params: {
+      school: "sd", // Ganti dengan nilai yang sesuai
+      id: item.id.toString(),
+    },
+  }));
+
+  return {
+    paths,
+    fallback: false,
+  };
+};

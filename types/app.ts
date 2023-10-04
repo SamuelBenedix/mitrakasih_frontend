@@ -36,13 +36,18 @@ export interface Figure {
 }
 
 export interface Blog {
+  status: number;
+  data: BlogData;
+};
+
+export interface BlogData {
   id: number;
   title: string;
   subtitle?: string | null;
   content: string;
   image: string | null;
   tags?: Tag[];
-};
+}
 
 export interface Tag {
   id: number;

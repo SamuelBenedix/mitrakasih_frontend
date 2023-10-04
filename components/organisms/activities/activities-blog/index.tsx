@@ -4,7 +4,7 @@ import PageTitle from "../../../atoms/heading";
 import * as React from "react";
 import { useState, useEffect } from "react";
 import BlogItem from "@/components/molecules/blog-item";
-import { Blog } from "@/types/app";
+import { Blog, BlogData } from "@/types/app";
 import { Blogs } from "@/data/api";
 
 interface Props {
@@ -13,7 +13,7 @@ interface Props {
 
 export default function ActivitiesBlog(props: Props) {
   const { school = "sd" } = props;
-  const [data, setData] = useState<Blog[]>([]);
+  const [data, setData] = useState<BlogData[]>([]);
   useEffect(() => {
     Blogs(school).then((res) => {
       setData(res.data);

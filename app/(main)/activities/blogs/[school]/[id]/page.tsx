@@ -1,16 +1,22 @@
-"use client";
-
 import { useParams } from "next/navigation";
 import ContainerBase from "@/components/atoms/container-base";
 import PageHero from "@/components/organisms/layout/page-hero";
 import { getNavigation } from "@/lib/utils/utils";
-import ActivitiesBlog from "@/components/organisms/activities/activities-blog";
-import { useEffect, useState } from "react";
-import { BlogDetail, Blogs } from "@/data/api";
-import { Blog } from "@/types/app";
 import ActivitiesDetail from "@/components/organisms/activities/activities-detail";
+import { BlogDetail, Blogs } from "@/data/api";
+import { Blog, BlogData } from "@/types/app";
 
 interface Props {}
+
+interface StaticParams {
+  paths: {
+    params: {
+      school: string;
+      id: string;
+    };
+  }[];
+  fallback: boolean;
+}
 
 /**
  * React page
@@ -41,10 +47,27 @@ export default function ActivitiesBlogs(props: Props) {
 
       <div className="space-y-40">
         <ActivitiesDetail
-          school={school as "sd" | "smp" | "sma" | undefined}
+          school={school as "sd" | "smp" | "sma"}
           id={id as string}
         />
       </div>
     </ContainerBase>
   );
 }
+
+export const generateStaticParams = async (): Promise<StaticParams> => {
+  const blogs: BlogData[] = await Blogs("sd");
+  console.log("blogs");
+  console.log(blogs);
+  const paths = blogs.map((item) => ({
+    params: {
+      school: "sd", // Ganti dengan nilai yang sesuai
+      id: item.id.toString(),
+    },
+  }));
+
+  return {
+    paths,
+    fallback: false,
+  };
+};
