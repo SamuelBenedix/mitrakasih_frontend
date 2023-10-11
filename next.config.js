@@ -14,6 +14,10 @@ const nextConfig = {
         hostname: "picsum.photos",
       },
       {
+        protocol: "https",
+        hostname: "placehold.it",
+      },
+      {
         protocol: process.env.NODE_ENV === "development" ? "http" : "https",
         hostname:
           process.env.NODE_ENV === "development"

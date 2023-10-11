@@ -8,16 +8,6 @@ import { Blog, BlogData } from "@/types/app";
 
 interface Props {}
 
-interface StaticParams {
-  paths: {
-    params: {
-      school: string;
-      id: string;
-    };
-  }[];
-  fallback: boolean;
-}
-
 /**
  * React page
  *
@@ -54,20 +44,34 @@ export default function ActivitiesBlogs(props: Props) {
     </ContainerBase>
   );
 }
-
-export const generateStaticParams = async (): Promise<StaticParams> => {
-  const blogs: BlogData[] = await Blogs("sd");
-  console.log("blogs");
-  console.log(blogs);
-  const paths = blogs.map((item) => ({
+interface StaticParams {
+  paths: {
     params: {
-      school: "sd", // Ganti dengan nilai yang sesuai
-      id: item.id.toString(),
-    },
-  }));
-
-  return {
-    paths,
-    fallback: false,
+      id: string;
+      school: string;
+    }[];
   };
+  fallback: boolean;
+}
+
+export const generateStaticParams = async () => {
+  const schools = ["sd", "smp", "sma"];
+  const data_ = await Promise.all(
+    schools.map(async (school) => {
+      if (school === "sd" || school === "smp" || school === "sma") {
+        const data = await Blogs(school);
+        const data_detail: BlogData[] = await data.data;
+        return data_detail.map((item) => ({ id: item.id, school: school }));
+      } else {
+        // Handle case when 'school' is not a valid string
+        return [];
+      }
+    })
+  );
+  const paths = data_.flat().map((item) => ({
+    params: { id: item.id, school: item.school },
+  }));
+  console.log(paths);
+
+  return paths;
 };

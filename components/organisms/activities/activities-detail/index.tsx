@@ -14,16 +14,6 @@ interface Props {
   id: string;
 }
 
-interface StaticParams {
-  paths: {
-    params: {
-      school: string;
-      id: string;
-    };
-  }[];
-  fallback: boolean;
-}
-
 const contentWithLineBreaks = (data: string) =>
   data.split("\n").map((line, index) => (
     <React.Fragment key={index}>
@@ -67,19 +57,29 @@ export default function ActivitiesDetail(props: Props) {
   );
 }
 
-export const generateStaticParams = async (): Promise<StaticParams> => {
-  const blogs: BlogData[] = await Blogs("sd");
-  console.log("blogs");
-  console.log(blogs);
-  const paths = blogs.map((item) => ({
-    params: {
-      school: "sd", // Ganti dengan nilai yang sesuai
-      id: item.id.toString(),
-    },
-  }));
+// interface StaticParams {
+//   paths: {
+//     params: {
+//       school: string;
+//       id: string;
+//     };
+//   }[];
+//   fallback: boolean;
+// }
 
-  return {
-    paths,
-    fallback: false,
-  };
-};
+// export const generateStaticParams = async (): Promise<StaticParams> => {
+//   const blogs: BlogData[] = await Blogs("sd");
+//   console.log("blogs");
+//   console.log(blogs);
+//   const paths = blogs.map((item) => ({
+//     params: {
+//       school: "sd", // Ganti dengan nilai yang sesuai
+//       id: item.id.toString(),
+//     },
+//   }));
+
+//   return {
+//     paths,
+//     fallback: false,
+//   };
+// };

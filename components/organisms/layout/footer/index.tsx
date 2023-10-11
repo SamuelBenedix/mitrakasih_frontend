@@ -30,7 +30,7 @@ export default function Footer() {
           <div>
             <div className="flex space-x-2">
               <IconPhone />
-              <span>Lorem, ipsum.</span>
+              <span>0511 6742222-081253112000-082159272288</span>
             </div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3">

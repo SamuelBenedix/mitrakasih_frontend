@@ -6,6 +6,14 @@ import { useParams } from "next/navigation";
 
 interface Props {}
 
+// interface StaticParams {
+//   paths: {
+//     params: {
+//       school: string;
+//     };
+//   };
+//   fallback: boolean;
+// }
 /**
  * React page
  *
@@ -39,3 +47,17 @@ export default function ActivitiesBlogs(props: Props) {
     </ContainerBase>
   );
 }
+
+interface StaticParams {
+  paths: {
+    params: {
+      school: string;
+    };
+  };
+  fallback: boolean;
+}
+export const generateStaticParams = () => {
+  const data_ = [{ school: "sd" }];
+
+  return data_;
+};

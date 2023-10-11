@@ -35,6 +35,12 @@ export interface Figure {
   image: string;
 }
 
+export interface ResponseAPI {
+  status: number;
+  data: any;
+  message?: string;
+}
+
 export interface Blog {
   status: number;
   data: BlogData;
