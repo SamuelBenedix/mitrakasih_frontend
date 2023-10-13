@@ -30,7 +30,7 @@ export default function AcademicsMiddleSchoolPage(props: Props) {
           description:
             "Ini adalah waktu ketika siswa mulai bercabang, menemukan minat baru, dan membuat hubungan yang bermakna antara dunia nyata dan kecintaan mereka terhadap belajar.",
           image:
-            "/images/documentations/FUNWEEK/MIIDLE HIGH/IMG-20230607-WA0046.jpg",
+            "https://www.mitrakasih.sch.id/images/documentations/FUNWEEK/MIIDLE HIGH/IMG-20230607-WA0046.jpg",
         }}
       />
 

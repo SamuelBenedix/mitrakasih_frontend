@@ -1,3 +1,4 @@
+// "use client";
 import { useParams } from "next/navigation";
 import ContainerBase from "@/components/atoms/container-base";
 import PageHero from "@/components/organisms/layout/page-hero";
@@ -31,7 +32,7 @@ export default function ActivitiesBlogs(props: Props) {
           description:
             "Every student is encouraged to join clubs, organizations, teams, and groups to follow their passions, try new things, and further develop their learning at Mitra Kasih.",
           image:
-            "/images/DOKUMENTASI/ACTIVITY 2022-2023/P/DSC06010 (Large).JPG",
+            "https://www.mitrakasih.sch.id/images/DOKUMENTASI/ACTIVITY 2022-2023/P/DSC06010 (Large).JPG",
         }}
       />
 

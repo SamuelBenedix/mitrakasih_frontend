@@ -25,7 +25,7 @@ export default function AboutSchoolLeadershipPage(props: Props) {
           description:
             "Visi dan misi bersama-sama membentuk dasar untuk perencanaan strategis dan pengambilan keputusan organisasi. ",
           image:
-            "/images/documentations/activity_2022_2023/M/DSC01737 (Large).JPG",
+            "https://www.mitrakasih.sch.id/images/documentations/activity_2022_2023/M/DSC01737 (Large).JPG",
         }}
       />
 

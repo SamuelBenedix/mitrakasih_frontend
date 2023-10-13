@@ -25,7 +25,7 @@ export default function AboutMissionVisionPage(props: Props) {
           title: "Sambutan Kepala Sekolah",
           description: "   ",
           image:
-            "/images/DOKUMENTASI/UPACARA/UPACARA-17 AGUSTUS 2023/DSC03507 (Large).JPG",
+            "https://www.mitrakasih.sch.id/images/DOKUMENTASI/UPACARA/UPACARA-17 AGUSTUS 2023/DSC03507 (Large).JPG",
         }}
       />
 

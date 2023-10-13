@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",
+  // output: "export",
   images: {
-    unoptimized: true,
+    // unoptimized: true,
     remotePatterns: [
       // ==> FOR DEVELOPMENT ONLY ==>
       {
@@ -12,6 +12,10 @@ const nextConfig = {
       {
         protocol: "https",
         hostname: "picsum.photos",
+      },
+      {
+        protocol: "https",
+        hostname: "www.mitrakasih.sch.id",
       },
       {
         protocol: "https",

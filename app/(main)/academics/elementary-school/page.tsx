@@ -30,7 +30,7 @@ export default function AcademicsElementarySchoolPage(props: Props) {
           description:
             "Primary School adalah masa di mana para siswa mulai membangun keingintahuan dan kecintaan mereka untuk belajar.",
           image:
-            "/images/documentations/classes/PRIMARY/IMG-20220607-WA0052.jpg",
+            "https://www.mitrakasih.sch.id/images/documentations/classes/PRIMARY/IMG-20220607-WA0052.jpg",
         }}
       />
 

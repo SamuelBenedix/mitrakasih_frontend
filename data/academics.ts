@@ -64,7 +64,7 @@ export const _reasons: Slides = {
         "Cara terbaik untuk mempelajari sekolah kami adalah dengan mengalaminya sendiri!",
       linkLabel: "Schedule a Tour Today",
       linkHref: "",
-      image: "/images/DOKUMENTASI/SOCIAL/BAKSOS/DSC03406 (Large).JPG",
+      image: "https://www.mitrakasih.sch.id/images/DOKUMENTASI/SOCIAL/BAKSOS/DSC03406 (Large).JPG",
     },
 
     {
@@ -73,7 +73,7 @@ export const _reasons: Slides = {
       linkLabel: "Take the first step",
       linkHref: "",
       image:
-        "/images/DOKUMENTASI/UPACARA/UPACARA-TAHUN AJARAN BARU 2023-2024/DSC09741 (Large).JPG",
+        "https://www.mitrakasih.sch.id/images/DOKUMENTASI/UPACARA/UPACARA-TAHUN AJARAN BARU 2023-2024/DSC09741 (Large).JPG",
     },
 
     {
@@ -82,7 +82,7 @@ export const _reasons: Slides = {
       linkLabel: "Start of Complete your Application",
       linkHref: "",
       image:
-        "/images/DOKUMENTASI/FIRST DAY SCHOOL 2023-2024/MIDDLE _ HIGH/DSC09335 (Large).JPG",
+        "https://www.mitrakasih.sch.id/images/DOKUMENTASI/FIRST DAY SCHOOL 2023-2024/MIDDLE _ HIGH/DSC09335 (Large).JPG",
     },
 
     {
@@ -91,7 +91,7 @@ export const _reasons: Slides = {
         "Punya pertanyaan? Pertanyaan Anda mungkin bisa dijawab di Pertanyaan yang Sering Diajukan.",
       linkLabel: "See our FAQs",
       linkHref: "",
-      image: "/images/DOKUMENTASI/FUNWEEK/MIIDLE HIGH/DSC02022 (Large).JPG",
+      image: "https://www.mitrakasih.sch.id/images/DOKUMENTASI/FUNWEEK/MIIDLE HIGH/DSC02022 (Large).JPG",
     },
 
     {
