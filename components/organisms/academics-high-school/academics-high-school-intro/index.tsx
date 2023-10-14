@@ -1,8 +1,8 @@
-import React from "react";
-import Container from "@/components/atoms/container";
-import PageTitle from "../../../atoms/heading";
-import PageQuote from "../../../atoms/quote";
-import PageParagraph from "../../../atoms/paragraph";
+import React from 'react';
+import Container from '@/components/atoms/container';
+import PageTitle from '../../../atoms/heading';
+import PageQuote from '../../../atoms/quote';
+import PageParagraph from '../../../atoms/paragraph';
 
 interface Props {}
 
@@ -12,8 +12,8 @@ export default function AcademicsHighSchoolIntro(props: Props) {
   return (
     <section className="mt-32">
       <Container size="md">
-        <PageTitle>High School</PageTitle>
-        <PageQuote>
+        <PageTitle heading="h4">High School</PageTitle>
+        <PageQuote smallText className="pt-2 pb-6">
           SMA Mitra Kasih adalah lembaga pendidikan yang berdedikasi untuk
           membentuk siswa-siswa unggul dengan nilai-nilai keimanan, karakter,
           dan keterampilan berwawasan iptek, siap untuk menghadapi tantangan
@@ -41,8 +41,8 @@ export default function AcademicsHighSchoolIntro(props: Props) {
       </Container>
 
       <Container size="md" className="mt-20">
-        <PageTitle>Batasan Umur</PageTitle>
-        <PageQuote>
+        <PageTitle heading="h4">Batasan Umur</PageTitle>
+        <PageQuote smallText className="py-3">
           Kelas 10: Harus berusia 15 tahun pada tanggal 31 Desember 2023 dan
           harus merupakan lulusan dari tingkat sebelumnya.
         </PageQuote>

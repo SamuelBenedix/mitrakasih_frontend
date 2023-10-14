@@ -1,8 +1,8 @@
-import React from "react";
-import Container from "@/components/atoms/container";
-import PageTitle from "../../../atoms/heading";
-import PageQuote from "../../../atoms/quote";
-import PageParagraph from "../../../atoms/paragraph";
+import React from 'react';
+import Container from '@/components/atoms/container';
+import PageTitle from '../../../atoms/heading';
+import PageQuote from '../../../atoms/quote';
+import PageParagraph from '../../../atoms/paragraph';
 
 interface Props {}
 
@@ -12,8 +12,8 @@ export default function AcademicsEarlyYearsIntro(props: Props) {
   return (
     <section className="mt-32">
       <Container section firstSection size="md">
-        <PageTitle>Nursery Kindergarten</PageTitle>
-        <PageQuote>
+        <PageTitle heading="h4">Nursery Kindergarten</PageTitle>
+        <PageQuote smallText className="pt-2 pb-6">
           Program Taman Kanak-kanak Mitra Kasih adalah sebuah suasana penuh
           keajaiban, kepedulian, eksplorasi, dan pertumbuhan.
         </PageQuote>
@@ -34,16 +34,16 @@ export default function AcademicsEarlyYearsIntro(props: Props) {
         </article>
       </Container>
       <Container size="md" className="mt-20">
-        <PageTitle>Batasan Umur</PageTitle>
-        <PageQuote>
+        <PageTitle heading="h4">Batasan Umur</PageTitle>
+        <PageQuote smallText className="py-3">
           NK 1: Harus berusia 3 tahun pada 31 Desember 2023 dan harus sudah bisa
           menggunakan toilet.
         </PageQuote>
-        <PageQuote>
+        <PageQuote smallText className="py-3">
           NK 2 Harus berusia 4 tahun pada 31 Desember 2023 dan harus sudah
           terlatih menggunakan toilet.
         </PageQuote>
-        <PageQuote>
+        <PageQuote smallText className="py-3">
           NK 3: Harus berusia 5 tahun pada 31 Desember 2023 dan harus terlatih
           menggunakan toilet.
         </PageQuote>

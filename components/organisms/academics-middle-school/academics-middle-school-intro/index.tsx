@@ -1,8 +1,8 @@
-import React from "react";
-import Container from "@/components/atoms/container";
-import PageTitle from "../../../atoms/heading";
-import PageQuote from "../../../atoms/quote";
-import PageParagraph from "../../../atoms/paragraph";
+import React from 'react';
+import Container from '@/components/atoms/container';
+import PageTitle from '../../../atoms/heading';
+import PageQuote from '../../../atoms/quote';
+import PageParagraph from '../../../atoms/paragraph';
 
 interface Props {}
 
@@ -12,8 +12,8 @@ export default function AcademicsMiddleSchoolIntro(props: Props) {
   return (
     <section className="mt-32">
       <Container size="md">
-        <PageTitle>Middle School</PageTitle>
-        <PageQuote>
+        <PageTitle heading="h4">Middle School</PageTitle>
+        <PageQuote smallText className="pt-2 pb-6">
           Ini adalah waktu ketika siswa mulai bercabang, menemukan minat baru,
           dan membuat hubungan yang bermakna antara dunia nyata dan kecintaan
           mereka terhadap belajar.
@@ -39,12 +39,12 @@ export default function AcademicsMiddleSchoolIntro(props: Props) {
       </Container>
 
       <Container size="md" className="mt-20">
-        <PageTitle>Batasan Umur</PageTitle>
-        <PageQuote>
+        <PageTitle heading="h4">Batasan Umur</PageTitle>
+        <PageQuote smallText className="py-3">
           Kelas 7: Harus berusia 12 tahun pada tanggal 31 Desember 2023 dan
           merupakan lulusan dari jenjang sebelumnya.
         </PageQuote>
-        <PageQuote>
+        <PageQuote smallText className="py-3">
           Kelas 8: Harus berusia 13 tahun pada tanggal 31 Desember 2023 dan
           merupakan lulusan dari jenjang sebelumnya.
         </PageQuote>
