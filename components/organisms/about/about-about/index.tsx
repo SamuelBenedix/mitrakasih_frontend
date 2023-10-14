@@ -1,8 +1,8 @@
-import React from "react";
-import Container from "@/components/atoms/container";
-import Heading from "@/components/atoms/heading";
-import Paragraphs from "../../../molecules/paragraphs";
-import { _about, _pageTitle } from "@/data/about";
+import React from 'react';
+import Container from '@/components/atoms/container';
+import Heading from '@/components/atoms/heading';
+import Paragraphs from '../../../molecules/paragraphs';
+import { _about, _pageTitle } from '@/data/about';
 
 interface Props {}
 

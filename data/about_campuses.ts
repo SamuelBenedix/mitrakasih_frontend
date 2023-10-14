@@ -1,6 +1,3 @@
-import { app } from "@/config/app";
-import { getRandomImageUrl } from "@/data/getRandomImageUrl";
-
 export const _label: string = "About";
 
 export const _pageTitle: string = "Our School";

@@ -1,15 +1,15 @@
-import React from "react";
-import Container from "@/components/atoms/container";
-import PageTitle from "@/components/atoms/heading";
-import PageQuote from "@/components/atoms/quote";
-import Figure from "@/components/molecules/figure";
+import React from 'react';
+import Container from '@/components/atoms/container';
+import PageTitle from '@/components/atoms/heading';
+import PageQuote from '@/components/atoms/quote';
+import Figure from '@/components/molecules/figure';
 import {
   _about,
   _academicFigures,
   _pageQuote,
   _pageTitle,
-} from "@/data/academics";
-import Paragraphs from "@/components/molecules/paragraphs";
+} from '@/data/academics';
+import Paragraphs from '@/components/molecules/paragraphs';
 
 interface Props {}
 
