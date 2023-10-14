@@ -1,7 +1,7 @@
-'use client';
-import Container from '@/components/atoms/container';
-import styles from './styles.module.css';
-import { cn } from '@/lib/utils/utils';
+"use client";
+import Container from "@/components/atoms/container";
+import styles from "./styles.module.css";
+import { cn } from "@/lib/utils/utils";
 import {
   IconBrandFacebook,
   IconBrandInstagram,
@@ -10,10 +10,10 @@ import {
   IconBrandYoutube,
   IconMapPinFilled,
   IconPhone,
-} from '@tabler/icons-react';
-import Link from 'next/link';
-import { app } from '@/config/app';
-import React, { useEffect, useState } from 'react';
+} from "@tabler/icons-react";
+import Link from "next/link";
+import { app } from "@/config/app";
+import React, { useEffect, useState } from "react";
 
 export default function Footer() {
   const [windowSize, setWindowSize] = useState({
@@ -33,19 +33,17 @@ export default function Footer() {
     }
 
     // Add event listener
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
 
     // Call handler right away so state gets updated with initial window size
     handleResize();
 
     // Remove event listener on cleanup
-    return () => window.removeEventListener('resize', handleResize);
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  console.log('size', windowSize);
-
   return (
-    <footer className={cn(styles.footer, 'mt-20 py-10 text-white')}>
+    <footer className={cn(styles.footer, "mt-20 py-10 text-white")}>
       <Container size="md">
         <div className="space-y-8">
           <div className="sm:max-w-md">

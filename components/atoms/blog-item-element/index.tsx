@@ -9,9 +9,17 @@ interface ImageElementProps {
   image?: string;
   content?: string;
   school?: string;
+  event_date?: string;
 }
 export default function BlogItemElement(props: ImageElementProps) {
-  const { className, title = "Judul", image, content, school } = props;
+  const {
+    className,
+    title = "Judul",
+    image,
+    content,
+    event_date,
+    school,
+  } = props;
   return (
     <>
       <div
@@ -32,6 +40,9 @@ export default function BlogItemElement(props: ImageElementProps) {
           <div className={cn("text-gray-900 font-bold text-xl mb-2")}>
             {title}
           </div>
+          <p className={cn("text-gray-700 text-base")}>
+            Tanggal Event : {event_date}
+          </p>
           <p className={cn("text-gray-700 text-base")}>{content}</p>
         </div>
       </div>

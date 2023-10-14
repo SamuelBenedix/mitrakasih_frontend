@@ -30,7 +30,7 @@ export default function AdmissionIntro(props: Props) {
           <PageQuote>
             Mari kita mulai perjalanan bersama untuk mengetahui bagaimana Mitra
             Kasih dapat memenuhi kebutuhan Anda dan mempersiapkan anak Anda
-            untuk menjadi \'yang TERBAIK bagi dunia\'.
+            untuk menjadi &apos;yang TERBAIK bagi dunia&apos;.
           </PageQuote>
         </article>
       </Container>

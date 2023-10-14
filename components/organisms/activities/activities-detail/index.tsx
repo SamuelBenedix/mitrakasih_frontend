@@ -8,13 +8,14 @@ import { Blog, BlogData } from "@/types/app";
 import { BlogDetail, Blogs } from "@/data/api";
 import Image from "next/image";
 import { app } from "@/config/app";
+import { convertDate } from "@/lib/utils/utils";
 
 interface Props {
   school: "sd" | "smp" | "sma";
   id: string;
 }
 
-const contentWithLineBreaks = (data: string) =>
+export const contentWithLineBreaks = (data: string) =>
   data.split("\n").map((line, index) => (
     <React.Fragment key={index}>
       {line}
@@ -24,11 +25,10 @@ const contentWithLineBreaks = (data: string) =>
 
 export default function ActivitiesDetail(props: Props) {
   const { school, id } = props;
-  const [data, setData] = useState<BlogData | undefined>(undefined);
+  const [data, setData] = useState<BlogData>();
 
   useEffect(() => {
     BlogDetail(school, id).then((res) => {
-      console.log(res.data);
       setData(res.data);
     });
   }, [school, id]);
@@ -51,35 +51,16 @@ export default function ActivitiesDetail(props: Props) {
       </div>
 
       <article className="mt-8 space-y-4">
+        Tanggal Event :{" "}
+        {convertDate(
+          data.event_date
+            ? data.event_date
+            : new Date().toISOString().split("T")[0]
+        )}
+      </article>
+      <article className="mt-8 space-y-4">
         {contentWithLineBreaks(data.content)}
       </article>
     </Container>
   );
 }
-
-// interface StaticParams {
-//   paths: {
-//     params: {
-//       school: string;
-//       id: string;
-//     };
-//   }[];
-//   fallback: boolean;
-// }
-
-// export const generateStaticParams = async (): Promise<StaticParams> => {
-//   const blogs: BlogData[] = await Blogs("sd");
-//   console.log("blogs");
-//   console.log(blogs);
-//   const paths = blogs.map((item) => ({
-//     params: {
-//       school: "sd", // Ganti dengan nilai yang sesuai
-//       id: item.id.toString(),
-//     },
-//   }));
-
-//   return {
-//     paths,
-//     fallback: false,
-//   };
-// };

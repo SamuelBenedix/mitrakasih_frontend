@@ -3,6 +3,7 @@ import { twMerge } from "tailwind-merge";
 import { app } from "@/config/app";
 import { Nav } from "@/types/app";
 import { navigations } from "@/config/navigations";
+import * as React from "react";
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
@@ -37,3 +38,16 @@ export function getNavigation(label: string): Nav[] {
     navigations.find((navigation) => navigation.label === label)?.links || []
   );
 }
+
+
+export function convertDate(date: string) {
+  const dateObj = new Date(date);
+  return dateObj.toLocaleDateString("id-ID", {
+    weekday: "long",
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+};
+
+

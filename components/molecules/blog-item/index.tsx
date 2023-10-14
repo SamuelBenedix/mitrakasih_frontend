@@ -1,9 +1,8 @@
 import React from "react";
-import { cn } from "@/lib/utils/utils";
+import { cn, convertDate } from "@/lib/utils/utils";
 import Image from "next/image";
 import { app } from "@/config/app";
 import BlogItemElement from "@/components/atoms/blog-item-element";
-import { getRandomImageUrl } from "@/data/getRandomImageUrl";
 import Link from "next/link";
 import { paths } from "@/config/paths";
 import { Blog } from "@/types/app";
@@ -12,6 +11,23 @@ interface Props {
   children?: Blog | any;
   className?: string;
   school: keyof typeof app.blog_url | "sd";
+}
+
+function mb_strimwidth(
+  input: string,
+  start: number,
+  length: number,
+  trimmarker = "..."
+) {
+  if (typeof input !== "string") return input;
+  if (input.length <= length) return input;
+
+  let result = input.substring(start, start + length - trimmarker.length);
+
+  // Pastikan bahwa trimmarker benar-benar dapat dimasukkan dalam panjang akhir
+  if (trimmarker.length > length) return trimmarker.substring(0, length);
+
+  return result + trimmarker;
 }
 
 export default function BlogItem(props: Props) {
@@ -25,7 +41,8 @@ export default function BlogItem(props: Props) {
     >
       <BlogItemElement
         title={children.title}
-        content={children.content.slice(0, 250) + "..."}
+        content={mb_strimwidth(children.content, 0, 250)}
+        event_date={convertDate(children.event_date)}
         school={school}
         image={`${
           children.image

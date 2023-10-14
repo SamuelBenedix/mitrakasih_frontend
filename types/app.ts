@@ -49,7 +49,7 @@ export interface Blog {
 export interface BlogData {
   id: number;
   title: string;
-  subtitle?: string | null;
+  event_date: string | null;
   content: string;
   image: string | null;
   tags?: Tag[];
