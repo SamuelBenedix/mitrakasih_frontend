@@ -10,6 +10,12 @@ export async function ExJson(paramName: any) {
 
 export const Blogs = async (school: keyof typeof app.blog_url = "sd") => {
   // const res = await fetch("http://sd.com:8000/api/get-blogs");
+  const schools = ["sd", "smp", "sma"];
+  if (!schools.includes(school)) {
+    const res = await fetch(`${app.blog_url["sd"]}/api/get-blogs`);
+    const repo = await res.json();
+    return repo;
+  }
   const res = await fetch(`${app.blog_url[school]}/api/get-blogs`);
   const repo = await res.json();
   return repo;

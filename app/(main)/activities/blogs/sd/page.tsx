@@ -11,7 +11,7 @@ interface Props {}
  * @param props
  * @returns
  */
-export default function ActivitiesBlogs(props: Props) {
+export default function ActivitiesBlogsSD(props: Props) {
   const {} = props;
 
   return (

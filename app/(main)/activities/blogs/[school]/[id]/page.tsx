@@ -1,4 +1,4 @@
-// "use client";
+"use client";
 import { useParams } from "next/navigation";
 import ContainerBase from "@/components/atoms/container-base";
 import PageHero from "@/components/organisms/layout/page-hero";
@@ -6,6 +6,7 @@ import { getNavigation } from "@/lib/utils/utils";
 import ActivitiesDetail from "@/components/organisms/activities/activities-detail";
 import { BlogDetail, Blogs } from "@/data/api";
 import { Blog, BlogData } from "@/types/app";
+import { GetStaticPaths, GetStaticProps } from "next";
 
 interface Props {}
 
@@ -45,34 +46,3 @@ export default function ActivitiesBlogs(props: Props) {
     </ContainerBase>
   );
 }
-interface StaticParams {
-  paths: {
-    params: {
-      id: string;
-      school: string;
-    }[];
-  };
-  fallback: boolean;
-}
-
-export const generateStaticParams = async () => {
-  const schools = ["sd", "smp", "sma"];
-  const data_ = await Promise.all(
-    schools.map(async (school) => {
-      if (school === "sd" || school === "smp" || school === "sma") {
-        const data = await Blogs(school);
-        const data_detail: BlogData[] = await data.data;
-        return data_detail.map((item) => ({ id: item.id, school: school }));
-      } else {
-        // Handle case when 'school' is not a valid string
-        return [];
-      }
-    })
-  );
-  const paths = data_.flat().map((item) => ({
-    params: { id: item.id, school: item.school },
-  }));
-  console.log(paths);
-
-  return paths;
-};

@@ -21,7 +21,7 @@ interface Props {}
  * @param props
  * @returns
  */
-export default function ActivitiesBlogs(props: Props) {
+export default function ActivitiesBlogSchool(props: Props) {
   const {} = props;
   const params = useParams();
   const school = params.school;
@@ -48,17 +48,3 @@ export default function ActivitiesBlogs(props: Props) {
     </ContainerBase>
   );
 }
-
-// interface StaticParams {
-//   paths: {
-//     params: {
-//       school: string;
-//     };
-//   };
-//   fallback: boolean;
-// }
-// export const generateStaticParams = () => {
-//   const data_ = [{ school: "sd" }];
-
-//   return data_;
-// };

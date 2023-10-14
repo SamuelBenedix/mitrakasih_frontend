@@ -29,6 +29,22 @@ const nextConfig = {
             : "sd.mitrakasih.sch.id/public",
         port: process.env.NODE_ENV === "development" ? "8000" : "443",
       },
+      {
+        protocol: process.env.NODE_ENV === "development" ? "http" : "https",
+        hostname:
+          process.env.NODE_ENV === "development"
+            ? "smp.com"
+            : "smp.mitrakasih.sch.id/public",
+        port: process.env.NODE_ENV === "development" ? "8001" : "443",
+      },
+      {
+        protocol: process.env.NODE_ENV === "development" ? "http" : "https",
+        hostname:
+          process.env.NODE_ENV === "development"
+            ? "sma.com"
+            : "sma.mitrakasih.sch.id/public",
+        port: process.env.NODE_ENV === "development" ? "8002" : "443",
+      },
       // <== FOR DEVELOPMENT ONLY <==
     ],
   },
