@@ -6,15 +6,6 @@ import ActivitiesBlog from "@/components/organisms/activities/activities-blog";
 import { useParams } from "next/navigation";
 
 interface Props {}
-
-// interface StaticParams {
-//   paths: {
-//     params: {
-//       school: string;
-//     };
-//   };
-//   fallback: boolean;
-// }
 /**
  * React page
  *
@@ -36,7 +27,7 @@ export default function ActivitiesBlogSchool(props: Props) {
         header={{
           title: "Activities",
           description:
-            "Every student is encouraged to join clubs, organizations, teams, and groups to follow their passions, try new things, and further develop their learning at Mitra Kasih.",
+            "Setiap siswa diberi kesempatan untuk berpartisipasi dalam klub, asosiasi, tim, dan kolektif untuk mengejar minat mereka, mengeksplorasi kegiatan baru, dan meningkatkan pengalaman pendidikan mereka di Mitra Kasih.",
           image:
             "https://www.mitrakasih.sch.id/images/DOKUMENTASI/ACTIVITY 2022-2023/P/DSC06010 (Large).JPG",
         }}

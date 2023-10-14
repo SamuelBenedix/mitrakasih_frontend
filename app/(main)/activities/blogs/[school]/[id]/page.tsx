@@ -4,9 +4,6 @@ import ContainerBase from "@/components/atoms/container-base";
 import PageHero from "@/components/organisms/layout/page-hero";
 import { getNavigation } from "@/lib/utils/utils";
 import ActivitiesDetail from "@/components/organisms/activities/activities-detail";
-import { BlogDetail, Blogs } from "@/data/api";
-import { Blog, BlogData } from "@/types/app";
-import { GetStaticPaths, GetStaticProps } from "next";
 
 interface Props {}
 
@@ -31,7 +28,7 @@ export default function ActivitiesBlogs(props: Props) {
         header={{
           title: "Activities",
           description:
-            "Every student is encouraged to join clubs, organizations, teams, and groups to follow their passions, try new things, and further develop their learning at Mitra Kasih.",
+            "Setiap siswa diberi kesempatan untuk berpartisipasi dalam klub, asosiasi, tim, dan kolektif untuk mengejar minat mereka, mengeksplorasi kegiatan baru, dan meningkatkan pengalaman pendidikan mereka di Mitra Kasih.",
           image:
             "https://www.mitrakasih.sch.id/images/DOKUMENTASI/ACTIVITY 2022-2023/P/DSC06010 (Large).JPG",
         }}

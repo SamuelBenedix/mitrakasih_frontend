@@ -15,18 +15,22 @@ export default function AdmissionIntro(props: Props) {
         <PageTitle>Admissions</PageTitle>
         <article className="mt-10">
           <PageParagraph>
-            What is important to you when choosing a school for your children?
+            Faktor apa yang paling penting bagi Anda ketika memilih sekolah
+            untuk anak-anak Anda?
           </PageParagraph>
           <PageParagraph className="mt-4">
-            Is it a challenging, rigorous and internationally recognized
-            curriculum? Opportunities to engage in sports, creative arts and
-            community service? Supported learning in an environment that
-            embraces diversity? Or perhaps it is something else that’s unique to
-            your particular situation.
+            Apakah Anda mencari kurikulum yang menuntut dan terstruktur dengan
+            pengakuan internasional? Apakah Anda ingin siswa Anda memiliki
+            kesempatan untuk berpartisipasi dalam kegiatan olahraga, seni
+            kreatif, dan pelayanan masyarakat? Apakah lingkungan belajar yang
+            mendukung dan menghargai keberagaman penting bagi Anda? Atau
+            mungkinkah Anda memiliki persyaratan khusus dan unik yang
+            disesuaikan dengan kondisi pribadi Anda?
           </PageParagraph>
           <PageQuote>
-            Together let’s explore how Mitra Kasih can meet your needs and start
-            your child on the journey to being “best for the world”.
+            Mari kita mulai perjalanan bersama untuk mengetahui bagaimana Mitra
+            Kasih dapat memenuhi kebutuhan Anda dan mempersiapkan anak Anda
+            untuk menjadi \'yang TERBAIK bagi dunia\'.
           </PageQuote>
         </article>
       </Container>

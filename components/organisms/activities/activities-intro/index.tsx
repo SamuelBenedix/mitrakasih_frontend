@@ -14,16 +14,18 @@ export default function ActivitiesIntro(props: Props) {
       <PageTitle>Activities</PageTitle>
 
       <Quote>
-        Students have the choice to engage in clubs and activities that further
-        enhance their learning journey at Mitra Kasih, from TEDxMitra Kasih and
-        student leadership to Service Learning and co-curricular programs.
+        Siswa diberi pilihan untuk berpartisipasi dalam ekskul dan kegiatan yang
+        berkontribusi untuk memperkaya pengalaman pendidikan mereka di Mitra
+        Kasih.
       </Quote>
 
       <article className="mt-8 space-y-4">
         <PageParagraph>
-          Each is designed to not only challenge students to be Best for the
-          World but to also foster respect, a spirit of collaboration,
-          inclusivity, and confidence.
+          Setiap program dirancang tidak hanya untuk mendorong siswa menjadi
+          yang terbaik dalam dunia mereka, tetapi juga untuk mengembangkan
+          nilai-nilai seperti rasa hormat, semangat kerja sama, inklusivitas,
+          dan meningkatkan rasa percaya diri. Ini memberikan jaminan bahwa
+          pendidikan anak Anda akan dikelola dengan baik.
         </PageParagraph>
       </article>
     </Container>
