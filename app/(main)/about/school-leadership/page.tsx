@@ -1,10 +1,10 @@
-import ContainerBase from "@/components/atoms/container-base";
-import PageHero from "@/components/organisms/layout/page-hero";
-import { getNavigation } from "@/lib/utils/utils";
-import Container from "@/components/atoms/container";
-import PageTitle from "@/components/atoms/heading";
-import PageParagraph from "@/components/atoms/paragraph";
-import React from "react";
+import ContainerBase from '@/components/atoms/container-base';
+import PageHero from '@/components/organisms/layout/page-hero';
+import { getNavigation } from '@/lib/utils/utils';
+import Container from '@/components/atoms/container';
+import PageTitle from '@/components/atoms/heading';
+import PageParagraph from '@/components/atoms/paragraph';
+import React from 'react';
 
 interface Props {}
 
@@ -20,18 +20,20 @@ export default function AboutMissionVisionPage(props: Props) {
   return (
     <ContainerBase>
       <PageHero
-        navBar={{ navigations: getNavigation("About"), name: "About" }}
+        navBar={{ navigations: getNavigation('About'), name: 'About' }}
         header={{
-          title: "Sambutan Kepala Sekolah",
-          description: "   ",
+          title: 'Sambutan Kepala Sekolah',
+          description: '   ',
           image:
-            "https://www.mitrakasih.sch.id/images/DOKUMENTASI/UPACARA/UPACARA-17 AGUSTUS 2023/DSC03507 (Large).JPG",
+            'https://www.mitrakasih.sch.id/images/DOKUMENTASI/UPACARA/UPACARA-17 AGUSTUS 2023/DSC03507 (Large).JPG',
         }}
       />
 
       <div className="space-y-40 min-h-screen">
         <Container section firstSection size="md">
-          <PageTitle className="py-15">Sambutan Kepala Sekolah</PageTitle>
+          <PageTitle heading="h4" className="py-15">
+            Sambutan Kepala Sekolah
+          </PageTitle>
           <article className="mt-20">
             <PageParagraph size="lg" className="mt-15 text-justify">
               Salam Hormat kepada Seluruh Warga Sekolah Mitra Kasih,

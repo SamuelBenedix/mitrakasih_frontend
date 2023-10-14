@@ -1,8 +1,8 @@
-import React from "react";
-import Container from "@/components/atoms/container";
-import Image from "next/image";
-import LeafBlue from "@/components/atoms/leaf-blue";
-import { _about } from "@/data/home";
+import React from 'react';
+import Container from '@/components/atoms/container';
+import Image from 'next/image';
+import LeafBlue from '@/components/atoms/leaf-blue';
+import { _about } from '@/data/home';
 
 interface Props {}
 
@@ -10,7 +10,7 @@ export default function HomeAbout(props: Props) {
   const {} = props;
 
   return (
-    <section className="py-60 md:py-0 md:h-screen relative flex justify-center items-center">
+    <section className="pt-60 md:py-0 md:h-screen relative flex justify-center items-center">
       <div>
         <Image
           src="https://www.mitrakasih.sch.id/images/leaf_yellow.svg"
@@ -43,10 +43,10 @@ export default function HomeAbout(props: Props) {
               alt=""
               height={180}
               width={180}
-              className="h-16 md:h-36 w-full"
+              className="w-full"
             />
           </div>
-          <p className="text-primary-800 text-center md:text-3xl leading-[1.8rem] md:leading-[3rem] mt-4 md:mt-10">
+          <p className="text-primary-800 text-center md:text-3xl leading-[1.8rem] md:leading-[3rem] mt-4 md:mt-10 text-2xl leading-relaxed ">
             {_about}
           </p>
         </div>

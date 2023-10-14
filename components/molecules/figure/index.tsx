@@ -1,12 +1,12 @@
-import Image from "next/image";
-import Link from "next/link";
-import { IconArrowNarrowRight } from "@tabler/icons-react";
-import React from "react";
-import { cn } from "@/lib/utils/utils";
+import Image from 'next/image';
+import Link from 'next/link';
+import { IconArrowNarrowRight } from '@tabler/icons-react';
+import React from 'react';
+import { cn } from '@/lib/utils/utils';
 
 interface Props {
-  color?: "black" | "blue";
-  size?: "sm" | "md";
+  color?: 'black' | 'blue';
+  size?: 'sm' | 'md';
   title: string;
   description?: string;
   linkLabel?: string;
@@ -18,8 +18,8 @@ interface Props {
 
 export default function Figure(props: Props) {
   const {
-    color = "black",
-    size = "md",
+    color = 'black',
+    size = 'md',
     title,
     description,
     linkHref,
@@ -32,10 +32,10 @@ export default function Figure(props: Props) {
   return (
     <figure
       className={cn(
-        "relative group overflow-hidden",
-        size === "sm" && "h-[16rem]",
-        size === "md" && "h-[28rem]",
-        className,
+        'relative group overflow-hidden',
+        size === 'sm' && 'h-[16rem]',
+        size === 'md' && 'h-[28rem]',
+        className
       )}
     >
       <Image
@@ -52,15 +52,6 @@ export default function Figure(props: Props) {
         <h3 className="font-bold text-2xl mb-12 group-hover:mb-4">{title}</h3>
         <div className="opacity-0 h-0 group-hover:h-auto ease-out-quart group-hover:opacity-100 transition-all duration-1000">
           {description && <p className="mb-4">{description}</p>}
-          {linkLabel && (
-            <Link
-              href={linkHref || "#"}
-              className="font-medium flex space-x-2 items-center"
-            >
-              <span>{linkLabel}</span>
-              <IconArrowNarrowRight />
-            </Link>
-          )}
         </div>
       </figcaption>
     </figure>

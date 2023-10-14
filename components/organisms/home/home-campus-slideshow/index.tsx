@@ -1,11 +1,11 @@
-"use client";
+'use client';
 
-import React, { createRef } from "react";
-import Slider from "react-slick";
-import Image from "next/image";
-import "./styles.css";
-import { IconChevronLeft, IconChevronRight } from "@tabler/icons-react";
-import { _campusSlideshow } from "@/data/home";
+import React, { createRef } from 'react';
+import Slider from 'react-slick';
+import Image from 'next/image';
+import './styles.css';
+import { IconChevronLeft, IconChevronRight } from '@tabler/icons-react';
+import { _campusSlideshow } from '@/data/home';
 
 interface Props {}
 
@@ -71,7 +71,7 @@ export default function HomeCampusSlideshow(props: Props) {
                     alt=""
                     width="600"
                     height="600"
-                    className="object-cover h-full w-full group-hover:scale-125 transition-all duration-1000"
+                    className="object-cover md:h-full w-full group-hover:scale-125 transition-all duration-1000 h-80"
                   />
                   <div className="slide-shadow absolute h-[90%] md:h-auto md:w-[90%] bg-gradient-to-b md:bg-gradient-to-r from-black/60 to-transparent inset-x-0 md:inset-y-0 top-0 md:left-0" />
                   <div className="slide-description absolute inset-x-2 top-2 md:top-10 md:-left-28 max-w-lg">

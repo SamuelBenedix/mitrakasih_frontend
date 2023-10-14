@@ -3,8 +3,6 @@ import { getRandomImageUrl } from "@/data/getRandomImageUrl";
 import { app } from "@/config/app";
 
 
-import * as React from 'react';
-
 export const _hero = [
   {
     title: "Tempat Kita Belajar",
