@@ -271,7 +271,7 @@ export const _tabPanelSecond = {
         {
           title: "Hectares",
           number: "20",
-          description: `${app.title} has four schools across three lush, open campus in South Jakarta. There is plenty of outdoor space on campus for ${app.title} students to learn!`,
+          description: ``,
           linkLabel: "See our campus",
           linkHref: "",
           image: 'https://www.mitrakasih.sch.id/images/buildings/MH/MIDDLE (Large).jpg',
@@ -279,7 +279,7 @@ export const _tabPanelSecond = {
         {
           title: "Founded",
           number: "1951",
-          description: `For over 70 years ${app.title} has been delivering a high-quality international education to students in South Jakarta.`,
+          description: ``,
           linkLabel: "Learn More",
           linkHref: "",
           image: 'https://www.mitrakasih.sch.id/images/DOKUMENTASI/UPACARA/UPACARA-TAHUN AJARAN BARU 2023-2024/DSC09596 (Large).JPG',
@@ -288,7 +288,7 @@ export const _tabPanelSecond = {
           title: "Students",
           number: "2000+",
           description:
-            `With students representing over 60 different nationalities, ${app.title} is truly an internaitonal school.`,
+            ``,
           linkLabel: `Learn More About ${app.title}`,
           linkHref: "",
           image: 'https://www.mitrakasih.sch.id/images/DOKUMENTASI/FIRST DAY SCHOOL 2023-2024/MIDDLE _ HIGH/DSC09335 (Large).JPG',
@@ -296,7 +296,7 @@ export const _tabPanelSecond = {
         {
           title: "Clubs and Activities",
           number: "300+",
-          description: `Students from Elementary School to High School have hundreds of clubs and activities to choose from when shapng their ${app.title} experience`,
+          description: ``,
           linkLabel: "Learn More",
           linkHref: "",
           image: 'https://www.mitrakasih.sch.id/images/DOKUMENTASI/01 EXCURR/dance/IMG_1087 (Large).JPG',
@@ -318,25 +318,25 @@ export const _communityVoices = {
   body: [
     {
       title: "Nursery Kindergarten Student",
-      description: `Apa yang akan Anda ceritakan kepada orang lain tentang komunitas Mitra Kasih??`,
+      description: ``,
       image: 'https://www.mitrakasih.sch.id/images/DOKUMENTASI/01 DIKELAS/NK/IMG20230529114927 (Large).jpg',
     },
     {
       title: "Elementary School Student",
-      description: `Apa yang akan Anda sampaikan kepada siswa baru yang bergabung dengan Mitra Kasih? ${app.title}?`,
+      description: ``,
       image: 'https://www.mitrakasih.sch.id/images/DOKUMENTASI/01 DIKELAS/PRIMARY/WhatsApp Image 2023-05-29 at 08.17.51.jpeg',
     },
 
     {
       title: "Middle School Students",
-      description: `What was your first day of school at ${app.title} like?`,
+      description: ``,
       image: 'https://www.mitrakasih.sch.id/images/DOKUMENTASI/01 DIKELAS/MIDDLE/IMG-20220607-WA0024.jpg',
     },
 
     {
       title: "High School Student",
       description:
-        `What does ${app.title}'s mission to be Best for the World mean to you?`,
+        ``,
       image: 'https://www.mitrakasih.sch.id/images/DOKUMENTASI/01 DIKELAS/HIGH/IMG-20220607-WA0022.jpg',
     },
   ],
