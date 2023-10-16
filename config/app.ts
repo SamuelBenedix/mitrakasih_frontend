@@ -29,8 +29,11 @@ export const app = {
   },
   env: process.env.NODE_ENV,
   blog_url: {
-    'sd': "https://sd.mitrakasih.sch.id",
-    'smp': "https://smp.mitrakasih.sch.id/public",
-    'sma': "https://sma.mitrakasih.sch.id/public",
+    // 'sd': "https://sd.mitrakasih.sch.id/public",
+    // 'smp': "https://smp.mitrakasih.sch.id/public",
+    // 'sma': "https://sma.mitrakasih.sch.id/public",
+    'sd': "http://sd.com:8000",
+    'smp': "http://smp.com:8001",
+    'sma': "http://sma.com:8002",
   },
 };

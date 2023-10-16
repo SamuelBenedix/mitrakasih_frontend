@@ -33,7 +33,7 @@ export const paths = {
   admission_guidelines: "/admissions/guidelines",
 
   admission_registration:
-    "https://sd.mitrakasih.sch.id/register/student",
+    "https://sd.mitrakasih.sch.id/public/register/student",
 
   admission_announcement: "/admissions/announcement",
 

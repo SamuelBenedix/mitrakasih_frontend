@@ -34,7 +34,7 @@ export default function AboutCampusPage(props: Props) {
 
       <div className="space-y-40">
         <AboutCampusesIntro />
-        <AboutCampusesLibraries />
+        {/* <AboutCampusesLibraries /> */}
       </div>
     </ContainerBase>
   );

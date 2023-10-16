@@ -37,7 +37,7 @@ export default function AcademicsPage(props: Props) {
 
       <div className="space-y-40">
         <AcademicsIntro />
-        <AcademicsReasons />
+        {/* <AcademicsReasons /> */}
       </div>
     </ContainerBase>
   );

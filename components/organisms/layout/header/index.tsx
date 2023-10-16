@@ -1,16 +1,16 @@
-'use client';
+"use client";
 
-import Image from 'next/image';
-import { app } from '@/config/app';
-import React, { useEffect, useState } from 'react';
-import { cn } from '@/lib/utils/utils';
-import Navigation from '@/components/molecules/navigation';
-import Link from 'next/link';
-import { paths } from '@/config/paths';
-import { IconMenu } from '@tabler/icons-react';
-import { useMobileNavbar } from '@/hooks/useMobileNavbar';
-import MobileNavbar from '@/components/molecules/mobile-navbar';
-import { navigations } from '@/config/navigations';
+import Image from "next/image";
+import { app } from "@/config/app";
+import React, { useEffect, useState } from "react";
+import { cn } from "@/lib/utils/utils";
+import Navigation from "@/components/molecules/navigation";
+import Link from "next/link";
+import { paths } from "@/config/paths";
+import { IconMenu } from "@tabler/icons-react";
+import { useMobileNavbar } from "@/hooks/useMobileNavbar";
+import MobileNavbar from "@/components/molecules/mobile-navbar";
+import { navigations } from "@/config/navigations";
 
 export default function Header() {
   const [show, setShow] = useState<boolean>(false);
@@ -38,10 +38,10 @@ export default function Header() {
     <header>
       <div
         className={cn(
-          'flex flex-row justify-between items-center md:px-10 fixed px-4 top-0 inset-x-0 z-20 transition-all duration-700',
+          "flex flex-row justify-between items-center md:px-10 fixed px-4 top-0 inset-x-0 z-20 transition-all duration-700",
           show
-            ? 'h-[5rem] md:h-[8rem] bg-white shadow'
-            : '-translate-y-[5rem] md:-translate-y-[8rem]'
+            ? "h-[5rem] md:h-[8rem] bg-white shadow"
+            : "-translate-y-[5rem] md:-translate-y-[8rem]"
         )}
       >
         <div>
@@ -49,9 +49,9 @@ export default function Header() {
             <Image
               src={app.images.logo}
               alt={app.title}
-              width={60}
-              height={60}
-              className="w-full md:h-20 md:w-32"
+              width={120}
+              height={120}
+              className="h-12 md:h-20 w-full"
             />
           </Link>
         </div>
