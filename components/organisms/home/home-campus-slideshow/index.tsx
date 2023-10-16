@@ -43,8 +43,8 @@ export default function HomeCampusSlideshow(props: Props) {
 
   return (
     <section>
-      <div className="md:mx-10 my-40 bg-primary-800 relative">
-        <div className="absolute inset-x-0 bottom-10 md:bottom-32 flex justify-center">
+      <div className="sm:mx-10 my-40 bg-primary-800 relative">
+        <div className="absolute inset-x-0 bottom-5 sm:bottom-20  flex justify-center">
           <div className="space-x-8 z-10">
             <button
               onClick={prev}
@@ -61,21 +61,21 @@ export default function HomeCampusSlideshow(props: Props) {
           </div>
         </div>
 
-        <div className="pt-6 md:pt-20 pb-28 md:px-0">
+        <div className="pt-6 sm:pt-20 pb-28 sm:px-0">
           <Slider ref={slider} {...settings}>
             {_campusSlideshow.map((dummy) => (
-              <div key={dummy.description} className="md:h-[46rem]">
-                <div className="md:h-[36rem] max-w-6xl mx-auto slide-container relative">
+              <div key={dummy.description} className="sm:h-[46rem]">
+                <div className="sm:h-[36rem] max-w-6xl mx-auto slide-container relative">
                   <Image
                     src={dummy.image}
                     alt=""
                     width="600"
                     height="600"
-                    className="object-cover md:h-full w-full group-hover:scale-125 transition-all duration-1000 h-80"
+                    className="object-cover sm:h-full w-full group-hover:scale-125 transition-all duration-1000 h-80"
                   />
-                  <div className="slide-shadow absolute h-[90%] md:h-auto md:w-[90%] bg-gradient-to-b md:bg-gradient-to-r from-black/60 to-transparent inset-x-0 md:inset-y-0 top-0 md:left-0" />
-                  <div className="slide-description absolute inset-x-2 top-2 md:top-10 md:-left-28 max-w-lg">
-                    <p className="font-medium text-2xl md:text-5xl text-white leading-tight">
+                  <div className="slide-shadow absolute h-[90%] sm:h-auto sm:w-[90%] bg-gradient-to-b sm:bg-gradient-to-r from-black/80 to-transparent inset-x-0 sm:inset-y-0 top-0 sm:left-0" />
+                  <div className="slide-description absolute inset-x-2 top-2 sm:top-10 sm:-left-28 max-w-lg">
+                    <p className="font-medium text-2xl sm:text-3xl md:text-3xl xl:text-5xl text-white leading-tight">
                       {dummy.description}
                     </p>
                   </div>
