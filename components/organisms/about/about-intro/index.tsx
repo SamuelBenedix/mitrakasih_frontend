@@ -60,9 +60,9 @@ export default function AboutIntro(props: Props) {
       <Container size="md" className="mt-20">
         <Paragraph>{_introStory.paragraph}</Paragraph>
 
-        <CommonLink href={_introStory.linkHref} className="mt-10">
+        {/* <CommonLink href={_introStory.linkHref} className="mt-10">
           {_introStory.linkLabel}
-        </CommonLink>
+        </CommonLink> */}
       </Container>
     </section>
   );

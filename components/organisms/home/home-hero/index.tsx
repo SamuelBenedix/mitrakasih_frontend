@@ -1,21 +1,21 @@
-'use client';
+"use client";
 
-import { createRef } from 'react';
-import Image from 'next/image';
-import { app } from '@/config/app';
-import { cn } from '@/lib/utils/utils';
-import Navigation from '@/components/molecules/navigation';
-import Slider from 'react-slick';
+import { createRef } from "react";
+import Image from "next/image";
+import { app } from "@/config/app";
+import { cn } from "@/lib/utils/utils";
+import Navigation from "@/components/molecules/navigation";
+import Slider from "react-slick";
 import {
   IconChevronLeft,
   IconChevronRight,
   IconMenu,
-} from '@tabler/icons-react';
-import './styles.css';
-import HomeSectionHeader from '../../../molecules/section-header';
-import { _hero } from '@/data/home';
-import { useMobileNavbar } from '@/hooks/useMobileNavbar';
-import { navigations } from '@/config/navigations';
+} from "@tabler/icons-react";
+import "./styles.css";
+import HomeSectionHeader from "../../../molecules/section-header";
+import { _hero } from "@/data/home";
+import { useMobileNavbar } from "@/hooks/useMobileNavbar";
+import { navigations } from "@/config/navigations";
 
 interface Props {}
 
@@ -34,6 +34,8 @@ export default function HomeHero(props: Props) {
     slider.current?.slickPrev();
   };
 
+  var t = setInterval(next, 5000);
+
   const settings = {
     speed: 700,
     slidesToShow: 1,
@@ -48,16 +50,16 @@ export default function HomeHero(props: Props) {
       <header>
         <div
           className={cn(
-            'flex h-[5rem] md:h-[8rem] flex-row justify-between items-center px-4 md:px-10 absolute z-10 bg-white inset-x-0 top-0 text-white'
+            "flex h-[5rem] md:h-[8rem] flex-row justify-between items-center px-4 md:px-10 absolute z-10 bg-white inset-x-0 top-0 text-white"
           )}
         >
           <div className="z-10">
             <Image
               src={app.images.logo}
               alt={app.title}
-              width={60}
-              height={60}
-              className="w-full md:h-20 md:w-32"
+              width={120}
+              height={120}
+              className="h-12 md:h-20 w-full"
             />
           </div>
           <div className="mb-4 hidden md:flex self-end">

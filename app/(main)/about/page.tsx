@@ -31,7 +31,7 @@ export default function AboutPage(props: Props) {
       <div className="space-y-40">
         <AboutAbout />
         <AboutIntro />
-        <AboutMembership />
+        {/* <AboutMembership /> */}
       </div>
     </ContainerBase>
   );

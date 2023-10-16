@@ -28,7 +28,7 @@ export default function AcademicsEarlyYearsPage(props: Props) {
         header={{
           title: "Nursery Kindergarten",
           description:
-            "The Mitra Kasih Nursery Kindergarten program was designed to bring out the inquirer in each and every student and introduce them to a love of learning.",
+            "Program Taman Kanak-kanak Mitra Kasih Nursery telah dirancang dengan cermat dengan tujuan untuk membangkitkan rasa ingin tahu dalam diri setiap siswa, menumbuhkan kecintaan yang tulus dan abadi terhadap seni belajar.",
           image:
             "https://www.mitrakasih.sch.id/images/documentations/assembly/DSC00112 (Large).JPG",
         }}
