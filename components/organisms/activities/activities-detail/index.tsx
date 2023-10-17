@@ -39,14 +39,14 @@ export default function ActivitiesDetail(props: Props) {
 
   return (
     <Container section firstSection size="md" className="text-justify">
-      <PageTitle>{data.title}</PageTitle>
+      <PageTitle heading="h2">{data.title}</PageTitle>
       <div className="mx-auto text-center">
         <Image
           alt={data.title}
           src={`${app.blog_url[school]}/storage/${data.image}`}
           width={500}
           height={500}
-          className="block mx-auto max-h-[360px] w-auto"
+          className="block mx-auto max-w-[80%] min-w-[80%]"
         ></Image>
       </div>
 

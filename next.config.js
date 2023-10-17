@@ -22,28 +22,16 @@ const nextConfig = {
         hostname: "placehold.it",
       },
       {
-        protocol: process.env.NODE_ENV === "development" ? "http" : "https",
-        hostname:
-          process.env.NODE_ENV === "development"
-            ? "sd.com"
-            : "sd.mitrakasih.sch.id",
-        port: process.env.NODE_ENV === "development" ? "8000" : "443",
+        protocol: "https",
+        hostname: "sd.mitrakasih.sch.id",
       },
       {
-        protocol: process.env.NODE_ENV === "development" ? "http" : "https",
-        hostname:
-          process.env.NODE_ENV === "development"
-            ? "smp.com"
-            : "smp.mitrakasih.sch.id",
-        port: process.env.NODE_ENV === "development" ? "8001" : "443",
+        protocol: "https",
+        hostname: "smp.mitrakasih.sch.id",
       },
       {
-        protocol: process.env.NODE_ENV === "development" ? "http" : "https",
-        hostname:
-          process.env.NODE_ENV === "development"
-            ? "sma.com"
-            : "sma.mitrakasih.sch.id",
-        port: process.env.NODE_ENV === "development" ? "8002" : "443",
+        protocol: "https",
+        hostname: "sma.mitrakasih.sch.id",
       },
       // <== FOR DEVELOPMENT ONLY <==
     ],
