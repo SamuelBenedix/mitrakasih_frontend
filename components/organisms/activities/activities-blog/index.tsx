@@ -16,6 +16,7 @@ export default function ActivitiesBlog(props: Props) {
   const [data, setData] = useState<BlogData[]>([]);
   useEffect(() => {
     Blogs(school).then((res) => {
+      console.log(res.data);
       setData(res.data);
     });
   }, [school]);

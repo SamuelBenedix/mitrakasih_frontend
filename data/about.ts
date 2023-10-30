@@ -13,7 +13,7 @@ export const _pageDescription: string = `${app.title} adalah sekolah yang memper
 export const _pageImage: string = 'https://www.mitrakasih.sch.id/images/buildings/P/DSC02134 (Large).JPG';
 
 export const _about: string[] = [
-  "Sekolah Mitra Kasih adalah lembaga pendidikan yang berkomitmen untuk memberikan standar pendidikan internasional yang tinggi dengan menghadirkan tenaga pengajar terbaik. Kami didedikasikan untuk memberikan kualitas pendidikan terbaik kepada setiap siswa kami, dengan tujuan membekali mereka untuk menghadapi perkembangan dunia yang cepat.",
+  app.description,
   "Kami percaya bahwa setiap siswa adalah individu yang unik dan berharga yang memiliki potensi untuk mencapai yang terbaik.",
   `Kami berkomitmen untuk menciptakan lingkungan pendidikan yang mendukung perkembangan siswa secara holistik, sehingga mereka dapat menjadi pemimpin masa depan yang siap menghadapi tantangan global. Dengan semangat ini, kami menyambut semua siswa untuk bergabung dengan kami dalam perjalanan pendidikan yang inspiratif.`,
 ];

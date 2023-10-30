@@ -1,8 +1,9 @@
+
 export const host = "https://www.mitrakasih.sch.id";
 export const app = {
   title: "Mitra Kasih",
 
-  description: "",
+  description: "Sekolah Mitra Kasih adalah lembaga pendidikan yang berkomitmen untuk memberikan standar pendidikan internasional yang tinggi dengan menghadirkan tenaga pengajar terbaik. Kami didedikasikan untuk memberikan kualitas pendidikan terbaik kepada setiap siswa kami, dengan tujuan membekali mereka untuk menghadapi perkembangan dunia yang cepat.",
 
   lang: "id",
 

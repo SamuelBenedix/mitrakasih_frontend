@@ -1,5 +1,5 @@
 import React from "react";
-import { cn, convertDate } from "@/lib/utils/utils";
+import { cn, convertDate, mb_strimwidth } from "@/lib/utils/utils";
 import Image from "next/image";
 import { app } from "@/config/app";
 import BlogItemElement from "@/components/atoms/blog-item-element";
@@ -11,23 +11,6 @@ interface Props {
   children?: Blog | any;
   className?: string;
   school: keyof typeof app.blog_url | "sd";
-}
-
-function mb_strimwidth(
-  input: string,
-  start: number,
-  length: number,
-  trimmarker = "..."
-) {
-  if (typeof input !== "string") return input;
-  if (input.length <= length) return input;
-
-  let result = input.substring(start, start + length - trimmarker.length);
-
-  // Pastikan bahwa trimmarker benar-benar dapat dimasukkan dalam panjang akhir
-  if (trimmarker.length > length) return trimmarker.substring(0, length);
-
-  return result + trimmarker;
 }
 
 export default function BlogItem(props: Props) {

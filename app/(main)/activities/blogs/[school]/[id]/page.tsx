@@ -13,6 +13,7 @@ interface Props {}
  * @param props
  * @returns
  */
+
 export default function ActivitiesBlogs(props: Props) {
   const {} = props;
   const params = useParams();

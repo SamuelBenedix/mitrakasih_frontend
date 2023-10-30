@@ -8,10 +8,10 @@ import Providers from "@/app/providers";
 import Header from "@/components/organisms/layout/header";
 import Footer from "@/components/organisms/layout/footer";
 
-export const metadata: Metadata = {
-  title: app.title,
-  description: app.description,
-};
+// export const metadata: Metadata = {
+//   title: app.title,
+//   description: app.description,
+// };
 
 interface Props {
   children: React.ReactNode;

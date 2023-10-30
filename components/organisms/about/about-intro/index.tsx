@@ -7,7 +7,6 @@ import { _intro, _introStory } from "@/data/about";
 import HomeSectionHeader from "@/components/molecules/section-header";
 import Figure from "@/components/molecules/figure";
 import Paragraph from "@/components/atoms/paragraph";
-import CommonLink from "@/components/atoms/common-link";
 
 interface Props {}
 

@@ -3,7 +3,6 @@ import Container from "@/components/atoms/container";
 import PageTitle from "../../../atoms/heading";
 import * as React from "react";
 import { useState, useEffect } from "react";
-import BlogItem from "@/components/molecules/blog-item";
 import { Blog, BlogData } from "@/types/app";
 import { BlogDetail, Blogs } from "@/data/api";
 import Image from "next/image";

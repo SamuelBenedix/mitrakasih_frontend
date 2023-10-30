@@ -34,7 +34,7 @@ export default function ActivitiesBlogSchool(props: Props) {
       />
 
       <div className="space-y-40">
-        <ActivitiesBlog school={school as "sd" | "smp" | "sma" | undefined} />
+        <ActivitiesBlog school={school as "sd" | "smp" | "sma"} />
       </div>
     </ContainerBase>
   );
