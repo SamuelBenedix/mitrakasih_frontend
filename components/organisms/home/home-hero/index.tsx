@@ -1,6 +1,6 @@
 "use client";
 
-import { createRef } from "react";
+import { createRef, useState, useEffect } from "react";
 import Image from "next/image";
 import { app } from "@/config/app";
 import { cn } from "@/lib/utils/utils";
@@ -13,9 +13,11 @@ import {
 } from "@tabler/icons-react";
 import "./styles.css";
 import HomeSectionHeader from "../../../molecules/section-header";
-import { _hero } from "@/data/home";
+// import { _hero } from "@/data/home";
 import { useMobileNavbar } from "@/hooks/useMobileNavbar";
 import { navigations } from "@/config/navigations";
+import { HeaderType, HomeHeroType } from "@/types/app";
+import { HomeHeroAPI } from "@/data/api";
 
 interface Props {}
 
@@ -44,6 +46,24 @@ export default function HomeHero(props: Props) {
     fade: true,
     arrows: false,
   };
+  const [_hero, setHero] = useState<HomeHeroType[]>([]);
+  useEffect(() => {
+    const fetchData = async () => {
+      const res = await HomeHeroAPI();
+      let heroes: HomeHeroType[] = [];
+      res.forEach((elem: HeaderType) => {
+        heroes.push({
+          title: elem.title ? elem.title : "",
+          description: elem.subTitle ? elem.subTitle : "",
+          image: elem.photo ? elem.photo : "",
+          linkHref: "",
+          linkLabel: "",
+        });
+      });
+      setHero(heroes);
+    };
+    fetchData();
+  }, []);
 
   return (
     <section className="bg-black">
@@ -92,7 +112,8 @@ export default function HomeHero(props: Props) {
           <figure key={dummy.title} className="relative">
             <div className="w-full h-screen">
               <Image
-                src={dummy.image}
+                src={app.blog_url["sma"] + "/storage/" + dummy.image}
+                // src={dummy.image}
                 alt={dummy.title}
                 width={2000}
                 height={2000}

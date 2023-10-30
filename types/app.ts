@@ -63,3 +63,20 @@ export interface Tag {
     tags_id: number;
   };
 };
+
+export interface HomeHeroType {
+  title: string;
+  description: string;
+  image: string;
+  linkLabel?: string;
+  linkHref?: string;
+}
+
+export interface HeaderType {
+  id: number;
+  title: string;
+  subTitle: string;
+  photo: string;
+  isActive?: number;
+  order?: number;
+}

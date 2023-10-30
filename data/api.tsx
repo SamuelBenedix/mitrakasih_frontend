@@ -33,3 +33,9 @@ export const BlogDetail = async (
   const repo: ResponseAPI = await res.json();
   return repo;
 };
+
+export const HomeHeroAPI = async () => {
+  const res = await fetch(`${app.blog_url["sma"]}/api/headers`);
+  const repo: ResponseAPI = await res.json();
+  return repo.data;
+};
