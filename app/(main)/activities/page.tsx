@@ -1,11 +1,11 @@
 import ContainerBase from "@/components/atoms/container-base";
 import PageHero from "@/components/organisms/layout/page-hero";
 import { getNavigation } from "@/lib/utils/utils";
-import { getRandomImageUrl } from "@/data/getRandomImageUrl";
 import ActivitiesIntro from "@/components/organisms/activities/activities-intro";
 import ActivitiesAcademySports from "@/components/organisms/activities/activities-academy-sports";
 import ActivitiesLeadership from "@/components/organisms/activities/activities-leadership";
 import ActivitiesAfterSchool from "@/components/organisms/activities/activities-after-school";
+import { getRandomImageUrl } from "@/data/getRandomImageUrl";
 
 interface Props {}
 
@@ -28,7 +28,7 @@ export default function ActivitiesPage(props: Props) {
         header={{
           title: "Activities",
           description:
-            "Every student is encouraged to join clubs, organizations, teams, and groups to follow their passions, try new things, and further develop their learning at Mitra Kasih.",
+            "Setiap siswa diberi kesempatan untuk berpartisipasi dalam klub, asosiasi, tim, dan kolektif untuk mengejar minat mereka, mengeksplorasi kegiatan baru, dan meningkatkan pengalaman pendidikan mereka di Mitra Kasih.",
           image: getRandomImageUrl(),
         }}
       />
@@ -37,7 +37,7 @@ export default function ActivitiesPage(props: Props) {
         <ActivitiesIntro />
         <ActivitiesAcademySports />
         <ActivitiesLeadership />
-        <ActivitiesAfterSchool />
+        {/* <ActivitiesAfterSchool /> */}
       </div>
     </ContainerBase>
   );

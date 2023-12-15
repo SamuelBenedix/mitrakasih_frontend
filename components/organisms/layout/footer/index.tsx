@@ -1,3 +1,4 @@
+"use client";
 import Container from "@/components/atoms/container";
 import styles from "./styles.module.css";
 import { cn } from "@/lib/utils/utils";
@@ -12,34 +13,62 @@ import {
 } from "@tabler/icons-react";
 import Link from "next/link";
 import { app } from "@/config/app";
-import { ExJson } from "@/data/api";
-
-import * as React from "react";
-import { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
 
 export default function Footer() {
-  ExJson("foo").then((data: JSON) => console.log(data));
+  const [windowSize, setWindowSize] = useState({
+    width: 0,
+    height: 0,
+  });
+
+  useEffect(() => {
+    // only execute all the code below in client side
+    // Handler to call on window resize
+    function handleResize() {
+      // Set window width/height to state
+      setWindowSize({
+        width: window.innerWidth,
+        height: window.innerHeight,
+      });
+    }
+
+    // Add event listener
+    window.addEventListener("resize", handleResize);
+
+    // Call handler right away so state gets updated with initial window size
+    handleResize();
+
+    // Remove event listener on cleanup
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   return (
     <footer className={cn(styles.footer, "mt-20 py-10 text-white")}>
       <Container size="md">
         <div className="space-y-8">
-          <div className="max-w-md">
-            <p className="text-2xl font-bold">
+          <div className="sm:max-w-md">
+            <p className="text-center sm:text-start text-2xl font-bold">
               Belajar di Indonesia Untuk Menjadi yang Terbaik Bagi Dunia
             </p>
           </div>
           <div>
-            <div className="flex space-x-2">
+            <div className="flex justify-center sm:justify-start space-x-2 pb-2">
               <IconPhone />
-              <span>Lorem, ipsum.</span>
+              <span>0511 6742222 </span>
+            </div>
+            <div className="flex justify-center sm:justify-start space-x-2">
+              <IconPhone />
+              <span>08 125 311 2000 / 08 215 927 2288 </span>
             </div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3">
-            <div className="flex space-x-2">
-              <IconMapPinFilled />
+            <div className="flex justify-center sm:justify-start space-x-2">
+              {!(windowSize.width <= 640) && <IconMapPinFilled />}
               <div className="max-w-xs">
-                <p className="font-semibold">Perumahan Citraland</p>
-                <p>
+                <p className="text-center sm:text-start font-semibold">
+                  Perumahan Citraland
+                </p>
+                <p className="text-center sm:text-start ">
                   Jl. Jend. Achmad Yani Km. 7,8 Kecamatan Kertak Hanyar, Kabup,
                   Kertak Hanyar I, Kec. Kertak Hanyar, Kab. Banjar Prov.
                   Kalimantan Selatan

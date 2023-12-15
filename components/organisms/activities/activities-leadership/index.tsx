@@ -15,19 +15,21 @@ export default function ActivitiesLeadership(props: Props) {
 
         <article className="mt-8 space-y-4">
           <PageParagraph>
-            While all students at Mitra Kasih develop a sense of responsibility
-            and leadership throughout their school day, leadership opportunities
-            do become more formalized as they get older. Mitra Kasih students
-            are encouraged to be involved in as many activities as they can, to
-            always challenge themselves, and seek opportunities to be leaders.
+            Sementara semua siswa di Mitra Kasih secara alami mengembangkan
+            tanggung jawab dan kualitas kepemimpinan melalui pengalaman sekolah
+            mereka sehari-hari, formalisasi peran kepemimpinan menjadi lebih
+            menonjol ketika mereka maju melalui sekolah. Mitra Kasih secara
+            aktif mendorong keterlibatan siswa dalam berbagai kegiatan,
+            mendorong mereka untuk terus menantang diri mereka sendiri dan
+            secara aktif mencari peluang kepemimpinan.
           </PageParagraph>
 
           <PageParagraph>
-            Student leadership can happen through organizing events on the
-            Middle School&apos;s Bali Stage to running for a spot in the Central
-            Student Council in High School. At Mitra Kasih, we know how
-            important it is for students to learn how they can be leaders for
-            tomorrow.
+            Kepemimpinan siswa dapat diwujudkan dalam berbagai cara, mulai dari
+            mengorganisir acara di Panggung Bali Sekolah Menengah Pertama hingga
+            mencalonkan diri sebagai anggota OSIS di Sekolah Menengah Atas. Di
+            Mitra Kasih, kami menyadari pentingnya memberdayakan siswa untuk
+            menjadi pemimpin masa depan.
           </PageParagraph>
         </article>
       </Container>

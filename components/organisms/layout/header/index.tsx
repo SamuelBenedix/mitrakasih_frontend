@@ -41,7 +41,7 @@ export default function Header() {
           "flex flex-row justify-between items-center md:px-10 fixed px-4 top-0 inset-x-0 z-20 transition-all duration-700",
           show
             ? "h-[5rem] md:h-[8rem] bg-white shadow"
-            : "-translate-y-[5rem] md:-translate-y-[8rem]",
+            : "-translate-y-[5rem] md:-translate-y-[8rem]"
         )}
       >
         <div>

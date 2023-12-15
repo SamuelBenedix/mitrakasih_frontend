@@ -18,27 +18,29 @@ export default function ActivitiesAcademySports(props: Props) {
 
         <article className="mt-8 space-y-4">
           <PageParagraph>
-            For students, and parents, looking to take part in extra fun, many
-            additional activities can be found through Mitra Kasih Academy and
-            Community Sports.
+            Untuk siswa dan orang tua yang ingin menambahkan kesenangan ekstra
+            ke pengalaman mereka, Mitra Kasih Academy dan Community Sports
+            menawarkan berbagai kegiatan tambahan yang menarik.
           </PageParagraph>
 
           <PageParagraph>
-            These programs were established with the aim of offering quality,
-            high interest academic, fitness, creative and sports activities
-            beyond the normal Mitra Kasih School curriculum and ASAs in order to
-            better serve our community.
+            Pendirian program-program ini didorong oleh tujuan untuk menyediakan
+            kegiatan akademik, kebugaran, kreatifitas, dan olahraga berkualitas
+            tinggi dan menarik yang melampaui kurikulum reguler Sekolah Mitra
+            Kasih, semua dalam upaya untuk melayani masyarakat dengan lebih
+            baik.
           </PageParagraph>
 
           <PageParagraph>
-            These activities are run by both expatriate and local instructors
-            and coaches who have specialized knowledge in their field and,
-            therefore, carry a separate fee per program.
+            Program-program ini diawasi oleh para tenaga pengajar dan pelatih,
+            yang terdiri dari para ahli lokal, yang semuanya memiliki
+            pengetahuan khusus di bidangnya masing-masing. Dengan adanya program
+            tersebut, ada biaya tambahan untuk setiap program.
           </PageParagraph>
 
-          <footer>
+          {/* <footer>
             <CommonLink href="#">Learn more</CommonLink>
-          </footer>
+          </footer> */}
         </article>
       </Container>
     </section>

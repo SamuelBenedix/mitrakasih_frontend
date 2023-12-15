@@ -1,8 +1,8 @@
-import React from "react";
-import Container from "@/components/atoms/container";
-import PageTitle from "../../../atoms/heading";
-import PageQuote from "../../../atoms/quote";
-import PageParagraph from "../../../atoms/paragraph";
+import React from 'react';
+import Container from '@/components/atoms/container';
+import PageTitle from '../../../atoms/heading';
+import PageQuote from '../../../atoms/quote';
+import PageParagraph from '../../../atoms/paragraph';
 
 interface Props {}
 
@@ -12,9 +12,10 @@ export default function AcademicsElementarySchoolIntro(props: Props) {
   return (
     <section className="mt-32">
       <Container size="md">
-        <PageTitle>Primary School</PageTitle>
-        <PageQuote>
-        Sekolah Dasar Mitra Kasih adalah tempat yang penuh dengan keajaiban, kepedulian, eksplorasi, dan pertumbuhan.
+        <PageTitle heading="h4">Primary School</PageTitle>
+        <PageQuote smallText className="pt-2 pb-6">
+          Sekolah Dasar Mitra Kasih adalah tempat yang penuh dengan keajaiban,
+          kepedulian, eksplorasi, dan pertumbuhan.
         </PageQuote>
         <article>
           <PageParagraph className="text-justify" size="lg">
@@ -35,11 +36,13 @@ export default function AcademicsElementarySchoolIntro(props: Props) {
       </Container>
 
       <Container size="md" className="mt-20">
-        <PageTitle>Batasan Umur</PageTitle>
-        <PageQuote>
+        <PageTitle heading="h4">Batasan Umur</PageTitle>
+        <PageQuote smallText className="py-3">
           Kelas 1: Harus berusia 6 tahun pada 31 Desember 2023.
         </PageQuote>
-        <PageQuote>Kelas 2-6: Harus lulus dari kelas sebelumnya.</PageQuote>
+        <PageQuote smallText className="py-3">
+          Kelas 2-6: Harus lulus dari kelas sebelumnya.
+        </PageQuote>
       </Container>
     </section>
   );

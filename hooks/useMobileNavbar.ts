@@ -27,7 +27,7 @@ export const useMobileNavbar = () => {
     });
 
   useEffect(() => {
-    console.log(accordionValue);
+    // console.log(accordionValue);
   }, [accordionValue]);
 
   return {

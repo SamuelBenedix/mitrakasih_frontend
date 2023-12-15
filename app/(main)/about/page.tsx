@@ -3,7 +3,6 @@ import PageHero from "@/components/organisms/layout/page-hero";
 import { getNavigation } from "@/lib/utils/utils";
 import AboutAbout from "@/components/organisms/about/about-about";
 import AboutIntro from "@/components/organisms/about/about-intro";
-import AboutMembership from "@/components/organisms/about/about-membership";
 import { _label, _pageDescription, _pageImage, _pageTitle } from "@/data/about";
 
 interface Props {}
@@ -31,7 +30,7 @@ export default function AboutPage(props: Props) {
       <div className="space-y-40">
         <AboutAbout />
         <AboutIntro />
-        <AboutMembership />
+        {/* <AboutMembership /> */}
       </div>
     </ContainerBase>
   );

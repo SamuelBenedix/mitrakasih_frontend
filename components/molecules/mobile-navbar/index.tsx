@@ -1,15 +1,15 @@
-"use client";
+'use client';
 
-import * as Accordion from "@radix-ui/react-accordion";
-import { app } from "@/config/app";
-import Link from "next/link";
-import { IconChevronDown, IconX } from "@tabler/icons-react";
-import React from "react";
-import { cn } from "@/lib/utils/utils";
-import { paths } from "@/config/paths";
-import Image from "next/image";
-import { useMobileNavbar } from "@/hooks/useMobileNavbar";
-import { navigations } from "@/config/navigations";
+import * as Accordion from '@radix-ui/react-accordion';
+import { app } from '@/config/app';
+import Link from 'next/link';
+import { IconChevronDown, IconX } from '@tabler/icons-react';
+import React from 'react';
+import { cn } from '@/lib/utils/utils';
+import { paths } from '@/config/paths';
+import Image from 'next/image';
+import { useMobileNavbar } from '@/hooks/useMobileNavbar';
+import { navigations } from '@/config/navigations';
 
 export default function MobileNavbar() {
   const {
@@ -22,10 +22,10 @@ export default function MobileNavbar() {
   return (
     <div
       className={cn(
-        "w-full min-h-screen bg-primary-800 fixed z-20 transition-all duration-300",
+        'w-full min-h-screen bg-primary-800 fixed z-20 transition-all duration-300',
         mobileNavbarState.opened
-          ? "translate-x-0 opacity-100"
-          : "translate-x-[100vw] opacity-0",
+          ? 'translate-x-0 opacity-100'
+          : 'translate-x-[100vw] opacity-0'
       )}
     >
       <div className="flex flex-row justify-between items-center p-4">
@@ -34,9 +34,9 @@ export default function MobileNavbar() {
             <Image
               src={app.images.logoWhite}
               alt={app.title}
-              width={120}
-              height={120}
-              className="h-12 md:h-20 w-full"
+              width={60}
+              height={60}
+              className=" w-full"
             />
           </Link>
         </div>

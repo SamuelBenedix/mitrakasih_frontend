@@ -7,7 +7,6 @@ import { _intro, _introStory } from "@/data/about";
 import HomeSectionHeader from "@/components/molecules/section-header";
 import Figure from "@/components/molecules/figure";
 import Paragraph from "@/components/atoms/paragraph";
-import CommonLink from "@/components/atoms/common-link";
 
 interface Props {}
 
@@ -60,9 +59,9 @@ export default function AboutIntro(props: Props) {
       <Container size="md" className="mt-20">
         <Paragraph>{_introStory.paragraph}</Paragraph>
 
-        <CommonLink href={_introStory.linkHref} className="mt-10">
+        {/* <CommonLink href={_introStory.linkHref} className="mt-10">
           {_introStory.linkLabel}
-        </CommonLink>
+        </CommonLink> */}
       </Container>
     </section>
   );

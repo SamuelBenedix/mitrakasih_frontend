@@ -1,32 +1,38 @@
 .slide-container {
-    @apply md:translate-y-[6rem];
-    transition: all .7s ease-in-out;
+  @apply sm:translate-y-[6rem];
+  @apply md:mx-[5rem];
+  @apply xl:mx-[5rem];
+  transition: all 0.7s ease-in-out;
 }
 
 .slick-current .slide-container {
-    @apply md:translate-y-0;
+  @apply md:translate-y-0;
 }
 
 .slide-shadow {
-    transition: all .7s ease-in-out;
-    opacity: 0;
+  transition: all 0.7s ease-in-out;
+  opacity: 0;
 }
 
 .slick-current .slide-shadow {
-    opacity: 1;
+  opacity: 1;
 }
 
 .slide-description {
-    transition: all 1s ease-in-out;
-    opacity: 0;
-    @apply md:translate-y-[4rem];
+  transition: all 1s ease-in-out;
+  opacity: 0;
+  @apply sm:translate-x-[10rem];
+  @apply md:translate-y-[4rem];
+  @apply md:translate-x-0;
 }
 
 .slick-current .slide-description {
-    @apply md:translate-y-0;
-    opacity: 1;
+  @apply md:translate-y-0;
+  opacity: 1;
 }
 
 .slick-slide {
-    @apply md:w-[86rem]
+  @apply sm:w-[86rem];
+  @apply md:w-[35rem];
+  @apply xl:w-[60rem];
 }

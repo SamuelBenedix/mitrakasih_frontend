@@ -32,9 +32,9 @@ export default function AdmissionPage(props: Props) {
 
       <div className="min-h-screen">
         <AdmissionIntro />
-        <AdmissionCampusTours />
+        {/* <AdmissionCampusTours />
         <AdmissionExploringCampus />
-        <AdmissionGraduates />
+        <AdmissionGraduates /> */}
       </div>
     </ContainerBase>
   );

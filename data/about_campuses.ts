@@ -1,19 +1,16 @@
-import { app } from "@/config/app";
-import { getRandomImageUrl } from "@/data/getRandomImageUrl";
-
 export const _label: string = "About";
 
 export const _pageTitle: string = "Our School";
 
 export const _pageDescription: string =
-  "Our campus provide students a safe place to learn, play, engage with their surroundings, and explore their interests.";
+  "Sekolah kami menyediakan tempat yang aman bagi para siswa untuk belajar, bermain, berinteraksi dengan lingkungan sekitar, dan mengeksplorasi minat mereka.";
 
-export const _pageImage: string = getRandomImageUrl();
+export const _pageImage: string = "https://www.mitrakasih.sch.id/images/buildings/P/SD (Large).jpg";
 
 export const _about: string[] = [
-  "Across a combined 20 hectares, our four divisions create one community. The Middle and High School campus is located in Cilandak, the Pondok Indah Elementary campus is located in Pondok Indah and connects to the Cilandak campus via a path and walking bridge, and the Pattimura Elementary campus is located in Kebayoran Baru.",
-  "Our facilities are an important part of the learning experience at Mitra Kasih. We renovate and update our facilities on a regular basis to enhance our teaching practices and the student experience.",
-  "Our school have tranquil gardens, swimming pools, sports fields, state-of-art STEAM labs, creative arts performance venues, and libraries. Mitra Kasih is an oasis, and we often find that our students and parents never want to leave!",
+  "Sekolah Mitra Kasih adalah lembaga pendidikan yang berdedikasi untuk membentuk generasi muda yang unggul dan berprestasi. Dengan visi yang kuat, sekolah ini memprioritaskan pengembangan karakter, pemahaman teknologi, dan keterampilan entrepreneur. Tujuan utama kami adalah menciptakan lulusan yang kompeten, cerdas, dan bertanggung jawab, yang mampu berwawasan iptek dan siap untuk menghadapi dunia global yang terus berubah.",
+  "Di Sekolah Mitra Kasih, kami tidak hanya memberikan pendidikan yang berkualitas tinggi, tetapi juga menciptakan lingkungan yang mendukung perkembangan penuh potensi setiap siswa. Kami memadukan kurikulum nasional yang ketat dengan pendekatan pembelajaran inovatif, sehingga siswa kami tidak hanya memahami konsep-konsep akademik, tetapi juga belajar untuk berpikir kritis, berkolaborasi, dan menjadi inovator. Kami juga menawarkan beragam program ekstrakurikuler yang memungkinkan siswa menggali minat dan bakat mereka dalam berbagai bidang.",
+  "Sekolah Mitra Kasih adalah tempat di mana nilai-nilai keimanan, karakter, dan pengembangan diri dihargai. Kami mengajarkan kepada siswa untuk menjadi individu yang berperan aktif di abad ke-21, yang mengenal Tuhan, dan memiliki pola pikir entrepreneur untuk mengubah peluang menjadi keberhasilan yang berdampak positif bagi masyarakat dan dunia. Kami merasa bangga memimpin dan melayani komunitas pendidikan yang dinamis ini, dan kami berkomitmen untuk terus memberikan pendidikan yang bermakna dan relevan bagi siswa kami.",
 ];
 
 export const _libraries = [
@@ -23,11 +20,11 @@ export const _libraries = [
       "The libraries at Mitra Kasih are a haven for the avid reader, curious explorer, budding adventurer, aspiring scientist — every member of our diverse Dragon community. They serve a multitude of purposes, all geared toward fostering an immersive learning experience further enhanced by the power of literature, information, and technology.",
     images: [
       {
-        image: "/images/documentations/excurr/coding/Coding (Large).JPG",
+        image: "https://www.mitrakasih.sch.id/images/documentations/excurr/coding/Coding (Large).JPG",
         caption: "TL1",
       },
       {
-        image: "/images/buildings/NK/DSC00283 (Large).JPG",
+        image: "https://www.mitrakasih.sch.id/images/buildings/NK/DSC00283 (Large).JPG",
         caption: "TL2",
       },
     ],
@@ -38,11 +35,11 @@ export const _libraries = [
       "The libraries at Mitra Kasih are a haven for the avid reader, curious explorer, budding adventurer, aspiring scientist — every member of our diverse Dragon community. They serve a multitude of purposes, all geared toward fostering an immersive learning experience further enhanced by the power of literature, information, and technology.",
     images: [
       {
-        image: "/images/buildings/NK/DSC00282 (Large).JPG",
+        image: "https://www.mitrakasih.sch.id/images/buildings/NK/DSC00282 (Large).JPG",
         caption: "PL1",
       },
       {
-        image: "/images/buildings/NK/DSC00280 (Large).JPG",
+        image: "https://www.mitrakasih.sch.id/images/buildings/NK/DSC00280 (Large).JPG",
         caption: "PL2",
       },
     ],
@@ -53,11 +50,11 @@ export const _libraries = [
       "The libraries at Mitra Kasih are a haven for the avid reader, curious explorer, budding adventurer, aspiring scientist — every member of our diverse Dragon community. They serve a multitude of purposes, all geared toward fostering an immersive learning experience further enhanced by the power of literature, information, and technology.",
     images: [
       {
-        image: "/images/documentations/classes/HIGH/IMG-20220607-WA0022.jpg",
+        image: "https://www.mitrakasih.sch.id/images/documentations/classes/HIGH/IMG-20220607-WA0022.jpg",
         caption: "CL1",
       },
       {
-        image: "/images/documentations/classes/MIDDLE/IMG-20220607-WA0024.jpg",
+        image: "https://www.mitrakasih.sch.id/images/documentations/classes/MIDDLE/IMG-20220607-WA0024.jpg",
         caption: "CL2",
       },
     ],
@@ -68,16 +65,16 @@ export const _libraries = [
       "The libraries at Mitra Kasih are a haven for the avid reader, curious explorer, budding adventurer, aspiring scientist — every member of our diverse Dragon community. They serve a multitude of purposes, all geared toward fostering an immersive learning experience further enhanced by the power of literature, information, and technology.",
     images: [
       {
-        image: "/images/documentations/activity_2023_2024/MKS00896 (Large).JPG",
+        image: "https://www.mitrakasih.sch.id/images/documentations/activity_2023_2024/MKS00896 (Large).JPG",
         caption: "MK1",
       },
       {
-        image: "/images/documentations/activity_2023_2024/MKS09951 (Large).JPG",
+        image: "https://www.mitrakasih.sch.id/images/documentations/activity_2023_2024/MKS09951 (Large).JPG",
         caption: "MK2",
       },
       {
         image:
-          "/images/documentations/three_way_conference/HIGH/IMG_20230911_151756 (Large).jpg",
+          "https://www.mitrakasih.sch.id/images/documentations/three_way_conference/HIGH/IMG_20230911_151756 (Large).jpg",
         caption: "MK3",
       },
     ],
@@ -88,16 +85,16 @@ export const _libraries = [
       "The libraries at Mitra Kasih are a haven for the avid reader, curious explorer, budding adventurer, aspiring scientist — every member of our diverse Dragon community. They serve a multitude of purposes, all geared toward fostering an immersive learning experience further enhanced by the power of literature, information, and technology.",
     images: [
       {
-        image: "/images/documentations/activity_2023_2024/DSC00121 (Large).JPG",
+        image: "https://www.mitrakasih.sch.id/images/documentations/activity_2023_2024/DSC00121 (Large).JPG",
         caption: "AT1",
       },
       {
         image:
-          "/images/documentations/FUNWEEK/MIIDLE HIGH/IMG-20230607-WA0033.jpg",
+          "https://www.mitrakasih.sch.id/images/documentations/FUNWEEK/MIIDLE HIGH/IMG-20230607-WA0033 (Large).jpg",
         caption: "AT2",
       },
       {
-        image: "/images/documentations/OLAHRAGA/NK/DSC00119 (Large).JPG",
+        image: "https://www.mitrakasih.sch.id/images/documentations/OLAHRAGA/NK/DSC00119 (Large).JPG",
         caption: "AT3",
       },
     ],
@@ -108,11 +105,11 @@ export const _libraries = [
       "The libraries at Mitra Kasih are a haven for the avid reader, curious explorer, budding adventurer, aspiring scientist — every member of our diverse Dragon community. They serve a multitude of purposes, all geared toward fostering an immersive learning experience further enhanced by the power of literature, information, and technology.",
     images: [
       {
-        image: "/images/documentations/pentas_seni/2022/DSC01279.JPG",
+        image: "https://www.mitrakasih.sch.id/images/documentations/pentas_seni/2022/DSC01279.JPG",
         caption: "AR1",
       },
       {
-        image: "/images/documentations/pentas_seni/2022/DSC01260.JPG",
+        image: "https://www.mitrakasih.sch.id/images/documentations/pentas_seni/2022/DSC01260.JPG",
         caption: "AR2",
       },
     ],
@@ -123,11 +120,11 @@ export const _libraries = [
       "The libraries at Mitra Kasih are a haven for the avid reader, curious explorer, budding adventurer, aspiring scientist — every member of our diverse Dragon community. They serve a multitude of purposes, all geared toward fostering an immersive learning experience further enhanced by the power of literature, information, and technology.",
     images: [
       {
-        image: "/images/documentations/activity_2023_2024/DSC00121 (Large).JPG",
+        image: "https://www.mitrakasih.sch.id/images/documentations/activity_2023_2024/DSC00121 (Large).JPG",
         caption: "CF1",
       },
       {
-        image: "/images/documentations/activity_2023_2024/DSC00121 (Large).JPG",
+        image: "https://www.mitrakasih.sch.id/images/documentations/activity_2023_2024/DSC00121 (Large).JPG",
         caption: "CF2",
       },
     ],

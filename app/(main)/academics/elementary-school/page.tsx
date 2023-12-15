@@ -1,7 +1,6 @@
 import ContainerBase from "@/components/atoms/container-base";
 import PageHero from "@/components/organisms/layout/page-hero";
 import { getNavigation } from "@/lib/utils/utils";
-import { getRandomImageUrl } from "@/data/getRandomImageUrl";
 import AcademicsElementarySchoolCurriculum from "@/components/organisms/academics-elementary-school/academics-elementary-school-curriculum";
 import AcademicsElementarySchoolExperience from "@/components/organisms/academics-elementary-school/academics-elementary-school-experience";
 import AcademicsElementarySchoolCommunity from "@/components/organisms/academics-elementary-school/academics-elementary-school-community";
@@ -31,7 +30,7 @@ export default function AcademicsElementarySchoolPage(props: Props) {
           description:
             "Primary School adalah masa di mana para siswa mulai membangun keingintahuan dan kecintaan mereka untuk belajar.",
           image:
-            "/images/documentations/classes/PRIMARY/IMG-20220607-WA0052.jpg",
+            "https://www.mitrakasih.sch.id/images/documentations/classes/PRIMARY/IMG-20220607-WA0052.jpg",
         }}
       />
 
