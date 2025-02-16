@@ -1,30 +1,30 @@
-"use client";
+'use client';
 
-import { createRef, useState, useEffect } from "react";
-import Image from "next/image";
-import { app } from "@/config/app";
-import { cn } from "@/lib/utils/utils";
-import Navigation from "@/components/molecules/navigation";
-import Slider from "react-slick";
+import { useRef, useState, useEffect } from 'react';
+import Image from 'next/image';
+import { app } from '@/config/app';
+import { cn } from '@/lib/utils/utils';
+import Navigation from '@/components/molecules/navigation';
+import Slider from 'react-slick';
 import {
   IconChevronLeft,
   IconChevronRight,
   IconMenu,
-} from "@tabler/icons-react";
-import "./styles.css";
-import HomeSectionHeader from "../../../molecules/section-header";
-// import { _hero } from "@/data/home";
-import { useMobileNavbar } from "@/hooks/useMobileNavbar";
-import { navigations } from "@/config/navigations";
-import { HeaderType, HomeHeroType } from "@/types/app";
-import { HomeHeroAPI } from "@/data/api";
+} from '@tabler/icons-react';
+import './styles.css';
+import HomeSectionHeader from '../../../molecules/section-header';
+import { _hero } from '@/data/home';
+import { useMobileNavbar } from '@/hooks/useMobileNavbar';
+import { navigations } from '@/config/navigations';
+import { HeaderType, HomeHeroType } from '@/types/app';
+import { HomeHeroAPI } from '@/data/api';
 
 interface Props {}
 
 export default function HomeHero(props: Props) {
   const {} = props;
 
-  const slider = createRef<Slider>();
+  const slider = useRef<Slider | null>(null);
 
   const { open: openMobileNavbar } = useMobileNavbar();
 
@@ -46,31 +46,31 @@ export default function HomeHero(props: Props) {
     fade: true,
     arrows: false,
   };
-  const [_hero, setHero] = useState<HomeHeroType[]>([]);
-  useEffect(() => {
-    const fetchData = async () => {
-      const res = await HomeHeroAPI();
-      let heroes: HomeHeroType[] = [];
-      res.forEach((elem: HeaderType) => {
-        heroes.push({
-          title: elem.title ? elem.title : "",
-          description: elem.subTitle ? elem.subTitle : "",
-          image: elem.photo ? elem.photo : "",
-          linkHref: "",
-          linkLabel: "",
-        });
-      });
-      setHero(heroes);
-    };
-    fetchData();
-  }, []);
+  // const [_hero, setHero] = useState<HomeHeroType[]>([]);
+  // useEffect(() => {
+  //   const fetchData = async () => {
+  //     const res = await HomeHeroAPI();
+  //     let heroes: HomeHeroType[] = [];
+  //     res.forEach((elem: HeaderType) => {
+  //       heroes.push({
+  //         title: elem.title ? elem.title : '',
+  //         description: elem.subTitle ? elem.subTitle : '',
+  //         image: elem.photo ? elem.photo : '',
+  //         linkHref: '',
+  //         linkLabel: '',
+  //       });
+  //     });
+  //     setHero(_hero);
+  //   };
+  //   fetchData();
+  // }, []);
 
   return (
     <section className="bg-black">
       <header>
         <div
           className={cn(
-            "flex h-[5rem] md:h-[8rem] flex-row justify-between items-center px-4 md:px-10 absolute z-10 bg-white inset-x-0 top-0 text-white"
+            'flex h-[5rem] md:h-[8rem] flex-row justify-between items-center px-4 md:px-10 absolute z-10 bg-white inset-x-0 top-0 text-white'
           )}
         >
           <div className="z-10">
@@ -112,8 +112,8 @@ export default function HomeHero(props: Props) {
           <figure key={dummy.title} className="relative">
             <div className="w-full h-screen">
               <Image
-                src={app.blog_url["sma"] + "/storage/" + dummy.image}
-                // src={dummy.image}
+                // src={app.blog_url['sma'] + '/storage/' + dummy.image}
+                src={dummy.image}
                 alt={dummy.title}
                 width={2000}
                 height={2000}

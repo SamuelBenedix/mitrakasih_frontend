@@ -10,7 +10,7 @@ export const _pageTitle: string = `Tentang ${app.title}`;
 
 export const _pageDescription: string = `${app.title} adalah sekolah yang mempersiapkan siswa untuk meraih prestasi maksimal dalam dunia pendidikan yang kompetitif.`;
 
-export const _pageImage: string = 'https://www.mitrakasih.sch.id/images/buildings/P/DSC02134 (Large).JPG';
+export const _pageImage: string = getRandomImageUrl();
 
 export const _about: string[] = [
   app.description,
@@ -35,7 +35,7 @@ export const _intro: Slides = {
         "Cara terbaik untuk mempelajari sekolah kami adalah dengan mengalaminya sendiri!",
       linkLabel: "Schedule a Tour Today",
       linkHref: "",
-      image: 'https://www.mitrakasih.sch.id/images/DOKUMENTASI/SOCIAL/BAKSOS/DSC03406 (Large).JPG',
+      image: getRandomImageUrl(),
     },
 
     {
@@ -43,7 +43,7 @@ export const _intro: Slides = {
       description: `Hubungi anggota Tim Admisi kami dan ambil langkah pertama untuk bergabung dengan ${app.title}!`,
       linkLabel: "Take the first step",
       linkHref: "",
-      image: 'https://www.mitrakasih.sch.id/images/DOKUMENTASI/UPACARA/UPACARA-TAHUN AJARAN BARU 2023-2024/DSC09741 (Large).JPG',
+      image: getRandomImageUrl(),
     },
 
     {
@@ -51,7 +51,7 @@ export const _intro: Slides = {
       description: `Apa kamu tahu bahwa ${app.title} adalah sekolah yang tepat untuk keluarga Anda? Daftar sekarang juga!`,
       linkLabel: "Start of Complete your Application",
       linkHref: "",
-      image: 'https://www.mitrakasih.sch.id/images/DOKUMENTASI/FIRST DAY SCHOOL 2023-2024/MIDDLE _ HIGH/DSC09335 (Large).JPG',
+      image: getRandomImageUrl(),
     },
 
     {
@@ -60,7 +60,7 @@ export const _intro: Slides = {
         "Punya pertanyaan? Pertanyaan Anda mungkin bisa dijawab di Pertanyaan yang Sering Diajukan.",
       linkLabel: "See our FAQs",
       linkHref: "",
-      image: 'https://www.mitrakasih.sch.id/images/DOKUMENTASI/FUNWEEK/MIIDLE HIGH/DSC02022 (Large).JPG',
+      image: getRandomImageUrl(),
     },
 
     {
@@ -113,7 +113,7 @@ export const _membership = {
       description: `Tim kepemimpinan di ${app.title} adalah para pendidik yang terbaik dan terutama dalam memimpin sekolah, berinovasi dan mengajar. Dengan kepala sekolah dan wakil kepala sekolah di setiap sekolah, kami mampu membuat komunitas yang besar terasa kecil.`,
       linkLabel: "Meet Our Leadership Team",
       linkHref: "",
-      image: 'https://www.mitrakasih.sch.id/images/DOKUMENTASI/UPACARA/UPACARA-17 AGUSTUS 2023/DSC03518 (Large).JPG',
+      image: getRandomImageUrl(),
     },
     {
       title: "Apple Distinguished School",

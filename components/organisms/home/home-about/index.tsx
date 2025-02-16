@@ -13,7 +13,7 @@ export default function HomeAbout(props: Props) {
     <section className="pt-60 md:py-0 md:h-screen relative flex justify-center items-center">
       <div>
         <Image
-          src="https://www.mitrakasih.sch.id/images/leaf_yellow.svg"
+          src="/images/leaf_yellow.svg"
           alt=""
           height={100}
           width={100}
@@ -21,7 +21,7 @@ export default function HomeAbout(props: Props) {
         />
       </div>
       <Image
-        src="https://www.mitrakasih.sch.id/images/leaf_orange.svg"
+        src="/images/leaf_orange.svg"
         alt=""
         height={100}
         width={100}
@@ -29,7 +29,7 @@ export default function HomeAbout(props: Props) {
       />
       <LeafBlue className="absolute bottom-0 -right-[10rem] w-1/3 -z-10 animate-bounce-leaf-blue" />
       <Image
-        src="https://www.mitrakasih.sch.id/images/leaf_green.svg"
+        src="/images/leaf_green.svg"
         alt=""
         height={100}
         width={100}
@@ -39,7 +39,7 @@ export default function HomeAbout(props: Props) {
         <div className="flex flex-col items-center max-w-xs md:max-w-2xl">
           <div>
             <Image
-              src="https://www.mitrakasih.sch.id/images/logo.png"
+              src="/images/logo.png"
               alt=""
               height={180}
               width={180}

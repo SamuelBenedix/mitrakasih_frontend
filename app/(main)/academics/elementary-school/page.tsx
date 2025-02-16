@@ -1,11 +1,12 @@
-import ContainerBase from "@/components/atoms/container-base";
-import PageHero from "@/components/organisms/layout/page-hero";
-import { getNavigation } from "@/lib/utils/utils";
-import AcademicsElementarySchoolCurriculum from "@/components/organisms/academics-elementary-school/academics-elementary-school-curriculum";
-import AcademicsElementarySchoolExperience from "@/components/organisms/academics-elementary-school/academics-elementary-school-experience";
-import AcademicsElementarySchoolCommunity from "@/components/organisms/academics-elementary-school/academics-elementary-school-community";
-import AcademicsElementarySchoolCampuses from "@/components/organisms/academics-elementary-school/academics-elementary-school-campuses";
-import AcademicsElementarySchoolIntro from "@/components/organisms/academics-elementary-school/academics-elementary-school-intro";
+import ContainerBase from '@/components/atoms/container-base';
+import PageHero from '@/components/organisms/layout/page-hero';
+import { getNavigation } from '@/lib/utils/utils';
+import AcademicsElementarySchoolCurriculum from '@/components/organisms/academics-elementary-school/academics-elementary-school-curriculum';
+import AcademicsElementarySchoolExperience from '@/components/organisms/academics-elementary-school/academics-elementary-school-experience';
+import AcademicsElementarySchoolCommunity from '@/components/organisms/academics-elementary-school/academics-elementary-school-community';
+import AcademicsElementarySchoolCampuses from '@/components/organisms/academics-elementary-school/academics-elementary-school-campuses';
+import AcademicsElementarySchoolIntro from '@/components/organisms/academics-elementary-school/academics-elementary-school-intro';
+import { getRandomImageUrl } from '@/data/getRandomImageUrl';
 
 interface Props {}
 
@@ -22,15 +23,14 @@ export default function AcademicsElementarySchoolPage(props: Props) {
     <ContainerBase>
       <PageHero
         navBar={{
-          navigations: getNavigation("Academics"),
-          name: "Academics",
+          navigations: getNavigation('Academics'),
+          name: 'Academics',
         }}
         header={{
-          title: "Primary School",
+          title: 'Primary School',
           description:
-            "Primary School adalah masa di mana para siswa mulai membangun keingintahuan dan kecintaan mereka untuk belajar.",
-          image:
-            "https://www.mitrakasih.sch.id/images/documentations/classes/PRIMARY/IMG-20220607-WA0052.jpg",
+            'Primary School adalah masa di mana para siswa mulai membangun keingintahuan dan kecintaan mereka untuk belajar.',
+          image: getRandomImageUrl(),
         }}
       />
 

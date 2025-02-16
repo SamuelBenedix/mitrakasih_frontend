@@ -1,18 +1,18 @@
-"use client";
+'use client';
 
-import { cn } from "@/lib/utils/utils";
-import Image from "next/image";
-import { app } from "@/config/app";
-import Navigation from "@/components/molecules/navigation";
-import React from "react";
-import HomeSectionHeader from "../../../molecules/section-header";
-import { Nav } from "@/types/app";
-import Link from "next/link";
-import { IconArrowRight, IconMenu } from "@tabler/icons-react";
-import { usePathname } from "next/navigation";
-import { paths } from "@/config/paths";
-import { useMobileNavbar } from "@/hooks/useMobileNavbar";
-import { navigations } from "@/config/navigations";
+import { cn } from '@/lib/utils/utils';
+import Image from 'next/image';
+import { app } from '@/config/app';
+import Navigation from '@/components/molecules/navigation';
+import React from 'react';
+import HomeSectionHeader from '../../../molecules/section-header';
+import { Nav } from '@/types/app';
+import Link from 'next/link';
+import { IconArrowRight, IconMenu } from '@tabler/icons-react';
+import { usePathname } from 'next/navigation';
+import { paths } from '@/config/paths';
+import { useMobileNavbar } from '@/hooks/useMobileNavbar';
+import { navigations } from '@/config/navigations';
 
 type Props = {
   navBar?: {
@@ -38,8 +38,8 @@ export default function PageHero(props: Props) {
       <header>
         <div
           className={cn(
-            header ? "bg-white" : " bg-primary-800",
-            "flex h-[5rem] md:h-[8rem] flex-row justify-between items-center px-4 md:px-10"
+            header ? 'bg-white' : ' bg-primary-800',
+            'flex h-[5rem] md:h-[8rem] flex-row justify-between items-center px-4 md:px-10'
           )}
         >
           <div className="z-10">
@@ -58,14 +58,14 @@ export default function PageHero(props: Props) {
               <Navigation
                 key={navigation.label}
                 link={navigation}
-                color={header ? "primary" : "white"}
+                color={header ? 'primary' : 'white'}
               />
             ))}
           </div>
           <div
             className={cn(
-              "md:hidden",
-              header ? "text-primary-800" : "text-white"
+              'md:hidden',
+              header ? 'text-primary-800' : 'text-white'
             )}
           >
             <button onClick={openMobileNavbar}>
@@ -113,8 +113,8 @@ export default function PageHero(props: Props) {
                   href={nav.href}
                   className={cn(
                     pathname === nav.href
-                      ? "font-semibold text-primary-800"
-                      : "hover:underline hover:text-primary-800 text-neutral-500 transition-all"
+                      ? 'font-semibold text-primary-800'
+                      : 'hover:underline hover:text-primary-800 text-neutral-500 transition-all'
                   )}
                 >
                   {nav.label}

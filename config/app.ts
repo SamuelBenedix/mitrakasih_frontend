@@ -1,5 +1,7 @@
+import { getRandomImageUrl } from "@/data/getRandomImageUrl";
 
 export const host = "https://www.mitrakasih.sch.id";
+
 export const app = {
   title: "Mitra Kasih",
 
@@ -7,12 +9,13 @@ export const app = {
 
   lang: "id",
 
+
   images: {
-    logo: "https://www.mitrakasih.sch.id/images/logo.png",
+    logo: '/images/logo.png',
 
-    logoWhite: "https://www.mitrakasih.sch.id/images/logo_white.png",
+    logoWhite: '/images/logo_white.png',
 
-    school: "https://www.mitrakasih.sch.id/images/school.png",
+    school: '/images/school.png',
   },
 
   links: {

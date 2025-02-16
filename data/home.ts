@@ -9,7 +9,7 @@ export const _hero = [
     description: `Fasilitas di ${app.title} dirancang dengan satu tujuan: menciptakan lingkungan belajar yang terbaik bagi para siswa.`,
     linkLabel: "Learn More",
     linkHref: "#",
-    image: 'https://www.mitrakasih.sch.id/images/buildings/P/DSC02138 (Small).JPG',
+    image: getRandomImageUrl(),
   },
 
   {
@@ -18,7 +18,7 @@ export const _hero = [
     // description: `At ${app.title}, we prepare students from across the globe to be the best in what they aspire for while being Best for the World they live in.`,
     linkLabel: "Learn More",
     linkHref: "#",
-    image: 'https://www.mitrakasih.sch.id/images/DOKUMENTASI/01 DIKELAS/PRIMARY/WhatsApp Image 2023-05-29 at 08.17.51.jpeg',
+    image: getRandomImageUrl(),
   },
 
   {
@@ -26,7 +26,7 @@ export const _hero = [
     description: `We learn in Indonesia to be Best for the World. Find out how you can join the ${app.title} community today!`,
     linkLabel: "Learn More",
     linkHref: "#",
-    image: 'https://www.mitrakasih.sch.id/images/buildings/MH/MIDDLE (Large).jpg',
+    image: getRandomImageUrl(),
   },
 ];
 
@@ -51,7 +51,7 @@ export const _tabPanelFirst = {
             "Cara terbaik untuk mengenal sekolah kami adalah dengan mengalaminya sendiri! Jadwalkan kunjungan dengan Kantor Penerimaan Siswa Baru kami hari ini.",
           linkLabel: "Jadwalkan kunjungan Hari Ini",
           linkHref: "",
-          image: 'https://www.mitrakasih.sch.id/images/buildings/MH/DSC01867 (Large).JPG',
+          image: getRandomImageUrl(),
         },
 
         {
@@ -59,7 +59,7 @@ export const _tabPanelFirst = {
           description: `Speak with a member of our Admissions Office and take the first step to joining ${app.title}!`,
           linkLabel: "Take the first step",
           linkHref: "",
-          image: 'https://www.mitrakasih.sch.id/images/DOKUMENTASI/FUNWEEK/MIIDLE HIGH/IMG-20230607-WA0046 (Large).jpg',
+          image: getRandomImageUrl(),
         },
 
         {
@@ -67,7 +67,7 @@ export const _tabPanelFirst = {
           description: `Do you already know that ${app.title} is the right school for your family? Apply today!`,
           linkLabel: "Start of Complete your Application",
           linkHref: "",
-          image: 'https://www.mitrakasih.sch.id/images/DOKUMENTASI/FUNWEEK/MIIDLE HIGH/IMG-20230609-WA0122 (Large).jpg',
+          image: getRandomImageUrl(),
         },
 
         {
@@ -76,7 +76,7 @@ export const _tabPanelFirst = {
             "Do you have a question? It might be answered in our Frequently Asked Questions.",
           linkLabel: "See our FAQs",
           linkHref: "",
-          image: 'https://www.mitrakasih.sch.id/images/DOKUMENTASI/FUNWEEK/MIIDLE HIGH/DSC02022 (Large).JPG',
+          image: getRandomImageUrl(),
         },
 
         {
@@ -84,51 +84,11 @@ export const _tabPanelFirst = {
           description: `A ${app.title} education prepares your child for endless possibility and experiences.`,
           linkLabel: "Learn More",
           linkHref: "",
-          image: 'https://www.mitrakasih.sch.id/images/DOKUMENTASI/FUNWEEK/MIIDLE HIGH/DSC02036 (Large).JPG',
+          image: getRandomImageUrl(),
         },
       ],
     },
 
-    // {
-    //   label: "Campuses",
-    //   body: [
-    //     {
-    //       title: "Pattimura Elementary School",
-    //       description:
-    //         "Take a virtual 360° tour of our first and original campus Pattimura, located in the South Jakarta neighborhood of Kebayoran Baru.",
-    //       linkLabel: "Take a 360° Virtual Tour Today",
-    //       linkHref: "",
-    //       image: getRandomImageUrl(),
-    //     },
-
-    //     {
-    //       title: "Pondok Indah Elemntary School",
-    //       description:
-    //         "Take a virtual 360° tour of our beautiful Pondok Indah Elementary located in Pondok Indah in South Jakarta.",
-    //       linkLabel: "Take a 360° Virtual Tour Today",
-    //       linkHref: "",
-    //       image: getRandomImageUrl(),
-    //     },
-
-    //     {
-    //       title: "Middle School Cilandak",
-    //       description:
-    //         "Take a virtual 360° tour of our state-of=the-art Middle School campus located in the Cilandak neighborhood of South Jakarta.",
-    //       linkLabel: "Take a 360° Virtual Tour Today",
-    //       linkHref: "",
-    //       image: getRandomImageUrl(),
-    //     },
-
-    //     {
-    //       title: "High School Cilandak",
-    //       description:
-    //         "Take a virtual 360° tour of the incredible High School campus located in the Cilandak neighborhood of South Jakarta.",
-    //       linkLabel: "Take a 360° Virtual Tour Today",
-    //       linkHref: "",
-    //       image: getRandomImageUrl(),
-    //     },
-    //   ],
-    // },
 
     {
       label: "Academics",
@@ -191,66 +151,28 @@ export const _tabPanelFirst = {
         },
       ],
     },
-
-    // {
-    //   label: "Service",
-    //   body: [
-    //     {
-    //       title: "Service Learning",
-    //       description:
-    //         "Service learning and dedication to being stewards of the environment is built into the curriculum for all of our students from Nursery Kindergarten to High School.",
-    //       linkLabel: "Learn More",
-    //       linkHref: "",
-    //       image: getRandomImageUrl(),
-    //     },
-
-    //     {
-    //       title: "Service Clubs",
-    //       description: `A highlight for many ${app.title} students is their participation in one of the many service clubs that are available.`,
-    //       linkLabel: "Learn More",
-    //       linkHref: "",
-    //       image: getRandomImageUrl(),
-    //     },
-
-    //     {
-    //       title: "Service Partners",
-    //       description: `${app.title} is only one part of he incredible community in Jakarta that is dedicated to service. We partner with several organizations to help create positive change.`,
-    //       linkLabel: "Learn More",
-    //       linkHref: "",
-    //       image: getRandomImageUrl(),
-    //     },
-
-    //     {
-    //       title: `${app.title} Peduli`,
-    //       description: `${app.title} Peduli is the service arm of ${app.title} School. It helps to support and fund service projects developed by students and ${app.title} service initiatives.`,
-    //       linkLabel: "Learn More",
-    //       linkHref: "",
-    //       image: getRandomImageUrl(),
-    //     },
-    //   ],
-    // },
   ],
 };
 
 export const _campusSlideshow = [
   {
     description: "Di Sekolah Mitra Kasih, siswa ditantang untuk menjadi reflektif dan kreatif",
-    image: 'https://www.mitrakasih.sch.id/images/DOKUMENTASI/FUNWEEK/MIIDLE HIGH/IMG-20230607-WA0025 (Large).jpg',
+    image: getRandomImageUrl(),
   },
   {
     description:
       "Memiliki pengalaman yang menanamkan ketangguhan dan sumber daya",
-    image: 'https://www.mitrakasih.sch.id/images/DOKUMENTASI/FUNWEEK/PRIMARY/WhatsApp Image 2023-06-13 at 11.48.06.jpeg',
+    image: getRandomImageUrl(),
   },
   {
     description:
       "Sambil berhubungan dengan masyarakat dan komunitas di sekitar mereka seiring dengan pertumbuhan mereka",
-    image: 'https://www.mitrakasih.sch.id/images/DOKUMENTASI/03 ADIWIYATA/cfe62997-a200-404a-8b25-ad65779ad93b.jpg',
+    image: getRandomImageUrl(),
   },
   {
     description:
       "Menjadi pembelajar sepanjang hayat, pemimpin, dan yang terbaik bagi dunia yang mereka tinggali",
-    image: 'https://www.mitrakasih.sch.id/images/DOKUMENTASI/UPACARA/UPACARA-17 AGUSTUS 2023/DSC03518 (Large).JPG',
+    image: getRandomImageUrl(),
   },
 ];
 
@@ -274,7 +196,7 @@ export const _tabPanelSecond = {
           description: ``,
           linkLabel: "See our campus",
           linkHref: "",
-          image: 'https://www.mitrakasih.sch.id/images/buildings/MH/MIDDLE (Large).jpg',
+          image: getRandomImageUrl(),
         },
         {
           title: "Founded",
@@ -282,7 +204,7 @@ export const _tabPanelSecond = {
           description: ``,
           linkLabel: "Learn More",
           linkHref: "",
-          image: 'https://www.mitrakasih.sch.id/images/DOKUMENTASI/UPACARA/UPACARA-TAHUN AJARAN BARU 2023-2024/DSC09596 (Large).JPG',
+          image: getRandomImageUrl(),
         },
         {
           title: "Students",
@@ -291,7 +213,7 @@ export const _tabPanelSecond = {
             ``,
           linkLabel: `Learn More About ${app.title}`,
           linkHref: "",
-          image: 'https://www.mitrakasih.sch.id/images/DOKUMENTASI/FIRST DAY SCHOOL 2023-2024/MIDDLE _ HIGH/DSC09335 (Large).JPG',
+          image: getRandomImageUrl(),
         },
         {
           title: "Clubs and Activities",
@@ -299,7 +221,7 @@ export const _tabPanelSecond = {
           description: ``,
           linkLabel: "Learn More",
           linkHref: "",
-          image: 'https://www.mitrakasih.sch.id/images/DOKUMENTASI/01 EXCURR/dance/IMG_1087 (Large).JPG',
+          image: getRandomImageUrl(),
         },
       ],
     },
@@ -319,25 +241,25 @@ export const _communityVoices = {
     {
       title: "Nursery Kindergarten Student",
       description: ``,
-      image: 'https://www.mitrakasih.sch.id/images/DOKUMENTASI/01 DIKELAS/NK/IMG20230529114927 (Large).jpg',
+      image: getRandomImageUrl(),
     },
     {
       title: "Elementary School Student",
       description: ``,
-      image: 'https://www.mitrakasih.sch.id/images/DOKUMENTASI/01 DIKELAS/PRIMARY/WhatsApp Image 2023-05-29 at 08.17.51.jpeg',
+      image: getRandomImageUrl(),
     },
 
     {
       title: "Middle School Students",
       description: ``,
-      image: 'https://www.mitrakasih.sch.id/images/DOKUMENTASI/01 DIKELAS/MIDDLE/IMG-20220607-WA0024.jpg',
+      image: getRandomImageUrl(),
     },
 
     {
       title: "High School Student",
       description:
         ``,
-      image: 'https://www.mitrakasih.sch.id/images/DOKUMENTASI/01 DIKELAS/HIGH/IMG-20220607-WA0022.jpg',
+      image: getRandomImageUrl(),
     },
   ],
 };

@@ -5,6 +5,7 @@ import Container from '@/components/atoms/container';
 import PageTitle from '@/components/atoms/heading';
 import PageParagraph from '@/components/atoms/paragraph';
 import React from 'react';
+import { getRandomImageUrl } from '@/data/getRandomImageUrl';
 
 interface Props {}
 
@@ -24,8 +25,7 @@ export default function AboutMissionVisionPage(props: Props) {
         header={{
           title: 'Sambutan Kepala Sekolah',
           description: '   ',
-          image:
-            'https://www.mitrakasih.sch.id/images/DOKUMENTASI/UPACARA/UPACARA-17 AGUSTUS 2023/DSC03507 (Large).JPG',
+          image: getRandomImageUrl(),
         }}
       />
 

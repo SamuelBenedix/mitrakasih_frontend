@@ -1,11 +1,12 @@
-import ContainerBase from "@/components/atoms/container-base";
-import PageHero from "@/components/organisms/layout/page-hero";
-import { getNavigation } from "@/lib/utils/utils";
-import AcademicsMiddleSchoolIntro from "@/components/organisms/academics-middle-school/academics-middle-school-intro";
-import AcademicsMiddleSchoolCurriculum from "@/components/organisms/academics-middle-school/academics-middle-school-curriculum";
-import AcademicsMiddleSchoolExperience from "@/components/organisms/academics-middle-school/academics-middle-school-experience";
-import AcademicsMiddleSchoolCommunity from "@/components/organisms/academics-middle-school/academics-middle-school-community";
-import AcademicsMiddleSchoolCampuses from "@/components/organisms/academics-middle-school/academics-middle-school-campuses";
+import ContainerBase from '@/components/atoms/container-base';
+import PageHero from '@/components/organisms/layout/page-hero';
+import { getNavigation } from '@/lib/utils/utils';
+import AcademicsMiddleSchoolIntro from '@/components/organisms/academics-middle-school/academics-middle-school-intro';
+import AcademicsMiddleSchoolCurriculum from '@/components/organisms/academics-middle-school/academics-middle-school-curriculum';
+import AcademicsMiddleSchoolExperience from '@/components/organisms/academics-middle-school/academics-middle-school-experience';
+import AcademicsMiddleSchoolCommunity from '@/components/organisms/academics-middle-school/academics-middle-school-community';
+import AcademicsMiddleSchoolCampuses from '@/components/organisms/academics-middle-school/academics-middle-school-campuses';
+import { getRandomImageUrl } from '@/data/getRandomImageUrl';
 
 interface Props {}
 
@@ -22,15 +23,14 @@ export default function AcademicsMiddleSchoolPage(props: Props) {
     <ContainerBase>
       <PageHero
         navBar={{
-          navigations: getNavigation("Academics"),
-          name: "Academics",
+          navigations: getNavigation('Academics'),
+          name: 'Academics',
         }}
         header={{
-          title: "Middle School",
+          title: 'Middle School',
           description:
-            "Ini adalah waktu ketika siswa mulai bercabang, menemukan minat baru, dan membuat hubungan yang bermakna antara dunia nyata dan kecintaan mereka terhadap belajar.",
-          image:
-            "https://www.mitrakasih.sch.id/images/documentations/FUNWEEK/MIIDLE HIGH/IMG-20230607-WA0046.jpg",
+            'Ini adalah waktu ketika siswa mulai bercabang, menemukan minat baru, dan membuat hubungan yang bermakna antara dunia nyata dan kecintaan mereka terhadap belajar.',
+          image: getRandomImageUrl(),
         }}
       />
 
